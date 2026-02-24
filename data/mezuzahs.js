@@ -4,7 +4,7 @@
 // │  Managed via the admin panel.                                           │
 // │                                                                         │
 // │  CATEGORIES — mix and match any of:                                     │
-// │    "Small (4″)"  "Medium (5-7″)"  "Large (8-10″)"  "Extra Large (12″+)" │
+// │    "Small (4″)"  "Medium (4-6″)"  "Large (7-8″)"  "Extra Large (10-12″)" │
 // │    "With Gold Leaf"  "New Arrival"                                      │
 // └─────────────────────────────────────────────────────────────────────────┘
 
@@ -15,7 +15,7 @@ const MEZUZAHS = [
     name:       "The Garden Rose",
     tagline:    "Blooming at Your Door",
     price:      160,
-    categories: ["New Arrivals","Extra Large (12″+)"],
+    categories: ["New Arrivals"],
     description: `A three-dimensional rose in full bloom rises from the surface of this
 12 inch tall, hand-sculpted terracotta mezuzah — stem, thorn, leaf, above. Sorah carved every petal by hand, coaxing the clay into
       something that feels alive. For a home where love blooms at every threshold.`,
@@ -62,7 +62,7 @@ const MEZUZAHS = [
     name:       "Dream Column",
     tagline:    "12 inches tall porcelain painted (gold leaf) art piece..Elegant & Statuesque",
     price:      150,
-    categories: ["Extra Large (12″+)","Porcelain","With Gold Leaf"],
+    categories: ["Porcelain","With Gold Leaf"],
     description: `Rising with quiet grace, the Dream Column mezuzah brings a refined,
       architectural beauty to any doorpost. Its tall, composed form is an
       invitation to pause at the threshold — to remember where you are going
@@ -86,7 +86,7 @@ const MEZUZAHS = [
     name:       "12 inches of Raw Terracotta",
     tagline:    "Earthy & Honest",
     price:      120,
-    categories: ["Extra Large (12″+)"],
+    categories: [],
     description: `In its natural, unglazed state, terracotta tells the truth — it is of
       the earth, shaped by hands, warmed by fire. This mezuzah celebrates
       the beauty of raw materials and the craft behind every curve. Timeless
@@ -98,7 +98,7 @@ const MEZUZAHS = [
     name:       "Terracotta Blessing",
     tagline:    "Warmth & Sacred Word",
     price:      110,
-    categories: ["With Gold Leaf","Extra Large (12″+)"],
+    categories: ["With Gold Leaf"],
     description: `Rich terracotta clay meets the power of sacred blessing in this warm,
       handcrafted mezuzah. The clay carries a natural warmth that feels alive
       in your hand — and on your doorpost, it speaks a blessing over all who
