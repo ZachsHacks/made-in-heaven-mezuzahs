@@ -98,7 +98,7 @@ const MEZUZAHS = [
     name:       "Terracotta Blessing",
     tagline:    "Warmth & Sacred Word",
     price:      110,
-    categories: ["Medium (4-6″)","With Gold Leaf"],
+    categories: ["With Gold Leaf","Extra Large (10-12″)"],
     description: `Rich terracotta clay meets the power of sacred blessing in this warm,
       handcrafted mezuzah. The clay carries a natural warmth that feels alive
       in your hand — and on your doorpost, it speaks a blessing over all who
