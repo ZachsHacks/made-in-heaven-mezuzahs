@@ -26,7 +26,7 @@ const SITE_CONTENT = {
 
   categories: {
     sizes: ["Small (4″)","Medium (5-7″)","Large (8-10″)","Extra Large (12 inches)"],
-    specials: ["New Arrivals","Porcelain","White Stone","Raw Terracotta","With Gold Leaf","With Silver Leaf","With Aventurine","With Crystal / Cristal","With Tiger Eye crystals","With Garnet crystals","With Citrine crystals","With Peridot crystals","With Quartz Rose crystals","With Bamboo Coral Crystals","With Onyx crystals","With Agate Rouge crytals","With Aventurine crystals","With Amethyste crystals","Small Amethyst","Medium Amethyst","Large Amethyst","Custom Ordered","Other Judaicca products"]
+    specials: ["New Arrivals","Porcelain","White Stone","Raw Terracotta","With Gold Leaf","With Silver Leaf","With Crystal / Cristal","With Tiger Eye crystals","With Garnet crystals","With Citrine crystals","With Peridot crystals","With Quartz Rose crystals","With Bamboo Coral Crystals","With Onyx crystals","With Agate Rouge crytals","With Aventurine crystals","With Amethyste crystals","Small Amethyst","Medium Amethyst","Large Amethyst","Custom Ordered","Other Judaicca products"]
   }
 
 };
