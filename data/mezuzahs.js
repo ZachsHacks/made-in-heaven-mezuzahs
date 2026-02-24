@@ -24,14 +24,14 @@ const MEZUZAHS = [
   {
     image:      "images/IMG_2276.jpg",
     name:       "Ivory Word",
-    tagline:    "The Ancient Prayer in Clay",
-    price:      90,
-    categories: ["Small (4″)","New Arrival"],
-    description: `In pale, bone-white clay, sacred Hebrew words are pressed deeply by
-      hand — ancient, alive, and permanent. The freeform shape of this piece
-      feels less like a manufactured object and more like something unearthed:
-      organic edges, textured surface, letters worn into the clay like prayers
-      worn into the heart. A quiet declaration of faith at your door.`,
+    tagline:    "Modeh Anachnu Lach",
+    price:      125,
+    categories: ["New Arrival","Medium (4-6″)"],
+    description: `    White Stone Clay fired at High Temperature in the Kiln, Gold Leaf writing of Modeh Anachnu, (from the Shemoneh Esre) meaning, "We Thank You", When Jews pray, it is written that we pray for all, which is why we say "We." This is a sacred Hebrew text.  This mezuzah is a freeform without a mold, made individually by hand with care. The form reminds the viewer of the ancient stones in Israel. When you hang it in the doorway correctly, with the "kosher" parchment inside, and when entering or leaving the room, kiss the mezuzah, Hashem protects you and the room. The parchment text comes directly out of the Torah, when Moses and Aaron gave the first Ten Commandments from Hashem.
+     This art piece reminds the viewer of Israel and the Jewish people, with its organic edges, textured surface and letters worn into the clay like prayers. When you say, Thank You to Hashem, you see miracles, because you are acknowledging the one and only Creator of all that exists. What better way to protect your home or business.
+
+     
+      `,
   },
 
   {
