@@ -138,6 +138,28 @@
     .nav-mobile a:hover { background: rgba(255,255,255,0.4); }
     .nav-mobile a.active { color: #4499d4; font-style: italic; }
 
+    .nav-mobile-cta {
+      display: block;
+      font-family: 'Playfair Display', serif;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff !important;
+      background: linear-gradient(135deg, #4499d4, #2277bb);
+      border-radius: 22px;
+      margin: 10px 20px 4px;
+      padding: 12px 24px !important;
+      text-decoration: none;
+      box-shadow: 0 2px 12px rgba(34,119,187,0.28);
+    }
+
+    .nav-mobile-cta:hover {
+      background: linear-gradient(135deg, #3388c8, #1a66aa) !important;
+      opacity: 1 !important;
+    }
+
     /* Nav right group */
     .nav-right {
       display: flex;
@@ -168,7 +190,7 @@
     @media (max-width: 640px) {
       .nav-links { display: none; }
       .hamburger { display: flex; }
-      .nav-cta { font-size: 0.68rem; padding: 7px 13px; letter-spacing: 0.08em; }
+      .nav-right .nav-cta { display: none; }
     }
 
     /* ── Pages ────────────────────────────────────────────────────────────── */
@@ -786,6 +808,7 @@
       <a id="mob-home"    onclick="showPage('home');    toggleMobile()" class="active">Home</a>
       <a id="mob-about"   onclick="showPage('about');   toggleMobile()"              >About</a>
       <a id="mob-contact" onclick="showPage('contact'); toggleMobile()"              >Contact</a>
+      <a class="nav-mobile-cta" href="tel:+12246452752">&#128222;&nbsp; Call to Order</a>
     </div>
   </nav>
 
