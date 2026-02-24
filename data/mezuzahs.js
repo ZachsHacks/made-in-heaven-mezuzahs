@@ -37,12 +37,12 @@ const MEZUZAHS = [
 
   {
     images:     ["images/IMG_2278.jpg"],
-    name:       "Terracotta \"Modeh Anachnu Lach\" with Silver Leaf",
-    tagline:    "Carved in earth Terracotta ,fired in the kiln, at high temperature,, text from prayer, \"Shemonah Esre\" With Silver Leaf",
+    name:       "Terracotta \"Modim Anachnu Lach\" with Silver Leaf",
+    tagline:    "Carved in raw earthly Terracotta ,fired in the kiln, at high temperature,, text from prayer, \"Shemonah Esre\" With Silver Leaf",
     price:      175,
     categories: ["Medium (4-6″)"],
-    description: `     Raw terracotta  fired at high temperature in the Kiln, Silver Leaf writing of Modeh Anachnu, (from the holy prayer, "Shemoneh Esre."  Modeh Anachnu Lach translates from Hebrew to Enlish,, "We Thank You", When Jews pray, it is written that we pray for all, which is why we say "We." This is a sacred Hebrew text.  This mezuzah is a freeform without a mold, made individually by hand with care. The form reminds the viewer of the ancient stones in Israel. When you hang it in the doorway correctly, with the "kosher" parchment inside, as you enter or leave the room, you kiss the mezuzah... Hashem protects you and that room. The parchment text comes directly out of the Torah, when Moses and Aaron gave the first Ten Commandments that Hashem commanded his people to follow.
-     With ithis mezuzah's  organic edges, textured surface, and letters worn into the clay like prayers, his art piece reminds the viewer of Israel and the Jewish people, . When you say, "Thank You"  to Hashem, you will see miracles. Afterall,  you are acknowledging the one and only Creator of all that exists. What better way to protect your home or business.`,
+    description: `     Raw terracotta  fired at high temperature in the Kiln, Silver Leaf writing of Modim Anachnu, (from the holy prayer, "Shemoneh Esre."  Modim Anachnu Lach translates from Hebrew to Enlish,, "We Thank You", When Jews pray, it is written that we pray for all, which is why we say "We." This is a sacred Hebrew text.  This mezuzah is a freeform without a mold, made individually by hand with care. The form reminds the viewer of the ancient stones in Israel. When you hang it in the doorway correctly, with the "kosher" parchment inside, as you enter or leave the room, you kiss the mezuzah... Hashem protects you and that room. The parchment text comes directly out of the Torah, when Moses and Aaron gave the first Ten Commandments that Hashem commanded his people to follow.
+     With this mezuzah's  organic edges, textured surface, and letters worn into the clay like prayers, his art piece reminds the viewer of Israel and the Jewish people, . When you say, "Thank You"  to Hashem, you will see miracles. After all,  you are acknowledging the one and only Creator of all that exists. What better way to protect your home or business.`,
   },
 
   {
@@ -58,7 +58,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["images/Dream-Column.avif","images/479e8969-ca7b-422e-8d4a-aec341cc397d-1771960820136.mov"],
+    images:     ["images/Dream-Column.avif"],
     name:       "Dream Column",
     tagline:    "12 inches tall porcelain painted (gold leaf) art piece..Elegant & Statuesque",
     price:      150,
