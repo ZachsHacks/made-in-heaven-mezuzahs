@@ -706,14 +706,43 @@
     .modal-img-wrap img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       border-radius: 20px 0 0 20px;
       display: block;
+      background: rgba(235, 244, 252, 0.7);
+    }
+
+    /* Thumbnail strip for multi-image products */
+    .modal-thumbs {
+      display: none;
+      flex-wrap: wrap;
+      gap: 6px;
+      justify-content: center;
+      padding: 8px 8px 10px;
+      background: rgba(20,50,90,0.12);
+    }
+
+    .modal-thumb {
+      width: 44px;
+      height: 44px;
+      object-fit: cover;
+      border-radius: 6px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      opacity: 0.6;
+      transition: opacity 0.2s, border-color 0.2s;
+    }
+
+    .modal-thumb:hover { opacity: 0.9; }
+
+    .modal-thumb.active {
+      border-color: #4499d4;
+      opacity: 1;
     }
 
     @media (max-width: 640px) {
-      .modal-img-wrap { flex: none; min-height: 240px; }
-      .modal-img-wrap img { border-radius: 20px 20px 0 0; }
+      .modal-img-wrap { flex: none; min-height: 0; max-height: 40vh; overflow: hidden; }
+      .modal-img-wrap img { border-radius: 20px 20px 0 0; height: 40vh; }
     }
 
     .modal-info {
@@ -785,6 +814,121 @@
 
     .modal-cta:hover { opacity: 0.88; transform: scale(1.03); }
 
+    /* ── Custom Order Page ────────────────────────────────────────────────── */
+    .custom-order-page {
+      max-width: 660px;
+      margin: 60px auto;
+      padding: 0 24px;
+    }
+
+    .custom-order-card {
+      background: rgba(255,255,255,0.62);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 24px;
+      border: 1px solid rgba(255,255,255,0.85);
+      box-shadow: 0 8px 36px rgba(80,140,200,0.10);
+      padding: 52px 56px;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .custom-order-card { padding: 36px 24px; }
+    }
+
+    .custom-order-card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #1e3a58;
+      margin-bottom: 8px;
+    }
+
+    .custom-order-subtitle {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 1rem;
+      color: #4a7aa8;
+      margin-bottom: 0;
+    }
+
+    .co-form { text-align: left; margin-top: 32px; }
+
+    .co-group { margin-bottom: 18px; }
+
+    .co-label {
+      display: block;
+      font-family: 'Playfair Display', serif;
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #6699cc;
+      margin-bottom: 6px;
+    }
+
+    .co-input, .co-textarea, .co-select {
+      width: 100%;
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      color: #1e3a58;
+      background: rgba(255,255,255,0.72);
+      border: 1px solid rgba(68,153,212,0.28);
+      border-radius: 10px;
+      padding: 10px 14px;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      box-sizing: border-box;
+    }
+
+    .co-input:focus, .co-textarea:focus, .co-select:focus {
+      border-color: #4499d4;
+      box-shadow: 0 0 0 3px rgba(68,153,212,0.12);
+    }
+
+    .co-textarea { resize: vertical; min-height: 90px; }
+
+    .co-select { cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%236699cc' d='M1 1l5 5 5-5'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; padding-right: 32px; }
+
+    .btn-co-submit {
+      display: inline-block;
+      width: 100%;
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      color: #fff;
+      background: linear-gradient(135deg, #4499d4, #2277bb);
+      border: none;
+      border-radius: 24px;
+      padding: 13px 28px;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.2s;
+      margin-top: 8px;
+      box-shadow: 0 4px 18px rgba(34,119,187,0.30);
+    }
+
+    .btn-co-submit:hover:not(:disabled) { opacity: 0.88; transform: scale(1.01); }
+    .btn-co-submit:disabled { opacity: 0.55; cursor: not-allowed; }
+
+    .co-success, .co-error {
+      display: none;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .co-success p {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      color: #1a6b3a;
+      line-height: 1.7;
+    }
+
+    .co-error p {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      color: #b54040;
+    }
+
     /* ── Footer ───────────────────────────────────────────────────────────── */
     footer {
       background: rgba(20, 50, 90, 0.82);
@@ -813,9 +957,10 @@
       <span class="nav-logo" onclick="showPage('home')">Made in Heaven Mezuzahs</span>
       <div class="nav-right">
         <ul class="nav-links" id="nav-links">
-          <li><a id="nav-home"    onclick="showPage('home')"    class="active">Home</a></li>
-          <li><a id="nav-about"   onclick="showPage('about')"            >About</a></li>
-          <li><a id="nav-contact" onclick="showPage('contact')"          >Contact</a></li>
+          <li><a id="nav-home"         onclick="showPage('home')"         class="active">Home</a></li>
+          <li><a id="nav-about"        onclick="showPage('about')"                   >About</a></li>
+          <li><a id="nav-custom-order" onclick="showPage('custom-order')"            >Custom Order</a></li>
+          <li><a id="nav-contact"      onclick="showPage('contact')"                 >Contact</a></li>
         </ul>
         <a class="nav-cta" href="tel:+12246452752">&#128222;&nbsp; Call to Order</a>
       </div>
@@ -824,9 +969,10 @@
       </button>
     </div>
     <div class="nav-mobile" id="nav-mobile">
-      <a id="mob-home"    onclick="showPage('home');    toggleMobile()" class="active">Home</a>
-      <a id="mob-about"   onclick="showPage('about');   toggleMobile()"              >About</a>
-      <a id="mob-contact" onclick="showPage('contact'); toggleMobile()"              >Contact</a>
+      <a id="mob-home"         onclick="showPage('home');         toggleMobile()" class="active">Home</a>
+      <a id="mob-about"        onclick="showPage('about');        toggleMobile()"              >About</a>
+      <a id="mob-custom-order" onclick="showPage('custom-order'); toggleMobile()"              >Custom Order</a>
+      <a id="mob-contact"      onclick="showPage('contact');      toggleMobile()"              >Contact</a>
       <a class="nav-mobile-cta" href="tel:+12246452752">&#128222;&nbsp; Call to Order</a>
     </div>
   </nav>
@@ -910,6 +1056,71 @@
   </div>
 
   <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <!-- CUSTOM ORDER PAGE                                                      -->
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <div id="page-custom-order" class="page">
+    <div class="custom-order-page">
+      <div class="custom-order-card">
+        <span class="about-star">✡</span>
+        <h2>Custom Order</h2>
+        <p class="custom-order-subtitle">Every mezuzah is one of a kind &mdash; let&rsquo;s create yours.</p>
+        <div class="about-divider"></div>
+
+        <form class="co-form" id="custom-order-form">
+          <div class="co-group">
+            <label class="co-label" for="co-name">Your Name *</label>
+            <input class="co-input" id="co-name" type="text" placeholder="e.g. Rebecca Cohen" required />
+          </div>
+
+          <div class="co-group">
+            <label class="co-label" for="co-contact">Phone or Email *</label>
+            <input class="co-input" id="co-contact" type="text" placeholder="Best way to reach you" required />
+          </div>
+
+          <div class="co-group">
+            <label class="co-label" for="co-size">Preferred Size</label>
+            <select class="co-select" id="co-size">
+              <option value="">No preference / not sure</option>
+              <option value='Small (4")'>Small (4&Prime;)</option>
+              <option value='Medium (4-6")'>Medium (4&ndash;6&Prime;)</option>
+              <option value='Large (7-8")'>Large (7&ndash;8&Prime;)</option>
+              <option value='Extra Large (10-12")'>Extra Large (10&ndash;12&Prime;)</option>
+            </select>
+          </div>
+
+          <div class="co-group">
+            <label class="co-label" for="co-description">What are you envisioning? *</label>
+            <textarea class="co-textarea" id="co-description" placeholder="Describe the design, theme, colors, or feeling you have in mind…" required></textarea>
+          </div>
+
+          <div class="co-group">
+            <label class="co-label" for="co-details">Any other details?</label>
+            <textarea class="co-textarea" id="co-details" placeholder="Special occasion, timeline, budget, or anything else to share…" style="min-height:70px;"></textarea>
+          </div>
+
+          <button class="btn-co-submit" type="submit" id="co-submit-btn">&#128222;&nbsp; Send My Request</button>
+        </form>
+
+        <div class="co-success" id="co-success">
+          <p>&#10003;&nbsp; Your request has been received!<br>Sorah will be in touch with you soon.</p>
+        </div>
+
+        <div class="co-error" id="co-error">
+          <p>Something went wrong sending your request.<br>
+          Please call or text directly: <a href="tel:+12246452752" style="color:#2277bb; font-weight:700;">(224) 645-2752</a></p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        <span class="star">✡</span>
+        &copy; 2026 Made in Heaven Mezuzahs &mdash; Sorah Weiss
+        <span class="star">✡</span>
+      </p>
+    </footer>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
   <!-- DETAIL MODAL                                                           -->
   <!-- ══════════════════════════════════════════════════════════════════════ -->
   <div class="modal-overlay" id="modal-overlay" onclick="closeModalOnBg(event)">
@@ -917,6 +1128,7 @@
       <button class="modal-close" onclick="closeModal()">&#x2715;</button>
       <div class="modal-img-wrap">
         <img id="modal-img" src="" alt="">
+        <div class="modal-thumbs" id="modal-thumbs"></div>
       </div>
       <div class="modal-info">
         <h2 id="modal-name"></h2>
@@ -924,7 +1136,7 @@
         <div class="modal-divider"></div>
         <p class="modal-price" id="modal-price"></p>
         <p id="modal-desc"></p>
-        <a class="modal-cta" href="tel:+12246452752">&#128222;&nbsp; Call to Inquire</a>
+        <a class="modal-cta" href="tel:+12246452752">&#128222;&nbsp; Call to Order</a>
       </div>
     </div>
   </div>
@@ -956,9 +1168,11 @@ function renderGallery(items) {
   const gallery = document.getElementById('gallery');
   const list    = items !== undefined ? items : MEZUZAHS;
   gallery.innerHTML = list.map(function(m, i) {
-    const idx   = MEZUZAHS.indexOf(m);
-    const tag   = m.tagline.replace(/&/g, '&amp;');
-    const price = m.price || 0;
+    const idx      = MEZUZAHS.indexOf(m);
+    const tag      = m.tagline.replace(/&/g, '&amp;');
+    const price    = m.price || 0;
+    // Support both new images[] and legacy image string
+    const firstImg = (m.images && m.images[0]) || m.image || '';
     const tags  = (m.categories || []).map(function(c) {
       var l   = c.toLowerCase();
       var cls = 'card-tag';
@@ -967,7 +1181,7 @@ function renderGallery(items) {
       return '<span class="' + cls + '">' + c + '</span>';
     }).join('');
     return '<div class="gallery-card" data-idx="' + idx + '" style="animation-delay:' + (i * 0.07) + 's">' +
-      '<img src="' + m.image + '" alt="' + m.name + '">' +
+      '<img src="' + firstImg + '" alt="' + m.name + '">' +
       '<div class="card-caption">' +
         '<h3>' + m.name + '</h3>' +
         '<p>' + tag + '</p>' +
@@ -984,7 +1198,11 @@ document.getElementById('gallery').addEventListener('click', function(e) {
   const card = e.target.closest('.gallery-card');
   if (!card) return;
   const m = MEZUZAHS[+card.dataset.idx];
-  if (m) openModal(m.name, m.image, m.tagline, m.description.replace(/\n\s*/g, ' ').trim(), m.price || 0);
+  if (m) {
+    // Support both new images[] and legacy image string
+    const images = m.images || (m.image ? [m.image] : []);
+    openModal(m.name, images, m.tagline, m.description.replace(/\n\s*/g, ' ').trim(), m.price || 0);
+  }
 });
 
 /* ── Filter bar ──────────────────────────────────────────────────────────── */
@@ -1124,7 +1342,7 @@ function showPage(name) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   document.getElementById('page-' + name).classList.add('active');
   // Update desktop nav active state
-  ['home','about','contact'].forEach(n => {
+  ['home','about','custom-order','contact'].forEach(n => {
     const el = document.getElementById('nav-' + n);
     const mob = document.getElementById('mob-' + n);
     if (el)  el.classList.toggle('active', n === name);
@@ -1141,13 +1359,40 @@ function toggleMobile() {
 }
 
 /* ── Detail Modal ───────────────────────────────────────────────────────── */
-function openModal(name, imgSrc, tagline, desc, price) {
-  document.getElementById('modal-name').textContent    = name;
-  document.getElementById('modal-tagline').innerHTML   = tagline;
-  document.getElementById('modal-price').textContent   = price ? '$' + price : '';
-  document.getElementById('modal-desc').innerHTML      = desc;
-  document.getElementById('modal-img').src             = imgSrc;
-  document.getElementById('modal-img').alt             = name;
+function openModal(name, images, tagline, desc, price) {
+  // images may be an array or a single string (legacy)
+  const imgArray = Array.isArray(images) ? images : (images ? [images] : []);
+
+  document.getElementById('modal-name').textContent  = name;
+  document.getElementById('modal-tagline').innerHTML = tagline;
+  document.getElementById('modal-price').textContent = price ? '$' + price : '';
+  document.getElementById('modal-desc').innerHTML    = desc;
+
+  const mainImg = document.getElementById('modal-img');
+  mainImg.src = imgArray[0] || '';
+  mainImg.alt = name;
+
+  // Build thumbnail strip for multiple images
+  const thumbsEl = document.getElementById('modal-thumbs');
+  thumbsEl.innerHTML = '';
+  if (imgArray.length > 1) {
+    imgArray.forEach(function(src, i) {
+      var thumb = document.createElement('img');
+      thumb.src = src;
+      thumb.className = 'modal-thumb' + (i === 0 ? ' active' : '');
+      thumb.alt = name + ' photo ' + (i + 1);
+      thumb.addEventListener('click', function() {
+        mainImg.src = src;
+        thumbsEl.querySelectorAll('.modal-thumb').forEach(function(t) { t.classList.remove('active'); });
+        thumb.classList.add('active');
+      });
+      thumbsEl.appendChild(thumb);
+    });
+    thumbsEl.style.display = 'flex';
+  } else {
+    thumbsEl.style.display = 'none';
+  }
+
   document.getElementById('modal-overlay').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
@@ -1162,6 +1407,49 @@ function closeModalOnBg(e) {
 }
 
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+/* ── Custom Order Form ──────────────────────────────────────────────────── */
+(function() {
+  var ADMIN_API = 'https://mezuzah-admin.vercel.app/api/custom-order';
+
+  var form    = document.getElementById('custom-order-form');
+  var success = document.getElementById('co-success');
+  var errEl   = document.getElementById('co-error');
+  var submitBtn = document.getElementById('co-submit-btn');
+
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending…';
+    errEl.style.display = 'none';
+
+    var data = {
+      name:        document.getElementById('co-name').value.trim(),
+      contact:     document.getElementById('co-contact').value.trim(),
+      size:        document.getElementById('co-size').value,
+      description: document.getElementById('co-description').value.trim(),
+      details:     document.getElementById('co-details').value.trim(),
+    };
+
+    try {
+      var res = await fetch(ADMIN_API, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      if (res.ok) {
+        form.style.display = 'none';
+        success.style.display = 'block';
+      } else {
+        throw new Error('Server error');
+      }
+    } catch {
+      submitBtn.disabled = false;
+      submitBtn.textContent = '\u260E\uFE0F\u00A0 Send My Request';
+      errEl.style.display = 'block';
+    }
+  });
+})();
 
 /* ── Logo mouse drift ───────────────────────────────────────────────────── */
 (function () {

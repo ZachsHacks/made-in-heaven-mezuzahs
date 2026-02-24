@@ -11,7 +11,7 @@
 const MEZUZAHS = [
 
   {
-    image:      "images/IMG_2272.jpg",
+    images:     ["images/IMG_2272.jpg"],
     name:       "The Garden Rose",
     tagline:    "Blooming at Your Door",
     price:      160,
@@ -22,21 +22,21 @@ const MEZUZAHS = [
   },
 
   {
-    image:      "images/img_2273-1771958132770.jpeg",
+    images:     ["images/img_2273-1771958132770.jpeg"],
     name:       "\"Modeh Anachnu Lach\" with Gold Leaf",
     tagline:    "Carved in White Stone, Holy text from \"Shemonah Esre\" prayer",
     price:      175,
     categories: ["New Arrival","Medium (4-6″)","With Gold Leaf"],
     description: `    White Stone Clay fired at High Temperature in the Kiln, Gold Leaf writing of "Modeh Anachnu Lach", (from the holy prayer, "Shemoneh Esre" meaning, "We Thank You", When Jews pray, it is written that we pray for everyone, which is why we say "We." This is a sacred Hebrew text.  This mezuzah is a freeform art piece made without a cast or mold. Individually, carefully designed and created by hand with the help of Hashem. This holy mitzvah is a reminder that we owe our liife to Hashem, our one and only Creator. When you hang a proper "kosher mezuzah parchment, that has been properly checked, in the doorway and put it up correctly, (instructions included) with the Mezuzzah prayer (also, included) kiss he mezuzzah, as you enter or leave a room; and Hashem will protect you and the room through its blessing.  The parchment text is directly out of the Torah, when Moses and Aaron gave the first Ten Commandments from Hashem.
-     This art piece reminds the viewer of Israel ,the Jewish people, and remembering that each and every mitzvah counts., 
+     This art piece reminds the viewer of Israel ,the Jewish people, and remembering that each and every mitzvah counts.,
       Organic edges, textured surface and letters worn into the earthly clay like a prayer, will be a constant reminder of "Who is Boss and to thank our Father in Heaven. When you say, Thank You to Hashem, you see miracles, because you are acknowledging the one and only Creator of all that exists. What better way to protect your home or business.
 
-     
+
       `,
   },
 
   {
-    image:      "images/IMG_2278.jpg",
+    images:     ["images/IMG_2278.jpg"],
     name:       "Terracotta \"Modeh Anachnu Lach\" with Silver Leaf",
     tagline:    "Carved in earth Terracotta ,fired in the kiln, at high temperature,, text from prayer, \"Shemonah Esre\" With Silver Leaf",
     price:      175,
@@ -46,7 +46,7 @@ const MEZUZAHS = [
   },
 
   {
-    image:      "images/img_1016-1771950530238.jpeg",
+    images:     ["images/img_1016-1771950530238.jpeg"],
     name:       "Bitachon",
     tagline:    "Trust & Faith",
     price:      125,
@@ -58,7 +58,7 @@ const MEZUZAHS = [
   },
 
   {
-    image:      "images/Dream-Column.avif",
+    images:     ["images/Dream-Column.avif"],
     name:       "Dream Column",
     tagline:    "12 inches tall porcelain painted (gold leaf) art piece..Elegant & Statuesque",
     price:      150,
@@ -70,7 +70,7 @@ const MEZUZAHS = [
   },
 
   {
-    image:      "images/I-Love-You-Hashem.avif",
+    images:     ["images/I-Love-You-Hashem.avif"],
     name:       "I Love You Hashem",
     tagline:    "Joyful Devotion",
     price:      85,
@@ -82,7 +82,7 @@ const MEZUZAHS = [
   },
 
   {
-    image:      "images/Raw-Terracotta.avif",
+    images:     ["images/Raw-Terracotta.avif"],
     name:       "Raw Terracotta",
     tagline:    "Earthy & Honest",
     price:      70,
@@ -94,7 +94,7 @@ const MEZUZAHS = [
   },
 
   {
-    image:      "images/Terracotta-Blessing.avif",
+    images:     ["images/Terracotta-Blessing.avif"],
     name:       "Terracotta Blessing",
     tagline:    "Warmth & Sacred Word",
     price:      110,
@@ -106,7 +106,7 @@ const MEZUZAHS = [
   },
 
   {
-    image:      "images/Terracotta-Silver.avif",
+    images:     ["images/Terracotta-Silver.avif"],
     name:       "Terracotta Silver",
     tagline:    "Rustic Meets Refined",
     price:      145,
