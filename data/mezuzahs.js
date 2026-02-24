@@ -38,7 +38,7 @@ const MEZUZAHS = [
   {
     images:     ["images/IMG_2278.jpg"],
     name:       "Terracotta \"Modim Anachnu Lach\" with Silver Leaf",
-    tagline:    "Carved in earth Terracotta ,fired in the kiln, at high temperature,, text from prayer, \"Shemonah Esre\" With Silver Leaf",
+    tagline:    "Carved in earth Terracotta ,fired in the kiln, at high temperature,, text from prayer, \"Shemonah Esrei\" With Silver Leaf",
     price:      175,
     categories: ["New Arrival","Medium (4-6″)"],
     description: `     Raw terracotta  fired at high temperature in the Kiln, Silver Leaf writing of Modeh Anachnu, (from the holy prayer, "Shemoneh Esre."  Modeh Anachnu Lach translates from Hebrew to Enlish,, "We Thank You", When Jews pray, it is written that we pray for all, which is why we say "We." This is a sacred Hebrew text.  This mezuzah is a freeform without a mold, made individually by hand with care. The form reminds the viewer of the ancient stones in Israel. When you hang it in the doorway correctly, with the "kosher" parchment inside, as you enter or leave the room, you kiss the mezuzah... Hashem protects you and that room. The parchment text comes directly out of the Torah, when Moses and Aaron gave the first Ten Commandments that Hashem commanded his people to follow.
