@@ -112,7 +112,7 @@ const MEZUZAHS = [
     name:       "Terracotta Silver",
     tagline:    "Rustic Meets Refined",
     price:      145,
-    categories: ["Extra Large (10-12″)","With Gold Leaf"],
+    categories: ["Extra Large (10-12″)","Medium (4-6″)"],
     description: `The warmth of handcrafted terracotta clay meets the cool elegance of
       silver in a striking, balanced contrast. Traditional craft and timeless
       beauty come together in this one-of-a-kind piece. Sorah Weiss handcrafts
