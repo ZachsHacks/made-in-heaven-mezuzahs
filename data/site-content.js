@@ -10,7 +10,7 @@ const SITE_CONTENT = {
   about: {
     quote: "Every mezuzah I create is a prayer — a piece of my heart placed at your door.",
     paragraphs: [
-        "Sorah Weiss is the artist and heart behind Made in Heaven Mezuzahs. Each piece in her collection is entirely handmade — shaped, painted, and finished by her own hands, one at a time. No molds, no mass production. Just clay, color, intention, and love.",
+        "Sorah Weiss is the artist and heart behind Made in Heaven Mezuzahs. Each piece in her collection is entirely handcrafted art pieces —  No molds, no mass production. Just raw terracotta clay, white stone or porcelain, designed (with the help of Hashem), fired in a kiln and finshed off with final touches.  Each mezuzzah is unique and special, which it should be when it is the home of the holy \"parchment\" that will bless and protect your home or business.",
         "Sorah’s work is rooted in the Jewish tradition of beautifying mitzvot — the concept of hiddur mitzvah — bringing beauty and artistry to sacred acts. For her, the mezuzah is not just a religious object; it is a blessing made visible, a daily reminder of faith, home, and the love of Hashem at every threshold.",
         "Each piece is one of a kind. When you place a Made in Heaven mezuzah on your door, you are placing something that has never existed before and will never exist again — crafted just for you, or for someone you love.",
         "Sorah takes custom orders and welcomes every inquiry. Whether you have a specific vision in mind or want to trust her with creative freedom, she would be honored to create something meaningful for your home."
