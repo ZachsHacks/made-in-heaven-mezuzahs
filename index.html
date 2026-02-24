@@ -239,11 +239,25 @@
     /* ── Filter Bar ───────────────────────────────────────────────────────── */
     .filter-bar {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
       max-width: 900px;
       margin: 0 auto 40px;
+    }
+
+    .filter-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .filter-divider {
+      width: 100%;
+      max-width: 500px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(100,160,220,0.35), transparent);
     }
 
     .filter-btn {
@@ -275,9 +289,18 @@
       box-shadow: 0 4px 16px rgba(34,119,187,0.30);
     }
 
+    /* Gold Leaf toggle — amber active state */
+    .filter-btn-gold.active {
+      background: linear-gradient(135deg, #c9971a, #9b7210);
+      color: #fff;
+      border-color: transparent;
+      box-shadow: 0 4px 16px rgba(180,130,20,0.35);
+    }
+
     .gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(280px, 340px));
+      justify-content: center;
       gap: 28px;
       max-width: 1100px;
       margin: 0 auto;
@@ -809,13 +832,11 @@
 
 <script src="data/mezuzahs.js"></script>
 <script>
-/* ── Gallery renderer — reads from data/mezuzahs.js ─────────────────────── */
-function renderGallery(filter) {
+/* ── Gallery renderer ────────────────────────────────────────────────────── */
+function renderGallery(items) {
   const gallery = document.getElementById('gallery');
-  const items   = (!filter || filter === 'all')
-    ? MEZUZAHS
-    : MEZUZAHS.filter(m => (m.categories || []).includes(filter));
-  gallery.innerHTML = items.map(m => {
+  const list = items !== undefined ? items : MEZUZAHS;
+  gallery.innerHTML = list.map(m => {
     const desc  = m.description.replace(/'/g, "\\'").replace(/\n\s*/g, ' ').trim();
     const tag   = m.tagline.replace(/&/g, '&amp;');
     const price = m.price || 0;
@@ -837,23 +858,87 @@ function renderGallery(filter) {
   }).join('');
 }
 
-/* ── Filter bar — built from category tags in mezuzahs.js ────────────────── */
-(function renderFilterBar() {
-  const cats = new Set();
-  MEZUZAHS.forEach(m => (m.categories || []).forEach(c => cats.add(c)));
+/* ── Filter bar ──────────────────────────────────────────────────────────── */
+(function() {
+  const SIZE_ORDER = ['Small', 'Medium', 'Large', 'Extra Large'];
+  let activeSizes  = new Set(); // empty = All
+  let goldLeafOn   = false;
+
+  function applyFilters() {
+    const results = MEZUZAHS.filter(function(m) {
+      const cats     = m.categories || [];
+      const sizeOk   = activeSizes.size === 0 || cats.some(c => activeSizes.has(c));
+      const goldOk   = !goldLeafOn || cats.includes('With Gold Leaf');
+      return sizeOk && goldOk;
+    });
+    renderGallery(results);
+  }
+
+  function syncAllBtn(row) {
+    const allBtn = row.querySelector('[data-size="all"]');
+    allBtn.classList.toggle('active', activeSizes.size === 0);
+  }
 
   const bar = document.getElementById('filter-bar');
-  bar.innerHTML =
-    '<button class="filter-btn active" data-filter="all">All</button>' +
-    [...cats].map(c => `<button class="filter-btn" data-filter="${c}">${c}</button>`).join('');
 
-  bar.addEventListener('click', function(e) {
-    const btn = e.target.closest('.filter-btn');
-    if (!btn) return;
-    bar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    renderGallery(btn.dataset.filter);
+  // ── Row 1: size buttons ──────────────────────────────────────────────────
+  const sizeRow = document.createElement('div');
+  sizeRow.className = 'filter-row';
+
+  // "All" button
+  const allBtn = document.createElement('button');
+  allBtn.className = 'filter-btn active';
+  allBtn.dataset.size = 'all';
+  allBtn.textContent = 'All';
+  allBtn.addEventListener('click', function() {
+    activeSizes.clear();
+    sizeRow.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    allBtn.classList.add('active');
+    applyFilters();
   });
+  sizeRow.appendChild(allBtn);
+
+  // Size buttons
+  SIZE_ORDER.forEach(function(size) {
+    const btn = document.createElement('button');
+    btn.className = 'filter-btn';
+    btn.dataset.size = size;
+    btn.textContent = size;
+    btn.addEventListener('click', function() {
+      if (activeSizes.has(size)) {
+        activeSizes.delete(size);
+        btn.classList.remove('active');
+      } else {
+        activeSizes.add(size);
+        btn.classList.add('active');
+      }
+      syncAllBtn(sizeRow);
+      applyFilters();
+    });
+    sizeRow.appendChild(btn);
+  });
+
+  bar.appendChild(sizeRow);
+
+  // ── Divider ──────────────────────────────────────────────────────────────
+  const div = document.createElement('div');
+  div.className = 'filter-divider';
+  bar.appendChild(div);
+
+  // ── Row 2: Gold Leaf toggle ──────────────────────────────────────────────
+  const goldRow = document.createElement('div');
+  goldRow.className = 'filter-row';
+
+  const goldBtn = document.createElement('button');
+  goldBtn.className = 'filter-btn filter-btn-gold';
+  goldBtn.textContent = '✦  With Gold Leaf';
+  goldBtn.addEventListener('click', function() {
+    goldLeafOn = !goldLeafOn;
+    goldBtn.classList.toggle('active', goldLeafOn);
+    applyFilters();
+  });
+  goldRow.appendChild(goldBtn);
+  bar.appendChild(goldRow);
 })();
 
 renderGallery();
