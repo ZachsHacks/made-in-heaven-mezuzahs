@@ -15,7 +15,7 @@ const MEZUZAHS = [
     name:       "The Garden Rose",
     tagline:    "Blooming at Your Door",
     price:      160,
-    categories: ["New Arrival","Medium (4-6″)"],
+    categories: ["Medium (4-6″)"],
     description: `A three-dimensional rose in full bloom rises from the surface of this
 12 inch tall, hand-sculpted terracotta mezuzah — stem, thorn, leaf, above. Sorah carved every petal by hand, coaxing the clay into
       something that feels alive. For a home where love blooms at every threshold.`,
@@ -26,7 +26,7 @@ const MEZUZAHS = [
     name:       "\"Modim Anachnu Lach\" with Gold Leaf",
     tagline:    "Carved in White Stone, Holy text from \"Shemonah Esre\" prayer",
     price:      175,
-    categories: ["New Arrival","Medium (4-6″)","With Gold Leaf"],
+    categories: ["Medium (4-6″)","With Gold Leaf"],
     description: `    White Stone Clay fired at High Temperature in the Kiln, Gold Leaf writing of "Modeh Anachnu Lach", (from the holy prayer, "Shemoneh Esre" meaning, "We Thank You", When Jews pray, it is written that we pray for everyone, which is why we say "We." This is a sacred Hebrew text.  This mezuzah is a freeform art piece made without a cast or mold. Individually, carefully designed and created by hand with the help of Hashem. This holy mitzvah is a reminder that we owe our liife to Hashem, our one and only Creator. When you hang a proper "kosher mezuzah parchment, that has been properly checked, in the doorway and put it up correctly, (instructions included) with the Mezuzzah prayer (also, included) kiss he mezuzzah, as you enter or leave a room; and Hashem will protect you and the room through its blessing.  The parchment text is directly out of the Torah, when Moses and Aaron gave the first Ten Commandments from Hashem.
      This art piece reminds the viewer of Israel ,the Jewish people, and remembering that each and every mitzvah counts.,
       Organic edges, textured surface and letters worn into the earthly clay like a prayer, will be a constant reminder of "Who is Boss and to thank our Father in Heaven. When you say, Thank You to Hashem, you see miracles, because you are acknowledging the one and only Creator of all that exists. What better way to protect your home or business.
@@ -40,7 +40,7 @@ const MEZUZAHS = [
     name:       "Terracotta \"Modeh Anachnu Lach\" with Silver Leaf",
     tagline:    "Carved in earth Terracotta ,fired in the kiln, at high temperature,, text from prayer, \"Shemonah Esre\" With Silver Leaf",
     price:      175,
-    categories: ["New Arrival","Medium (4-6″)"],
+    categories: ["Medium (4-6″)"],
     description: `     Raw terracotta  fired at high temperature in the Kiln, Silver Leaf writing of Modeh Anachnu, (from the holy prayer, "Shemoneh Esre."  Modeh Anachnu Lach translates from Hebrew to Enlish,, "We Thank You", When Jews pray, it is written that we pray for all, which is why we say "We." This is a sacred Hebrew text.  This mezuzah is a freeform without a mold, made individually by hand with care. The form reminds the viewer of the ancient stones in Israel. When you hang it in the doorway correctly, with the "kosher" parchment inside, as you enter or leave the room, you kiss the mezuzah... Hashem protects you and that room. The parchment text comes directly out of the Torah, when Moses and Aaron gave the first Ten Commandments that Hashem commanded his people to follow.
      With ithis mezuzah's  organic edges, textured surface, and letters worn into the clay like prayers, his art piece reminds the viewer of Israel and the Jewish people, . When you say, "Thank You"  to Hashem, you will see miracles. Afterall,  you are acknowledging the one and only Creator of all that exists. What better way to protect your home or business.`,
   },
@@ -50,7 +50,7 @@ const MEZUZAHS = [
     name:       "Bitachon",
     tagline:    "Trust & Faith",
     price:      125,
-    categories: ["Medium (4-6″)","New Arrival","With Gold Leaf"],
+    categories: ["Medium (4-6″)","With Gold Leaf"],
     description: `Bitachon — the Hebrew word for complete trust in the Divine — is the
       soul of this piece. Hand-sculpted and finished with intention, it serves
       as a daily reminder that your home is held in something greater than
@@ -62,7 +62,7 @@ const MEZUZAHS = [
     name:       "Dream Column",
     tagline:    "12 inches tall porcelain painted (gold leaf) art piece..Elegant & Statuesque",
     price:      150,
-    categories: ["New Arrival","Extra Large (10-12″)","Porcelain","With Gold Leaf"],
+    categories: ["Extra Large (10-12″)","Porcelain","With Gold Leaf"],
     description: `Rising with quiet grace, the Dream Column mezuzah brings a refined,
       architectural beauty to any doorpost. Its tall, composed form is an
       invitation to pause at the threshold — to remember where you are going
@@ -74,7 +74,7 @@ const MEZUZAHS = [
     name:       "I Love You Hashem",
     tagline:    "Joyful Devotion",
     price:      85,
-    categories: ["With Gold Leaf","New Arrival","Medium (4-6″)"],
+    categories: ["With Gold Leaf","Medium (4-6″)"],
     description: `A declaration of love painted in the most personal and direct language —
       I Love You, Hashem. This vibrant, heartfelt piece radiates warmth and
       joy. Perfect for a home that celebrates faith openly and joyfully.
