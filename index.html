@@ -870,26 +870,9 @@
         <h2>About the Artist</h2>
         <span class="artist-name">Sorah Weiss</span>
         <div class="about-divider"></div>
-
-        <p class="about-quote">
-          &ldquo;Every mezuzah I create is a prayer — a piece of my heart placed at your door.&rdquo;
-        </p>
-
-        <p>
-          Sorah Weiss is the artist and heart behind Made in Heaven Mezuzahs. Each piece in her collection is entirely handmade — shaped, painted, and finished by her own hands, one at a time. No molds, no mass production. Just clay, color, intention, and love.
-        </p>
-
-        <p>
-          Sorah's work is rooted in the Jewish tradition of beautifying mitzvot — the concept of <em>hiddur mitzvah</em> — bringing beauty and artistry to sacred acts. For her, the mezuzah is not just a religious object; it is a blessing made visible, a daily reminder of faith, home, and the love of Hashem at every threshold.
-        </p>
-
-        <p>
-          Each piece is one of a kind. When you place a Made in Heaven mezuzah on your door, you are placing something that has never existed before and will never exist again — crafted just for you, or for someone you love.
-        </p>
-
-        <p>
-          Sorah takes custom orders and welcomes every inquiry. Whether you have a specific vision in mind or want to trust her with creative freedom, she would be honored to create something meaningful for your home.
-        </p>
+        <!-- Rendered from data/site-content.js -->
+        <p class="about-quote" id="about-quote"></p>
+        <div id="about-bio"></div>
       </div>
     </div>
     <footer>
@@ -910,12 +893,11 @@
         <h2>Let&rsquo;s Connect</h2>
         <p class="subtitle">by Sorah Weiss</p>
         <div class="contact-divider"></div>
-        <p style="font-family:'Playfair Display',serif; font-size:1.02rem; color:#2d5070; line-height:1.75; margin-bottom:32px;">
-          Interested in a piece from the collection, or dreaming of something custom? Sorah would love to hear from you. Reach out by call or text — every inquiry is welcome.
-        </p>
+        <!-- Rendered from data/site-content.js -->
+        <p id="contact-intro" style="font-family:'Playfair Display',serif; font-size:1.02rem; color:#2d5070; line-height:1.75; margin-bottom:32px;"></p>
         <div class="contact-label">Call or Text</div>
-        <a class="contact-phone" href="tel:+12246452752">(224) 645-2752</a>
-        <p class="contact-sub">Custom orders &amp; inquiries welcome</p>
+        <a class="contact-phone" id="contact-phone" href="tel:+12246452752"></a>
+        <p class="contact-sub" id="contact-subtext"></p>
       </div>
     </div>
     <footer>
@@ -947,8 +929,28 @@
     </div>
   </div>
 
+<script src="data/site-content.js"></script>
 <script src="data/mezuzahs.js"></script>
 <script>
+/* ── About & Contact page renderer ──────────────────────────────────────── */
+(function() {
+  var a = SITE_CONTENT.about;
+  document.getElementById('about-quote').textContent = '\u201c' + a.quote + '\u201d';
+  var bio = document.getElementById('about-bio');
+  a.paragraphs.forEach(function(text) {
+    var p = document.createElement('p');
+    p.textContent = text;
+    bio.appendChild(p);
+  });
+
+  var c = SITE_CONTENT.contact;
+  document.getElementById('contact-intro').textContent = c.intro;
+  var phone = document.getElementById('contact-phone');
+  phone.textContent = c.phone;
+  phone.href = c.phoneHref;
+  document.getElementById('contact-subtext').textContent = c.subtext;
+})();
+
 /* ── Gallery renderer ────────────────────────────────────────────────────── */
 function renderGallery(items) {
   const gallery = document.getElementById('gallery');
