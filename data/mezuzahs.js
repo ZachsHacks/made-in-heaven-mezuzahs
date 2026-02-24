@@ -24,7 +24,7 @@ const MEZUZAHS = [
   {
     images:     ["images/img_2273-1771958132770.jpeg"],
     name:       "\"Modim Anachnu Lach\" with Gold Leaf",
-    tagline:    "Carved in White Stone, Holy text from \"Shemonah Esre\" prayer",
+    tagline:    "Carved in White Stone, Holy text from \"Shemonah Esrei\" prayer",
     price:      175,
     categories: ["New Arrival","Medium (4-6″)","With Gold Leaf"],
     description: `    White Stone Clay fired at High Temperature in the Kiln, Gold Leaf writing of "Modeh Anachnu Lach", (from the holy prayer, "Shemoneh Esre" meaning, "We Thank You", When Jews pray, it is written that we pray for everyone, which is why we say "We." This is a sacred Hebrew text.  This mezuzah is a freeform art piece made without a cast or mold. Individually, carefully designed and created by hand with the help of Hashem. This holy mitzvah is a reminder that we owe our liife to Hashem, our one and only Creator. When you hang a proper "kosher mezuzah parchment, that has been properly checked, in the doorway and put it up correctly, (instructions included) with the Mezuzzah prayer (also, included) kiss he mezuzzah, as you enter or leave a room; and Hashem will protect you and the room through its blessing.  The parchment text is directly out of the Torah, when Moses and Aaron gave the first Ten Commandments from Hashem.
