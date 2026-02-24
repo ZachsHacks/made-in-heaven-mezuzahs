@@ -15,7 +15,7 @@ const MEZUZAHS = [
     name:       "The Garden Rose",
     tagline:    "Blooming at Your Door",
     price:      160,
-    categories: ["Medium (4-6″)"],
+    categories: ["Medium (4-6″)","New Arrivals"],
     description: `A three-dimensional rose in full bloom rises from the surface of this
 12 inch tall, hand-sculpted terracotta mezuzah — stem, thorn, leaf, above. Sorah carved every petal by hand, coaxing the clay into
       something that feels alive. For a home where love blooms at every threshold.`,
