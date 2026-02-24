@@ -49,7 +49,7 @@ const MEZUZAHS = [
   },
 
   {
-    image:      "images/Bitachon.avif",
+    image:      "images/img_1016-1771950530238.jpeg",
     name:       "Bitachon",
     tagline:    "Trust & Faith",
     price:      125,
