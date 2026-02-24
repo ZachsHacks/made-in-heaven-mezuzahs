@@ -1,11 +1,7 @@
 // ┌─────────────────────────────────────────────────────────────────────────┐
 // │  MADE IN HEAVEN MEZUZAHS — Collection Data                              │
 // │                                                                         │
-// │  To EDIT a piece  → change the name, tagline, price, or description     │
-// │  To ADD a piece   → copy any entry, paste at the TOP (before existing), │
-// │                     add "New Arrival" to categories, drop photo in      │
-// │                     /images/ folder                                     │
-// │  To REMOVE a piece → delete its entire entry (from { to the closing },) │
+// │  Managed via the admin panel.                                           │
 // │                                                                         │
 // │  CATEGORIES — mix and match any of:                                     │
 // │    "Small (4″)"  "Medium (4-6″)"  "Large (7-8″)"  "Extra Large (10-12″)" │
@@ -14,14 +10,12 @@
 
 const MEZUZAHS = [
 
-  // ─── NEW ARRIVALS FIRST ─────────────────────────────────────────────────
-
   {
     image:      "images/IMG_2272.jpg",
     name:       "The Garden Rose",
     tagline:    "Blooming at Your Door",
-    price:      155,
-    categories: ["Large (7-8\u2033)", "New Arrival"],
+    price:      160,
+    categories: ["Large (7-8″)","New Arrival"],
     description: `A three-dimensional rose in full bloom rises from the surface of this
       tall, hand-sculpted terracotta mezuzah — stem, thorn, leaf, and a tender
       bud above. Sorah carved every petal by hand, coaxing the clay into
@@ -33,7 +27,7 @@ const MEZUZAHS = [
     name:       "Ivory Word",
     tagline:    "The Ancient Prayer in Clay",
     price:      90,
-    categories: ["Small (4\u2033)", "New Arrival"],
+    categories: ["Small (4″)","New Arrival"],
     description: `In pale, bone-white clay, sacred Hebrew words are pressed deeply by
       hand — ancient, alive, and permanent. The freeform shape of this piece
       feels less like a manufactured object and more like something unearthed:
@@ -46,7 +40,7 @@ const MEZUZAHS = [
     name:       "Carved Earth",
     tagline:    "Scripture Pressed in Clay",
     price:      80,
-    categories: ["Small (4\u2033)", "New Arrival"],
+    categories: ["Small (4″)","New Arrival"],
     description: `Raw terracotta, shaped by hand into a form that is entirely its own.
       Hebrew letters are pressed deep into the clay — not painted on, not
       applied after, but born from the same earth as the piece itself. Rough
@@ -54,14 +48,12 @@ const MEZUZAHS = [
       something ancient and the warmth of something handmade with love.`,
   },
 
-  // ─── COLLECTION ─────────────────────────────────────────────────────────
-
   {
     image:      "images/Bitachon.avif",
     name:       "Bitachon",
     tagline:    "Trust & Faith",
     price:      95,
-    categories: ["Medium (4-6\u2033)"],
+    categories: ["Medium (4-6″)"],
     description: `Bitachon — the Hebrew word for complete trust in the Divine — is the
       soul of this piece. Hand-sculpted and finished with intention, it serves
       as a daily reminder that your home is held in something greater than
@@ -73,7 +65,7 @@ const MEZUZAHS = [
     name:       "Dream Column",
     tagline:    "Elegant & Statuesque",
     price:      125,
-    categories: ["Large (7-8\u2033)"],
+    categories: ["Large (7-8″)"],
     description: `Rising with quiet grace, the Dream Column mezuzah brings a refined,
       architectural beauty to any doorpost. Its tall, composed form is an
       invitation to pause at the threshold — to remember where you are going
@@ -85,7 +77,7 @@ const MEZUZAHS = [
     name:       "I Love You Hashem",
     tagline:    "Joyful Devotion",
     price:      85,
-    categories: ["Small (4\u2033)", "With Gold Leaf"],
+    categories: ["Small (4″)","With Gold Leaf"],
     description: `A declaration of love painted in the most personal and direct language —
       I Love You, Hashem. This vibrant, heartfelt piece radiates warmth and
       joy. Perfect for a home that celebrates faith openly and joyfully.
@@ -97,7 +89,7 @@ const MEZUZAHS = [
     name:       "Raw Terracotta",
     tagline:    "Earthy & Honest",
     price:      70,
-    categories: ["Small (4\u2033)"],
+    categories: ["Small (4″)"],
     description: `In its natural, unglazed state, terracotta tells the truth — it is of
       the earth, shaped by hands, warmed by fire. This mezuzah celebrates
       the beauty of raw materials and the craft behind every curve. Timeless
@@ -109,7 +101,7 @@ const MEZUZAHS = [
     name:       "Terracotta Blessing",
     tagline:    "Warmth & Sacred Word",
     price:      110,
-    categories: ["Medium (4-6\u2033)", "With Gold Leaf"],
+    categories: ["Medium (4-6″)","With Gold Leaf"],
     description: `Rich terracotta clay meets the power of sacred blessing in this warm,
       handcrafted mezuzah. The clay carries a natural warmth that feels alive
       in your hand — and on your doorpost, it speaks a blessing over all who
@@ -121,22 +113,11 @@ const MEZUZAHS = [
     name:       "Terracotta Silver",
     tagline:    "Rustic Meets Refined",
     price:      145,
-    categories: ["Extra Large (10-12\u2033)", "With Gold Leaf"],
+    categories: ["Extra Large (10-12″)","With Gold Leaf"],
     description: `The warmth of handcrafted terracotta clay meets the cool elegance of
       silver in a striking, balanced contrast. Traditional craft and timeless
       beauty come together in this one-of-a-kind piece. Sorah Weiss handcrafts
       each one individually — no two are ever exactly the same.`,
   },
-
-  // ─── ADD NEW PIECES AT THE TOP (before "NEW ARRIVALS FIRST") ────────────
-  //
-  // {
-  //   image:       "images/Your-Photo-Name.jpg",
-  //   name:        "Piece Name",
-  //   tagline:     "Short subtitle",
-  //   price:       100,
-  //   categories:  ["Medium (4-6\u2033)", "New Arrival"],
-  //   description: `Your description here.`,
-  // },
 
 ];
