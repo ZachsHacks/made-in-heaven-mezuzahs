@@ -37,7 +37,7 @@ const MEZUZAHS = [
 
   {
     images:     ["images/IMG_2278.jpg"],
-    name:       "Terracotta \"Modeh Anachnu Lach\" with Silver Leaf",
+    name:       "Terracotta \"Modim Anachnu Lach\" with Silver Leaf",
     tagline:    "Carved in earth Terracotta ,fired in the kiln, at high temperature,, text from prayer, \"Shemonah Esre\" With Silver Leaf",
     price:      175,
     categories: ["New Arrival","Medium (4-6″)"],
