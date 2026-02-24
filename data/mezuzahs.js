@@ -23,7 +23,7 @@ const MEZUZAHS = [
 
   {
     image:      "images/IMG_2276.jpg",
-    name:       "\"Modim Anachnu Lach\"",
+    name:       "\"Modeh Anachnu Lach\"",
     tagline:    "Carved in White Stone, Holy text from \"Shemonah Esre\" prayer",
     price:      175,
     categories: ["New Arrival","Medium (4-6″)","With Gold Leaf"],
@@ -36,15 +36,12 @@ const MEZUZAHS = [
 
   {
     image:      "images/IMG_2278.jpg",
-    name:       "Teracotta \"Modim Anachnu Lach\"",
-    tagline:    "Carved in earth, white stone, text from prayer, \"Shemoneh Esrei\"",
+    name:       "Terracotta \"Modeh Anachnu Lach\" with Silver Leaf",
+    tagline:    "Carved in earth Terracotta ,fired in the kiln, at high temperature,, text from prayer, \"Shemonah Esre\"",
     price:      175,
-    categories: ["New Arrival","Terracotta","Medium (4-6″)"],
-    description: `Raw terracotta, shaped by hand into a form that is entirely its own.
-      Hebrew letters are pressed deep into the clay — not painted on, not
-      applied after, but born from the same earth as the piece itself. Rough
-      at the edges, rich in the center, this mezuzah carries the weight of
-      something ancient and the warmth of something handmade with love.`,
+    categories: ["New Arrival","Medium (4-6″)"],
+    description: `     Raw terracotta  fired at high temperature in the Kiln, Silver Leaf writing of Modeh Anachnu, (from the holy prayer, "Shemoneh Esre."  Modeh Anachnu Lach translates from Hebrew to Enlish,, "We Thank You", When Jews pray, it is written that we pray for all, which is why we say "We." This is a sacred Hebrew text.  This mezuzah is a freeform without a mold, made individually by hand with care. The form reminds the viewer of the ancient stones in Israel. When you hang it in the doorway correctly, with the "kosher" parchment inside, as you enter or leave the room, you kiss the mezuzah... Hashem protects you and that room. The parchment text comes directly out of the Torah, when Moses and Aaron gave the first Ten Commandments that Hashem commanded his people to follow.
+     With ithis mezuzah's  organic edges, textured surface, and letters worn into the clay like prayers, his art piece reminds the viewer of Israel and the Jewish people, . When you say, "Thank You"  to Hashem, you will see miracles. Afterall,  you are acknowledging the one and only Creator of all that exists. What better way to protect your home or business.`,
   },
 
   {
@@ -112,7 +109,7 @@ const MEZUZAHS = [
     name:       "Terracotta Silver",
     tagline:    "Rustic Meets Refined",
     price:      145,
-    categories: ["Extra Large (10-12″)","Medium (4-6″)"],
+    categories: ["Extra Large (10-12″)","With Gold Leaf"],
     description: `The warmth of handcrafted terracotta clay meets the cool elegance of
       silver in a striking, balanced contrast. Traditional craft and timeless
       beauty come together in this one-of-a-kind piece. Sorah Weiss handcrafts
