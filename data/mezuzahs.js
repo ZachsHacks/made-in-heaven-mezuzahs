@@ -39,7 +39,7 @@ const MEZUZAHS = [
     name:       "Teracotta \"Modim Anachnu Lach\"",
     tagline:    "Carved in earth, white stone, text from prayer, \"Shemoneh Esrei\"",
     price:      175,
-    categories: ["Small (4″)","New Arrival","Terracotta"],
+    categories: ["New Arrival","Terracotta","Medium (4-6″)"],
     description: `Raw terracotta, shaped by hand into a form that is entirely its own.
       Hebrew letters are pressed deep into the clay — not painted on, not
       applied after, but born from the same earth as the piece itself. Rough
