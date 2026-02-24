@@ -83,10 +83,10 @@ const MEZUZAHS = [
 
   {
     images:     ["images/Raw-Terracotta.avif"],
-    name:       "Raw Terracotta",
+    name:       "12 inches of Raw Terracotta",
     tagline:    "Earthy & Honest",
     price:      70,
-    categories: ["Small (4″)"],
+    categories: ["Extra Large (10-12″)"],
     description: `In its natural, unglazed state, terracotta tells the truth — it is of
       the earth, shaped by hands, warmed by fire. This mezuzah celebrates
       the beauty of raw materials and the craft behind every curve. Timeless
