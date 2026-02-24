@@ -960,9 +960,10 @@ function renderGallery(items) {
     const tag   = m.tagline.replace(/&/g, '&amp;');
     const price = m.price || 0;
     const tags  = (m.categories || []).map(function(c) {
+      var l   = c.toLowerCase();
       var cls = 'card-tag';
-      if (c === 'With Gold Leaf') cls = 'card-tag card-tag-gold';
-      else if (c === 'New Arrival') cls = 'card-tag card-tag-new';
+      if (l.includes('gold'))      cls = 'card-tag card-tag-gold';
+      else if (l.includes('new'))  cls = 'card-tag card-tag-new';
       return '<span class="' + cls + '">' + c + '</span>';
     }).join('');
     return '<div class="gallery-card" data-idx="' + idx + '" style="animation-delay:' + (i * 0.07) + 's">' +
@@ -988,49 +989,55 @@ document.getElementById('gallery').addEventListener('click', function(e) {
 
 /* ── Filter bar ──────────────────────────────────────────────────────────── */
 (function() {
-  const SIZE_ORDER = ['Small (4\u2033)', 'Medium (4-6\u2033)', 'Large (7-8\u2033)', 'Extra Large (10-12\u2033)'];
-  let activeSizes  = new Set(); // empty = All
-  let goldLeafOn   = false;
-  let newArrivalOn = false;
+  var cats     = (SITE_CONTENT && SITE_CONTENT.categories) || {};
+  var sizes    = cats.sizes    || ['Small (4\u2033)', 'Medium (4-6\u2033)', 'Large (7-8\u2033)', 'Extra Large (10-12\u2033)'];
+  var specials = cats.specials || ['With Gold Leaf', 'New Arrival'];
+
+  var activeSizes    = new Set();
+  var activeSpecials = new Set();
+
+  function specialBtnClass(label) {
+    var l = label.toLowerCase();
+    if (l.includes('gold'))             return 'filter-btn filter-btn-gold';
+    if (l.includes('new'))              return 'filter-btn filter-btn-new';
+    return 'filter-btn';
+  }
 
   function applyFilters() {
-    const results = MEZUZAHS.filter(function(m) {
-      const cats   = m.categories || [];
-      const sizeOk = activeSizes.size === 0 || cats.some(c => activeSizes.has(c));
-      const goldOk = !goldLeafOn   || cats.includes('With Gold Leaf');
-      const newOk  = !newArrivalOn || cats.includes('New Arrival');
-      return sizeOk && goldOk && newOk;
+    var results = MEZUZAHS.filter(function(m) {
+      var mCats  = m.categories || [];
+      var sizeOk = activeSizes.size === 0 || mCats.some(function(c) { return activeSizes.has(c); });
+      var specOk = activeSpecials.size === 0 || Array.from(activeSpecials).every(function(s) { return mCats.includes(s); });
+      return sizeOk && specOk;
     });
     renderGallery(results);
   }
 
   function syncAllBtn(row) {
-    const allBtn = row.querySelector('[data-size="all"]');
-    allBtn.classList.toggle('active', activeSizes.size === 0);
+    var allBtn = row.querySelector('[data-size="all"]');
+    if (allBtn) allBtn.classList.toggle('active', activeSizes.size === 0);
   }
 
-  const bar = document.getElementById('filter-bar');
+  var bar = document.getElementById('filter-bar');
 
   // ── Row 1: size buttons ──────────────────────────────────────────────────
-  const sizeRow = document.createElement('div');
+  var sizeRow = document.createElement('div');
   sizeRow.className = 'filter-row';
 
-  // "All" button
-  const allBtn = document.createElement('button');
+  var allBtn = document.createElement('button');
   allBtn.className = 'filter-btn active';
   allBtn.dataset.size = 'all';
   allBtn.textContent = 'All';
   allBtn.addEventListener('click', function() {
     activeSizes.clear();
-    sizeRow.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    sizeRow.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
     allBtn.classList.add('active');
     applyFilters();
   });
   sizeRow.appendChild(allBtn);
 
-  // Size buttons
-  SIZE_ORDER.forEach(function(size) {
-    const btn = document.createElement('button');
+  sizes.forEach(function(size) {
+    var btn = document.createElement('button');
     btn.className = 'filter-btn';
     btn.dataset.size = size;
     btn.textContent = size;
@@ -1050,35 +1057,36 @@ document.getElementById('gallery').addEventListener('click', function(e) {
 
   bar.appendChild(sizeRow);
 
-  // ── Divider ──────────────────────────────────────────────────────────────
-  const div = document.createElement('div');
-  div.className = 'filter-divider';
-  bar.appendChild(div);
+  // Only show special row if there are specials
+  if (specials.length > 0) {
+    // ── Divider ────────────────────────────────────────────────────────────
+    var div = document.createElement('div');
+    div.className = 'filter-divider';
+    bar.appendChild(div);
 
-  // ── Row 2: special toggles (New Arrival + Gold Leaf) ────────────────────
-  const specialRow = document.createElement('div');
-  specialRow.className = 'filter-row';
+    // ── Row 2: special toggles ──────────────────────────────────────────────
+    var specialRow = document.createElement('div');
+    specialRow.className = 'filter-row';
 
-  const newBtn = document.createElement('button');
-  newBtn.className = 'filter-btn filter-btn-new';
-  newBtn.textContent = '✦  New Arrivals';
-  newBtn.addEventListener('click', function() {
-    newArrivalOn = !newArrivalOn;
-    newBtn.classList.toggle('active', newArrivalOn);
-    applyFilters();
-  });
-  specialRow.appendChild(newBtn);
+    specials.forEach(function(label) {
+      var btn = document.createElement('button');
+      btn.className = specialBtnClass(label);
+      btn.textContent = '\u2726  ' + label;
+      btn.addEventListener('click', function() {
+        if (activeSpecials.has(label)) {
+          activeSpecials.delete(label);
+          btn.classList.remove('active');
+        } else {
+          activeSpecials.add(label);
+          btn.classList.add('active');
+        }
+        applyFilters();
+      });
+      specialRow.appendChild(btn);
+    });
 
-  const goldBtn = document.createElement('button');
-  goldBtn.className = 'filter-btn filter-btn-gold';
-  goldBtn.textContent = '✦  With Gold Leaf';
-  goldBtn.addEventListener('click', function() {
-    goldLeafOn = !goldLeafOn;
-    goldBtn.classList.toggle('active', goldLeafOn);
-    applyFilters();
-  });
-  specialRow.appendChild(goldBtn);
-  bar.appendChild(specialRow);
+    bar.appendChild(specialRow);
+  }
 })();
 
 renderGallery();

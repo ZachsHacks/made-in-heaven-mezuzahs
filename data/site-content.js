@@ -22,6 +22,11 @@ const SITE_CONTENT = {
     phone: "(224) 645-2752",
     phoneHref: "tel:+12246452752",
     subtext: "Custom orders \u0026 inquiries welcome"
+  },
+
+  categories: {
+    sizes: ["Small (4\u2033)", "Medium (4-6\u2033)", "Large (7-8\u2033)", "Extra Large (10-12\u2033)"],
+    specials: ["With Gold Leaf", "New Arrival"]
   }
 
 };
