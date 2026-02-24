@@ -36,10 +36,10 @@ const MEZUZAHS = [
 
   {
     image:      "images/IMG_2278.jpg",
-    name:       "Carved Earth",
-    tagline:    "Scripture Pressed in Clay",
-    price:      80,
-    categories: ["Small (4″)","New Arrival"],
+    name:       "Teracotta \"Modeh Anachnu Lach\"",
+    tagline:    "Carved in earth, white stone, text from prayer, \"Shemonah Esre\"",
+    price:      175,
+    categories: ["Small (4″)","New Arrival","Medium (4-6″)"],
     description: `Raw terracotta, shaped by hand into a form that is entirely its own.
       Hebrew letters are pressed deep into the clay — not painted on, not
       applied after, but born from the same earth as the piece itself. Rough
