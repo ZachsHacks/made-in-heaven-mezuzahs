@@ -60,9 +60,9 @@ const MEZUZAHS = [
   {
     image:      "images/Dream-Column.avif",
     name:       "Dream Column",
-    tagline:    "Elegant & Statuesque",
+    tagline:    "12 inches tall porcelain painted (gold leaf) art piece..Elegant & Statuesque",
     price:      125,
-    categories: ["Large (7-8″)","New Arrival"],
+    categories: ["New Arrival","Extra Large (10-12″)","Porcelain","With Gold Leaf"],
     description: `Rising with quiet grace, the Dream Column mezuzah brings a refined,
       architectural beauty to any doorpost. Its tall, composed form is an
       invitation to pause at the threshold — to remember where you are going
