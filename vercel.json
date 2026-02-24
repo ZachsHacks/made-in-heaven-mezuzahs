@@ -1,12 +1,5 @@
 {
   "buildCommand": null,
   "outputDirectory": ".",
-  "framework": null,
-  "redirects": [
-    {
-      "source": "/admin",
-      "destination": "https://mezuzah-admin.vercel.app/",
-      "permanent": false
-    }
-  ]
+  "framework": null
 }
