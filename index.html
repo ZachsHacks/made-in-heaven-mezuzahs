@@ -355,6 +355,14 @@
       box-shadow: 0 4px 16px rgba(180,130,20,0.35);
     }
 
+    /* New Arrival toggle — green active state */
+    .filter-btn-new.active {
+      background: linear-gradient(135deg, #2db86a, #1a8a48);
+      color: #fff;
+      border-color: transparent;
+      box-shadow: 0 4px 16px rgba(30,150,80,0.30);
+    }
+
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(280px, 340px));
@@ -383,9 +391,13 @@
 
     .gallery-card img {
       width: 100%;
-      height: 300px;
-      object-fit: cover;
+      height: auto;
+      max-height: 420px;
+      min-height: 200px;
+      object-fit: contain;
+      background: rgba(235, 244, 252, 0.55);
       display: block;
+      padding: 12px 12px 0;
       transition: transform 0.4s ease;
     }
 
@@ -425,6 +437,13 @@
       color: #7a5a08;
       background: rgba(201,151,26,0.13);
       border-color: rgba(201,151,26,0.28);
+    }
+
+    .card-tag-new {
+      color: #1a6b3a;
+      background: rgba(30,150,80,0.12);
+      border-color: rgba(30,150,80,0.28);
+      font-weight: 600;
     }
 
     .card-caption { padding: 18px 20px 22px; text-align: center; }
@@ -939,7 +958,9 @@ function renderGallery(items) {
     const tag   = m.tagline.replace(/&/g, '&amp;');
     const price = m.price || 0;
     const tags  = (m.categories || []).map(function(c) {
-      const cls = c === 'With Gold Leaf' ? 'card-tag card-tag-gold' : 'card-tag';
+      var cls = 'card-tag';
+      if (c === 'With Gold Leaf') cls = 'card-tag card-tag-gold';
+      else if (c === 'New Arrival') cls = 'card-tag card-tag-new';
       return '<span class="' + cls + '">' + c + '</span>';
     }).join('');
     return '<div class="gallery-card" data-idx="' + idx + '" style="animation-delay:' + (i * 0.07) + 's">' +
@@ -968,13 +989,15 @@ document.getElementById('gallery').addEventListener('click', function(e) {
   const SIZE_ORDER = ['Small (4\u2033)', 'Medium (4-6\u2033)', 'Large (7-8\u2033)', 'Extra Large (10-12\u2033)'];
   let activeSizes  = new Set(); // empty = All
   let goldLeafOn   = false;
+  let newArrivalOn = false;
 
   function applyFilters() {
     const results = MEZUZAHS.filter(function(m) {
-      const cats     = m.categories || [];
-      const sizeOk   = activeSizes.size === 0 || cats.some(c => activeSizes.has(c));
-      const goldOk   = !goldLeafOn || cats.includes('With Gold Leaf');
-      return sizeOk && goldOk;
+      const cats   = m.categories || [];
+      const sizeOk = activeSizes.size === 0 || cats.some(c => activeSizes.has(c));
+      const goldOk = !goldLeafOn   || cats.includes('With Gold Leaf');
+      const newOk  = !newArrivalOn || cats.includes('New Arrival');
+      return sizeOk && goldOk && newOk;
     });
     renderGallery(results);
   }
@@ -1030,9 +1053,19 @@ document.getElementById('gallery').addEventListener('click', function(e) {
   div.className = 'filter-divider';
   bar.appendChild(div);
 
-  // ── Row 2: Gold Leaf toggle ──────────────────────────────────────────────
-  const goldRow = document.createElement('div');
-  goldRow.className = 'filter-row';
+  // ── Row 2: special toggles (New Arrival + Gold Leaf) ────────────────────
+  const specialRow = document.createElement('div');
+  specialRow.className = 'filter-row';
+
+  const newBtn = document.createElement('button');
+  newBtn.className = 'filter-btn filter-btn-new';
+  newBtn.textContent = '✦  New Arrivals';
+  newBtn.addEventListener('click', function() {
+    newArrivalOn = !newArrivalOn;
+    newBtn.classList.toggle('active', newArrivalOn);
+    applyFilters();
+  });
+  specialRow.appendChild(newBtn);
 
   const goldBtn = document.createElement('button');
   goldBtn.className = 'filter-btn filter-btn-gold';
@@ -1042,8 +1075,8 @@ document.getElementById('gallery').addEventListener('click', function(e) {
     goldBtn.classList.toggle('active', goldLeafOn);
     applyFilters();
   });
-  goldRow.appendChild(goldBtn);
-  bar.appendChild(goldRow);
+  specialRow.appendChild(goldBtn);
+  bar.appendChild(specialRow);
 })();
 
 renderGallery();
