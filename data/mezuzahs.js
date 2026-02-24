@@ -66,7 +66,7 @@ const MEZUZAHS = [
     description: `Rising with quiet grace, the Dream Column mezuzah brings a refined,
       architectural beauty to any doorpost. Its tall, composed form is an
       invitation to pause at the threshold — to remember where you are going
-      and why. Handcrafted by Sorah Weiss in a single, luminous piece.`,
+      and why.  Handcrafted in a single, luminous piece.`,
   },
 
   {
