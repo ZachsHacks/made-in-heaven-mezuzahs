@@ -15,7 +15,7 @@ const SITE_CONTENT = {
         "Each piece is one of a kind. When you place a Made in Heaven mezuzah on your door, you are placing something that has never existed before and will never exist again — crafted just for you, or for someone you love.",
         "Sorah takes custom orders and welcomes every inquiry. Whether you have a specific vision in mind or want to trust her with creative freedom, she would be honored to create something meaningful for your home.",
         "Sorah's background is in music, lyrics and writing, such as, \"The Rabbi (a musical)\" as well as other music and musicals and writings.  She is a painter and artist in many mediums. Years back she owned and operated a hand-dipped chocolate company called,  \"Le Chocolat Shoppe\" on Dempster, in Skokie, Illinois.  This Shoppe and catering company did centerpieces, hand-dipped chocolates, truffles, and candy creations.  Always creative and always giving credit where it belongs... to Hashem's generosity. ",
-        "May you are be blessed by Hashem for Good Health, Happiness, Love and Prosperity."
+        "May you All be blessed by Hashem, for Good Health, Happiness, Love, and Prosperity."
     ]
   },
 
