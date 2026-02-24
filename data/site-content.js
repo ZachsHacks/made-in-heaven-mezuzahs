@@ -26,7 +26,7 @@ const SITE_CONTENT = {
 
   categories: {
     sizes: ["Small (4″)","Medium (4-6″)","Large (7-8″)","Extra Large (10-12″)"],
-    specials: ["With Gold Leaf","New Arrival","White Stone","Porcelain","Terracotta"]
+    specials: ["New Arrival","With Gold Leaf","White Stone","Porcelain","Terracotta"]
   }
 
 };
