@@ -58,7 +58,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["images/Dream-Column.avif"],
+    images:     ["images/Dream-Column.avif","images/479e8969-ca7b-422e-8d4a-aec341cc397d-1771961028957.mov"],
     name:       "Dream Column",
     tagline:    "12 inches tall porcelain painted (gold leaf) art piece..Elegant & Statuesque",
     price:      150,
