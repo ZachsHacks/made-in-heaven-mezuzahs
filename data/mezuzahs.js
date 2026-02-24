@@ -53,7 +53,7 @@ const MEZUZAHS = [
     name:       "Bitachon",
     tagline:    "Trust & Faith",
     price:      95,
-    categories: ["Medium (4-6″)"],
+    categories: ["Medium (4-6″)","New Arrival"],
     description: `Bitachon — the Hebrew word for complete trust in the Divine — is the
       soul of this piece. Hand-sculpted and finished with intention, it serves
       as a daily reminder that your home is held in something greater than
