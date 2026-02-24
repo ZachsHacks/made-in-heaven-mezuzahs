@@ -37,7 +37,7 @@ const MEZUZAHS = [
   {
     image:      "images/IMG_2278.jpg",
     name:       "Teracotta \"Modim Anachnu Lach\"",
-    tagline:    "Carved in earth, white stone, text from prayer, \"Shemoneh Esrie\"",
+    tagline:    "Carved in earth, white stone, text from prayer, \"Shemoneh Esrei\"",
     price:      175,
     categories: ["Small (4″)","New Arrival","Medium (4-6″)","Terracotta"],
     description: `Raw terracotta, shaped by hand into a form that is entirely its own.
