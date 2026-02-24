@@ -23,7 +23,7 @@ const MEZUZAHS = [
 
   {
     image:      "images/IMG_2276.jpg",
-    name:       "\"Modeh Anachnu Lach\"",
+    name:       "\"Modim Anachnu Lach\"",
     tagline:    "Carved in White Stone, Holy text from \"Shemonah Esre\" prayer",
     price:      175,
     categories: ["New Arrival","Medium (4-6″)","With Gold Leaf"],
