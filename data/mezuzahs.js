@@ -85,6 +85,44 @@ const MEZUZAHS = [
       each one individually — no two are ever exactly the same.`,
   },
 
+  {
+    image:      "images/IMG_2272.jpg",
+    name:       "The Garden Rose",
+    tagline:    "Blooming at Your Door",
+    price:      155,
+    categories: ["Large (7-8\u2033)"],
+    description: `A three-dimensional rose in full bloom rises from the surface of this
+      tall, hand-sculpted terracotta mezuzah — stem, thorn, leaf, and a tender
+      bud above. Sorah carved every petal by hand, coaxing the clay into
+      something that feels alive. For a home where love blooms at every threshold.`,
+  },
+
+  {
+    image:      "images/IMG_2276.jpg",
+    name:       "Ivory Word",
+    tagline:    "The Ancient Prayer in Clay",
+    price:      90,
+    categories: ["Small (4\u2033)"],
+    description: `In pale, bone-white clay, sacred Hebrew words are pressed deeply by
+      hand — ancient, alive, and permanent. The freeform shape of this piece
+      feels less like a manufactured object and more like something unearthed:
+      organic edges, textured surface, letters worn into the clay like prayers
+      worn into the heart. A quiet declaration of faith at your door.`,
+  },
+
+  {
+    image:      "images/IMG_2278.jpg",
+    name:       "Carved Earth",
+    tagline:    "Scripture Pressed in Clay",
+    price:      80,
+    categories: ["Small (4\u2033)"],
+    description: `Raw terracotta, shaped by hand into a form that is entirely its own.
+      Hebrew letters are pressed deep into the clay — not painted on, not
+      applied after, but born from the same earth as the piece itself. Rough
+      at the edges, rich in the center, this mezuzah carries the weight of
+      something ancient and the warmth of something handmade with love.`,
+  },
+
   // ─── ADD NEW PIECES BELOW THIS LINE ────────────────────────────────────
   //
   // {
