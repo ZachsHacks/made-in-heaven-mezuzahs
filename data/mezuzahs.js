@@ -77,7 +77,7 @@ const MEZUZAHS = [
     name:       "I Love You Hashem",
     tagline:    "Joyful Devotion",
     price:      85,
-    categories: ["Small (4″)","With Gold Leaf"],
+    categories: ["Small (4″)","With Gold Leaf","New Arrival"],
     description: `A declaration of love painted in the most personal and direct language —
       I Love You, Hashem. This vibrant, heartfelt piece radiates warmth and
       joy. Perfect for a home that celebrates faith openly and joyfully.
