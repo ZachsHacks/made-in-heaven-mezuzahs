@@ -397,6 +397,30 @@
 
     .filter-overlay.open { display: block; }
 
+    /* Sheet header + title: hidden by default, shown on mobile (MUST come before the media query) */
+    .filter-sheet-header { display: none; }
+    .filter-sheet-title  { display: none; }
+
+    /* Close button inside sidebar: hidden by default (MUST come before the media query) */
+    .filter-sidebar-close {
+      display: none;
+      background: rgba(68,153,212,0.10);
+      border: 1px solid rgba(68,153,212,0.20);
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      font-size: 1.15rem;
+      color: #3d6a96;
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+      transition: background 0.15s;
+      flex-shrink: 0;
+    }
+
+    .filter-sidebar-close:hover { background: rgba(68,153,212,0.20); }
+
     @media (max-width: 820px) {
       .gallery-layout { flex-direction: column; gap: 0; align-items: stretch; }
 
@@ -419,12 +443,13 @@
         cursor: pointer;
         box-shadow: 0 2px 10px rgba(80,140,200,0.13);
         min-width: 140px;
+        touch-action: manipulation;
       }
 
-      /* Bottom sheet */
+      /* Bottom sheet — use transform (not bottom%) for reliable iOS Safari support */
       .filter-sidebar {
         position: fixed;
-        bottom: -100%;
+        bottom: 0;
         left: 0;
         right: 0;
         width: 100%;
@@ -434,11 +459,12 @@
         border-radius: 20px 20px 0 0;
         overflow-y: auto;
         overflow-x: hidden;
-        transition: bottom 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+        transform: translateY(110%);
+        transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
         padding: 0 20px 40px;
       }
 
-      .filter-sidebar.open { bottom: 0; }
+      .filter-sidebar.open { transform: translateY(0); }
 
       /* Drag pill at top of sheet */
       .filter-sidebar::before {
@@ -462,12 +488,15 @@
       }
 
       .filter-sheet-title {
+        display: block;
         font-family: 'Playfair Display', serif;
         font-size: 1.05rem;
         font-weight: 700;
         color: #1e3a58;
         letter-spacing: 0.02em;
       }
+
+      .filter-sidebar-close { display: flex; }
 
       /* Bigger touch targets for filter options */
       .filter-check-label {
@@ -490,34 +519,6 @@
       }
 
       .filter-section-title:not(:first-child) { margin-top: 20px; }
-    }
-
-    /* Sheet header (hidden on desktop, flex on mobile via media query above) */
-    .filter-sheet-header { display: none; }
-    .filter-sheet-title  { display: none; }
-
-    /* Close button inside sidebar (mobile only) */
-    .filter-sidebar-close {
-      display: none;
-      background: rgba(68,153,212,0.10);
-      border: 1px solid rgba(68,153,212,0.20);
-      border-radius: 50%;
-      width: 32px;
-      height: 32px;
-      font-size: 1.15rem;
-      color: #3d6a96;
-      cursor: pointer;
-      align-items: center;
-      justify-content: center;
-      line-height: 1;
-      transition: background 0.15s;
-      flex-shrink: 0;
-    }
-
-    .filter-sidebar-close:hover { background: rgba(68,153,212,0.20); }
-
-    @media (max-width: 820px) {
-      .filter-sidebar-close { display: flex; }
     }
 
     .gallery {
