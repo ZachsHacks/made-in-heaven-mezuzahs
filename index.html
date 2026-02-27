@@ -935,18 +935,29 @@
 
     .modal-close:hover { background: rgba(255,255,255,1); }
 
+    /* ── Modal image/video column — flex column so thumbs sit below the media ── */
     .modal-img-wrap {
       flex: 0 0 48%;
       min-height: 340px;
+      display: flex;
+      flex-direction: column;
     }
 
-    .modal-img-wrap img {
+    /* Main image — fills available column space */
+    #modal-img {
+      flex: 1;
+      min-height: 0;
       width: 100%;
-      height: 100%;
       object-fit: contain;
       border-radius: 20px 0 0 20px;
       display: block;
       background: rgba(235, 244, 252, 0.7);
+    }
+
+    /* Main video — same flex behaviour as the image */
+    #modal-video {
+      flex: 1;
+      min-height: 0;
     }
 
     /* Thumbnail strip for multi-image products */
@@ -957,6 +968,7 @@
       justify-content: center;
       padding: 8px 8px 10px;
       background: rgba(20,50,90,0.12);
+      flex-shrink: 0;
     }
 
     .modal-thumb {
@@ -978,8 +990,9 @@
     }
 
     @media (max-width: 640px) {
-      .modal-img-wrap { flex: none; min-height: 0; max-height: 40vh; overflow: hidden; }
-      .modal-img-wrap img { border-radius: 20px 20px 0 0; height: 40vh; }
+      .modal-img-wrap { flex: none; min-height: 0; }
+      #modal-img { border-radius: 20px 20px 0 0; max-height: 40vh; height: auto; flex: none; }
+      #modal-video { border-radius: 20px 20px 0 0; max-height: 40vh; flex: none; }
     }
 
     .modal-info {
@@ -1441,7 +1454,7 @@
       <button class="modal-close" onclick="closeModal()">&#x2715;</button>
       <div class="modal-img-wrap">
         <img id="modal-img" src="" alt="">
-        <video id="modal-video" src="" muted controls playsinline style="display:none; width:100%; height:100%; object-fit:contain; border-radius:20px 0 0 20px; background:rgba(235,244,252,0.7);"></video>
+        <video id="modal-video" src="" muted controls playsinline style="display:none; width:100%; object-fit:contain; border-radius:20px 0 0 20px; background:rgba(235,244,252,0.7);"></video>
         <div class="modal-thumbs" id="modal-thumbs"></div>
       </div>
       <div class="modal-info">
@@ -1789,7 +1802,7 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
   form.addEventListener('submit', async function(e) {
     e.preventDefault();
     submitBtn.disabled = true;
-    submitBtn.textContent = 'Sending…';
+    submitBtn.textContent = 'Sending\u2026';
     errEl.style.display = 'none';
 
     var data = {
