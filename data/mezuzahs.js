@@ -14,9 +14,9 @@ const MEZUZAHS = [
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2409.jpeg","https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2408.jpeg"],
     name:       "Large Amethyste Crystal on white stone",
     tagline:    "Nice size white stone w/  Amethyste",
-    price:      250,
+    price:      175,
     categories: ["Large Amethysite Stone","White Stone","New Arrivals","Medium (5-7″)"],
-    description: ``,
+    description: `Large Freeform white stone fired in a kiln with a large Amethyste Stone.`,
   },
 
   {
