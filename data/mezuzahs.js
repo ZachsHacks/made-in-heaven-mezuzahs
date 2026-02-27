@@ -11,7 +11,7 @@
 const MEZUZAHS = [
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2409.jpeg","https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2408.jpeg"],
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2391.jpeg"],
     name:       "Large Amethyste Crystal on white stone",
     tagline:    "Nice size white stone w/  Amethyste",
     price:      175,
