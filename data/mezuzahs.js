@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["images/img_2395-1772150231239.jpeg","images/img_2399-1772150233059.jpeg"],
+    name:       "Amythy",
+    tagline:    "Fjkckvk",
+    price:      85,
+    categories: ["Medium (5-7″)","Raw Terracotta"],
+    description: ``,
+  },
+
+  {
     images:     ["images/img_2400-1772149779053.jpeg"],
     name:       "Sunset ",
     tagline:    " 12 inch, gold leaf, porcelain",
