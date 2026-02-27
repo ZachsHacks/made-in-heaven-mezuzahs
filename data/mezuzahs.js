@@ -12,11 +12,11 @@ const MEZUZAHS = [
 
   {
     images:     ["images/img_2394-1772150485787.jpeg"],
-    name:       "Dicixi",
-    tagline:    "Vicico",
-    price:      50,
-    categories: ["Large (8-10″)","Small (4″)","With Gold Leaf","Porcelain"],
-    description: ``,
+    name:       "White and Gold",
+    tagline:    "Small textured w/ gold leaf",
+    price:      60,
+    categories: ["Small (4″)","With Gold Leaf","Porcelain"],
+    description: `Simple and lovely small mezuzah with Gold Leaf Shin`,
   },
 
   {
