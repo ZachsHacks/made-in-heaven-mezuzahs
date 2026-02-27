@@ -15,7 +15,7 @@ const MEZUZAHS = [
     name:       "Magnesita Crystals on Porcelain ",
     tagline:    "Magnesita Crystals on shin",
     price:      45,
-    categories: ["Medium (5-7″)","New Arrivals","Porcelain","With Amethyste crystals"],
+    categories: ["Medium (5-7″)","New Arrivals","Porcelain"],
     description: ``,
   },
 
