@@ -21,11 +21,11 @@ const MEZUZAHS = [
 
   {
     images:     ["images/img_2395-1772150231239.jpeg","images/img_2399-1772150233059.jpeg"],
-    name:       "Amythy",
-    tagline:    "Fjkckvk",
-    price:      85,
-    categories: ["Medium (5-7″)","Raw Terracotta"],
-    description: ``,
+    name:       "Amethysite Stone in Shell",
+    tagline:    "Small Amethysite stone in Porcelein Shell with Gold dust and Shin",
+    price:      95,
+    categories: ["Medium (5-7″)","New Arrivals","Porcelain","With Gold Leaf","Small Amethyst"],
+    description: `Amethysite stone in Turqoise Shell with a Gold Leaf Shin and gold dust. The Clear case inside the Shell is ready for you to enclose your kosher parchment.`,
   },
 
   {
