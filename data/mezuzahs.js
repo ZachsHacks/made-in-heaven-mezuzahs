@@ -65,7 +65,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["images/IMG_2272.jpg"],
+    images:     ["images/IMG_2272.jpg","https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_0449.HEIC"],
     name:       "The Garden Rose",
     tagline:    "Blooming at Your Door",
     price:      280,
