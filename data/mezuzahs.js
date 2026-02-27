@@ -32,7 +32,7 @@ const MEZUZAHS = [
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2403.jpeg"],
     name:       "Magnesita Crystals on Porcelain ",
     tagline:    "Magnesita Crystals on shin",
-    price:      45,
+    price:      65,
     categories: ["Medium (5-7″)","New Arrivals","Porcelain","With (Turquoise-colored) Magnesita Crystals"],
     description: `Thin delicate porcelain with  the shin written with turquoise-colored Magnesita Crystals.`,
   },
