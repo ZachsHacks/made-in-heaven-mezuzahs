@@ -24,8 +24,8 @@ const MEZUZAHS = [
     name:       "White and Gold",
     tagline:    "Small textured w/ gold leaf",
     price:      60,
-    categories: ["Small (4″)","With Gold Leaf","Porcelain"],
-    description: `Simple and lovely small mezuzah with Gold Leaf Shin`,
+    categories: ["Small (4″)","With Gold Leaf","White Stone"],
+    description: `Simple and lovely small white stone ired in the kiln with the shin written with Gold Leaf.`,
   },
 
   {
