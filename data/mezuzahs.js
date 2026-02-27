@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["images/img_2394-1772150485787.jpeg"],
+    name:       "Dicixi",
+    tagline:    "Vicico",
+    price:      50,
+    categories: ["Large (8-10″)","Small (4″)","With Gold Leaf","Porcelain"],
+    description: ``,
+  },
+
+  {
     images:     ["images/img_2395-1772150231239.jpeg","images/img_2399-1772150233059.jpeg"],
     name:       "Amythy",
     tagline:    "Fjkckvk",
