@@ -38,7 +38,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["images/img_2394-1772150485787.jpeg"],
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2394.jpeg"],
     name:       "White and Gold",
     tagline:    "Small textured w/ gold leaf",
     price:      60,
