@@ -34,7 +34,7 @@ const MEZUZAHS = [
     tagline:    "Small Amethysite stone in Porcelein Shell with Gold dust and Shin",
     price:      95,
     categories: ["Medium (5-7″)","New Arrivals","Porcelain","With Gold Leaf"],
-    description: `Amethysite stone in Turqoise Shell with a Gold Leaf Shin and gold dust. The Clear case inside the Shell is ready for you to enclose your kosher parchment.`,
+    description: `Amethysite stone in Turqoise Shell with the shin written with Gold Leaf and gold dust.sprincled on the clear case inside the Shell iwaitingr for you to enclose your kosher parchment for the Mezuzah mitzvah.`,
   },
 
   {
