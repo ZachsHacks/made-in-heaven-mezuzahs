@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2407.jpeg"],
+    name:       "Magnesita and Pastels",
+    tagline:    "Pastel with Magnesita Crystals on porcelain",
+    price:      100,
+    categories: ["Small (4″)","Porcelain","New Arrivals","With (Turquoise-colored) Magnesita Crystals","With Tiger Eye crystals","With Citrine crystals"],
+    description: `Porcelain fired with Pastels and shin written with Magnesita Crystals `,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2403.jpeg"],
     name:       "Magnesita Crystals on Porcelain ",
     tagline:    "Magnesita Crystals on shin",
