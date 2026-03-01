@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2392.jpeg"],
+    name:       "Terra Gold",
+    tagline:    "Terracotta with shin - Gold leaf",
+    price:      70,
+    categories: ["Raw Terracotta","Medium (5-7″)","With Gold Leaf"],
+    description: ``,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2391.jpeg"],
     name:       "Large Amethyste Crystal on white stone",
     tagline:    "Nice size white stone w/  Amethyste",
