@@ -68,7 +68,7 @@ const MEZUZAHS = [
     images:     ["images/img_2400-1772149779053.jpeg"],
     name:       "Sunset ",
     tagline:    " 12 inch, gold leaf, porcelain",
-    price:      225,
+    price:      175,
     categories: ["Extra Large (12 inches)","New Arrivals","Porcelain","With Gold Leaf"],
     description: ``,
   },
