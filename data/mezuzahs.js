@@ -161,7 +161,7 @@ const MEZUZAHS = [
     images:     ["images/Terracotta-Silver.avif"],
     name:       "Terracotta Silver",
     tagline:    "Rustic Meets Refined",
-    price:      145,
+    price:      75,
     categories: ["Small (4″)","With Silver Leaf"],
     description: `The warmth of handcrafted terracotta clay meets the cool elegance of
       silver in a striking, balanced contrast. Traditional craft and timeless
