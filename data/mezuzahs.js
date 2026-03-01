@@ -21,7 +21,7 @@ const MEZUZAHS = [
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2391.jpeg"],
-    name:       "Large Amethyste Crystal on white stone",
+    name:       "Medium with Large Amethyste Crystal on white stone",
     tagline:    "Nice size white stone w/  Amethyste",
     price:      130,
     categories: ["Large Amethysite Stone","White Stone","New Arrivals","Medium (5-7″)"],
