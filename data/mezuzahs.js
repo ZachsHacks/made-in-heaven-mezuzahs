@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2428.jpeg"],
+    name:       "Pastel Kiss",
+    tagline:    "Glass ready for kosher parchment.  Pastel on white stone.",
+    price:      130,
+    categories: ["White Stone","Small (4″)"],
+    description: ``,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2434.jpeg"],
     name:       "Raw Terracotta w/ color",
     tagline:    "Small Designed Raw Terracotta",
