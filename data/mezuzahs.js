@@ -14,7 +14,7 @@ const MEZUZAHS = [
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/695A60FD-D4B7-4304-90C0-564F42C0E550_1_105_c.jpeg"],
     name:       "Porcelain Painted",
     tagline:    "Deep Aqua, Turqouise, Purple, Red on Porcelain.",
-    price:      28,
+    price:      58,
     categories: ["Medium (5-7″)","Porcelain"],
     description: `Turquoise, oAqua, Purple, Scarlet Red mixed on this Porcelain Art.`,
   },
