@@ -32,7 +32,7 @@ const MEZUZAHS = [
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2392.jpeg"],
     name:       "Terra Gold",
     tagline:    "Terracotta with shin - Gold leaf",
-    price:      70,
+    price:      65,
     categories: ["Raw Terracotta","Medium (5-7″)","With Gold Leaf"],
     description: ``,
   },
