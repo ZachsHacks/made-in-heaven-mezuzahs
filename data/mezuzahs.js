@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2434.jpeg"],
+    name:       "Raw Terracotta w/ color",
+    tagline:    "Small Designed Raw Terracotta",
+    price:      65,
+    categories: ["Small (4″)","Raw Terracotta"],
+    description: ``,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/695A60FD-D4B7-4304-90C0-564F42C0E550_1_105_c.jpeg"],
     name:       "Porcelain Painted",
     tagline:    "Deep Aqua, Turqouise, Purple, Red on Porcelain.",
