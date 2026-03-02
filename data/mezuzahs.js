@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/VIDEO0006.mp4"],
+    name:       "Porcelain Painted",
+    tagline:    "Deep Aqua, Turqouise, Purple, Red on Porcelain.",
+    price:      75,
+    categories: ["Medium (5-7″)"],
+    description: ``,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/78432898-6599-4747-9C05-9196CF0DA44D_1_105_c-1.jpg"],
     name:       "Dripping Aqua & Silver",
     tagline:    "Raw Terracotta with Silver Leaf, dripping in Aqua",
