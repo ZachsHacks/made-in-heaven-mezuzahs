@@ -25,7 +25,7 @@ const MEZUZAHS = [
     tagline:    "Deep Aqua, Turqouise, Purple, Red on Porcelain.",
     price:      120,
     categories: ["Medium (5-7″)","Porcelain","With Gold Leaf"],
-    description: `Turquoise, oAqua, Purple, Scarlet Red mixed on this Porcelain Art.`,
+    description: `Turquoise, oAqua, Purple, Scarlet Red mixed on this Porcelain Art. with Gold Leaf`,
   },
 
   {
