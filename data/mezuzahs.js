@@ -68,7 +68,7 @@ const MEZUZAHS = [
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2394.jpeg"],
     name:       "White and Gold",
     tagline:    "Small textured w/ gold leaf",
-    price:      60,
+    price:      65,
     categories: ["Small (4″)","With Gold Leaf","White Stone"],
     description: `Simple and lovely small white stone ired in the kiln with the shin written with Gold Leaf.`,
   },
