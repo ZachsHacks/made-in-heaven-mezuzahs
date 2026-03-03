@@ -164,15 +164,6 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["images/IMG_2272.jpg","https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_0449.HEIC"],
-    name:       "The Garden Rose",
-    tagline:    "Blooming at Your Door",
-    price:      250,
-    categories: ["New Arrivals","Raw Terracotta","Large (8-10″)"],
-    description: `Beautiful carved rose with a leaf on raw terracotta, fired in a kiln for an entrance that all will remember. The attached clear tube is waiting for your kosher parchmen.`,
-  },
-
-  {
     images:     ["images/img_2273-1771958132770.jpeg"],
     name:       "\"Modim Anachnu Lach\" with Gold Leaf",
     tagline:    "Carved in White Stone, Holy text from \"Shemonah Esre\" prayer",
