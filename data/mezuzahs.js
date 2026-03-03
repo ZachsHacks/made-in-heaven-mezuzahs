@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/B6FB22C4-6F1B-4F31-90FA-9697B7B471B7_1_102_a.jpeg"],
+    name:       "Raw Terracotta fired in kiln",
+    tagline:    "Simply raw terracotta",
+    price:      45,
+    categories: ["Medium (5-7″)","Raw Terracotta"],
+    description: `Earthly and raw. Artistically designed. Terracotta fired in a kiln.`,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/8539D0B1-A118-4A89-BD7E-1068E5C7562E_1_102_o.jpeg"],
     name:       "Amethyste Stone on White Stone with Gold Leaf",
     tagline:    "Amethyste Ston on White Stone ith Gold Leaf",
