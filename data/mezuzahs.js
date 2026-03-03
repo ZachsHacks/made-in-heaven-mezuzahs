@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/8539D0B1-A118-4A89-BD7E-1068E5C7562E_1_102_o.jpeg"],
+    name:       "Amethyste Stone on White Stone with Gold Leaf",
+    tagline:    "Amethyste Ston on White Stone ith Gold Leaf",
+    price:      37,
+    categories: ["Small (4″)","White Stone","With Gold Leaf"],
+    description: ``,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/8EDD0726-88B2-415A-97A0-45F5760365DB_1_102_a.jpeg"],
     name:       "Prayer. soft as his flower",
     tagline:    "Retro look, gold leaf, pastels",
