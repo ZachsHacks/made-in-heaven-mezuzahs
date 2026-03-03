@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/A6358F8C-7204-4F88-9473-9A12713627F1_1_102_o.jpeg"],
+    name:       "Israel with gold leaf",
+    tagline:    "Israel on White Stone with Gold Leaf",
+    price:      250,
+    categories: ["Medium (5-7″)","White Stone","With Gold Leaf"],
+    description: `Israel in pastels with Gold Leaf writing on White Stone. fired in kiln.`,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/9C6E18F9-86D0-477A-89A6-AACA2846CD0E_1_102_o.jpeg"],
     name:       "Medium Blue tower with Gold Leaf",
     tagline:    "Blue, thin with Gold",
