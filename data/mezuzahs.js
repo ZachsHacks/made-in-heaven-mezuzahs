@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/9C6E18F9-86D0-477A-89A6-AACA2846CD0E_1_102_o.jpeg"],
+    name:       "Medium Blue tower with Gold Leaf",
+    tagline:    "Blue, thin with Gold",
+    price:      65,
+    categories: ["Porcelain","New Arrivals","With Gold Leaf","Medium (5-7″)"],
+    description: `Porcelain fired in kiln, shaped into a fine tower with pastel blue and gold leaf shin.`,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2428.jpeg"],
     name:       "Pastel Kiss",
     tagline:    "Glass ready for kosher parchment.  Pastel on white stone.",
