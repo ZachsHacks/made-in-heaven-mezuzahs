@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/381F6270-FA79-4AD4-A07F-EE7657206640_4_5005_c.jpeg"],
+    name:       "Western Wall with Gols Leaf on White Stone",
+    tagline:    "Western Wall",
+    price:      300,
+    categories: ["Large (8-10″)","White Stone","With Gold Leaf"],
+    description: ``,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/B6FB22C4-6F1B-4F31-90FA-9697B7B471B7_1_102_a.jpeg"],
     name:       "Raw Terracotta fired in kiln",
     tagline:    "Simply raw terracotta",
