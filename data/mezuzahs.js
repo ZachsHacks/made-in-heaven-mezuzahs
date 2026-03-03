@@ -21,7 +21,7 @@ const MEZUZAHS = [
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/381F6270-FA79-4AD4-A07F-EE7657206640_4_5005_c.jpeg"],
-    name:       "Western Wall with Gols Leaf on White Stone",
+    name:       "Western Wall with Gold Leaf on White Stone",
     tagline:    "Western Wall",
     price:      300,
     categories: ["Large (8-10″)","White Stone","With Gold Leaf"],
