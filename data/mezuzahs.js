@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2272.jpeg"],
+    name:       "Garden Rose",
+    tagline:    "Terracota Garden Rose",
+    price:      285,
+    categories: ["Large (8-10″)","Raw Terracotta"],
+    description: `Beautiful!`,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/381F6270-FA79-4AD4-A07F-EE7657206640_4_5005_c.jpeg"],
     name:       "Western Wall with Gols Leaf on White Stone",
     tagline:    "Western Wall",
