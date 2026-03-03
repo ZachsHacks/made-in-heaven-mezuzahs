@@ -23,7 +23,7 @@ const MEZUZAHS = [
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/8539D0B1-A118-4A89-BD7E-1068E5C7562E_1_102_o.jpeg"],
     name:       "Amethyste Stone on White Stone with Gold Leaf",
     tagline:    "Amethyste Ston on White Stone ith Gold Leaf",
-    price:      37,
+    price:      50,
     categories: ["Small (4″)","White Stone","With Gold Leaf"],
     description: ``,
   },
