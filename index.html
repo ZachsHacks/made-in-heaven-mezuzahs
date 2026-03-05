@@ -1932,7 +1932,10 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
 
     var bgX = (x / rect.width)  * 100;
     var bgY = (y / rect.height) * 100;
-    panel.style.backgroundSize     = (ZOOM * 100) + '% ' + (ZOOM * 100) + '%';
+    var bgSize = img.naturalWidth > img.naturalHeight
+      ? (ZOOM * 100) + '% auto'
+      : 'auto ' + (ZOOM * 100) + '%';
+    panel.style.backgroundSize     = bgSize;
     panel.style.backgroundPosition = bgX + '% ' + bgY + '%';
   });
 })();
@@ -2001,7 +2004,10 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
 
     var bgX = (x / rect.width)  * 100;
     var bgY = (y / rect.height) * 100;
-    overlay.style.backgroundSize     = (ZOOM * 100) + '% ' + (ZOOM * 100) + '%';
+    var bgSize = img.naturalWidth > img.naturalHeight
+      ? (ZOOM * 100) + '% auto'
+      : 'auto ' + (ZOOM * 100) + '%';
+    overlay.style.backgroundSize     = bgSize;
     overlay.style.backgroundPosition = bgX + '% ' + bgY + '%';
   });
 })();
