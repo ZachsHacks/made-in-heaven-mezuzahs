@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2486.jpeg"],
+    name:       "Easy slip in Raw Terracotta",
+    tagline:    "Raw Terracotta",
+    price:      10,
+    categories: ["Small (4″)","Raw Terracotta"],
+    description: ``,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/Feelings.jpg"],
     name:       "Splash",
     tagline:    "12\" Porcelain, Beautiful with Gold Shin",
