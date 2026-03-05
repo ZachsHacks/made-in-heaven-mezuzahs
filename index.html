@@ -588,6 +588,19 @@
 
     .gallery-card:hover img { transform: scale(1.03); }
 
+    .gallery-card .magnifier-lens {
+      position: absolute;
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.85);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+      pointer-events: none;
+      display: none;
+      z-index: 20;
+      background-repeat: no-repeat;
+    }
+
     /* Card entrance animation */
     @keyframes cardIn {
       from { opacity: 0; transform: translateY(18px); }
@@ -941,6 +954,7 @@
       min-height: 340px;
       display: flex;
       flex-direction: column;
+      position: relative;
     }
 
     /* Main image — fills available column space */
@@ -958,6 +972,19 @@
     #modal-video {
       flex: 1;
       min-height: 0;
+    }
+
+    .magnifier-lens {
+      position: absolute;
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.85);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+      pointer-events: none;
+      display: none;
+      z-index: 20;
+      background-repeat: no-repeat;
     }
 
     /* Thumbnail strip for multi-image products */
@@ -1452,9 +1479,10 @@
   <div class="modal-overlay" id="modal-overlay" onclick="closeModalOnBg(event)">
     <div class="modal-box">
       <button class="modal-close" onclick="closeModal()">&#x2715;</button>
-      <div class="modal-img-wrap">
+      <div class="modal-img-wrap" id="modal-img-wrap">
         <img id="modal-img" src="" alt="">
         <video id="modal-video" src="" muted controls playsinline style="display:none; width:100%; object-fit:contain; border-radius:20px 0 0 20px; background:rgba(235,244,252,0.7);"></video>
+        <div class="magnifier-lens" id="magnifier-lens"></div>
         <div class="modal-thumbs" id="modal-thumbs"></div>
       </div>
       <div class="modal-info">
@@ -1529,6 +1557,7 @@ function renderGallery(items) {
     return '<div class="gallery-card" data-idx="' + idx + '" style="animation-delay:' + (i * 0.07) + 's">' +
       mediaBadge +
       mediaEl +
+      (isVid ? '' : '<div class="magnifier-lens"></div>') +
       '<div class="card-caption">' +
         '<h3>' + m.name + newBadge + '</h3>' +
         '<p>' + tag + '</p>' +
@@ -1551,6 +1580,59 @@ document.getElementById('gallery').addEventListener('click', function(e) {
     openModal(m.name, images, m.tagline, m.description.replace(/\n\s*/g, ' ').trim(), m.price || 0);
   }
 });
+
+/* ── Gallery card magnifier ───────────────────────────────────────────── */
+(function() {
+  var gallery = document.getElementById('gallery');
+  var ZOOM = 2.5;
+  var SIZE = 130;
+
+  gallery.addEventListener('mouseenter', function(e) {
+    var card = e.target.closest && e.target.closest('.gallery-card');
+    if (!card) return;
+    var img  = card.querySelector('img');
+    var lens = card.querySelector('.magnifier-lens');
+    if (!img || !lens) return;
+    lens.style.display = 'block';
+    lens.style.backgroundImage = 'url(' + img.src + ')';
+    img.style.cursor = 'none';
+  }, true);
+
+  gallery.addEventListener('mouseleave', function(e) {
+    var card = e.target.closest && e.target.closest('.gallery-card');
+    if (!card) return;
+    var lens = card.querySelector('.magnifier-lens');
+    var img  = card.querySelector('img');
+    if (lens) lens.style.display = 'none';
+    if (img)  img.style.cursor = '';
+  }, true);
+
+  gallery.addEventListener('mousemove', function(e) {
+    var card = e.target.closest && e.target.closest('.gallery-card');
+    if (!card) return;
+    var img  = card.querySelector('img');
+    var lens = card.querySelector('.magnifier-lens');
+    if (!img || !lens || lens.style.display === 'none') return;
+
+    var rect = img.getBoundingClientRect();
+    var x = e.clientX - rect.left;
+    var y = e.clientY - rect.top;
+
+    if (x < 0 || y < 0 || x > rect.width || y > rect.height) {
+      lens.style.display = 'none';
+      return;
+    }
+
+    var cardRect = card.getBoundingClientRect();
+    lens.style.left = (e.clientX - cardRect.left - SIZE / 2) + 'px';
+    lens.style.top  = (e.clientY - cardRect.top  - SIZE / 2) + 'px';
+
+    var bgX = (x / rect.width)  * 100;
+    var bgY = (y / rect.height) * 100;
+    lens.style.backgroundSize     = (ZOOM * 100) + '% ' + (ZOOM * 100) + '%';
+    lens.style.backgroundPosition = bgX + '% ' + bgY + '%';
+  });
+})();
 
 /* ── Filter sidebar ──────────────────────────────────────────────────────── */
 (function() {
@@ -1789,6 +1871,49 @@ function closeModalOnBg(e) {
 }
 
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+/* ── Image Magnifier (modal) ──────────────────────────────────────────── */
+(function() {
+  var wrap  = document.getElementById('modal-img-wrap');
+  var img   = document.getElementById('modal-img');
+  var lens  = document.getElementById('magnifier-lens');
+  var ZOOM  = 2.5;
+  var SIZE  = 160;
+
+  wrap.addEventListener('mouseenter', function() {
+    if (img.style.display === 'none') return; // video, skip
+    lens.style.display = 'block';
+    lens.style.backgroundImage = 'url(' + img.src + ')';
+    img.style.cursor = 'none';
+  });
+
+  wrap.addEventListener('mouseleave', function() {
+    lens.style.display = 'none';
+    img.style.cursor = '';
+  });
+
+  wrap.addEventListener('mousemove', function(e) {
+    if (img.style.display === 'none' || lens.style.display === 'none') return;
+    var rect = img.getBoundingClientRect();
+    var x = e.clientX - rect.left;
+    var y = e.clientY - rect.top;
+
+    // Hide if outside the image bounds
+    if (x < 0 || y < 0 || x > rect.width || y > rect.height) {
+      lens.style.display = 'none';
+      return;
+    }
+
+    var wrapRect = wrap.getBoundingClientRect();
+    lens.style.left = (e.clientX - wrapRect.left - SIZE / 2) + 'px';
+    lens.style.top  = (e.clientY - wrapRect.top  - SIZE / 2) + 'px';
+
+    var bgX = (x / rect.width)  * 100;
+    var bgY = (y / rect.height) * 100;
+    lens.style.backgroundSize     = (ZOOM * 100) + '% ' + (ZOOM * 100) + '%';
+    lens.style.backgroundPosition = bgX + '% ' + bgY + '%';
+  });
+})();
 
 /* ── Custom Order Form ──────────────────────────────────────────────────── */
 (function() {
