@@ -588,6 +588,57 @@
 
     .gallery-card:hover img { transform: scale(1.03); }
 
+    /* Hover-to-zoom hint on gallery cards */
+    .zoom-hint {
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: 'Playfair Display', serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.06em;
+      color: #3d6a96;
+      background: rgba(255,255,255,0.85);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      border: 1px solid rgba(68,153,212,0.2);
+      border-radius: 12px;
+      padding: 3px 10px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.25s;
+      white-space: nowrap;
+      z-index: 5;
+    }
+
+    .gallery-card:hover .zoom-hint { opacity: 1; }
+
+    @media (max-width: 640px) {
+      .zoom-hint { display: none; }
+    }
+
+    /* Fixed zoom overlay for gallery cards */
+    .gallery-zoom-overlay {
+      position: fixed;
+      width: 380px;
+      height: 380px;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,0.9);
+      box-shadow: 0 12px 40px rgba(20,60,120,0.22);
+      pointer-events: none;
+      display: none;
+      z-index: 9999;
+      background-color: rgba(240,248,255,0.97);
+      background-repeat: no-repeat;
+    }
+
+    @media (max-width: 820px) {
+      .gallery-zoom-overlay { width: 280px; height: 280px; }
+    }
+
+    @media (max-width: 640px) {
+      .gallery-zoom-overlay { display: none !important; }
+    }
 
     /* Card entrance animation */
     @keyframes cardIn {
@@ -960,6 +1011,31 @@
     #modal-video {
       flex: 1;
       min-height: 0;
+    }
+
+    /* Hover hint on modal image */
+    .modal-zoom-hint {
+      position: absolute;
+      bottom: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: 'Playfair Display', serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: #3d6a96;
+      background: rgba(255,255,255,0.85);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      border: 1px solid rgba(68,153,212,0.2);
+      border-radius: 12px;
+      padding: 4px 12px;
+      pointer-events: none;
+      z-index: 5;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 640px) {
+      .modal-zoom-hint { display: none; }
     }
 
     /* Amazon-style zoom panel — overlays the info section */
@@ -1479,6 +1555,7 @@
         <img id="modal-img" src="" alt="">
         <video id="modal-video" src="" muted controls playsinline style="display:none; width:100%; object-fit:contain; border-radius:20px 0 0 20px; background:rgba(235,244,252,0.7);"></video>
         <div class="zoom-panel" id="zoom-panel"></div>
+        <span class="modal-zoom-hint" id="modal-zoom-hint">&#128269; Hover to zoom</span>
         <div class="modal-thumbs" id="modal-thumbs"></div>
       </div>
       <div class="modal-info">
@@ -1491,6 +1568,8 @@
       </div>
     </div>
   </div>
+
+  <div class="gallery-zoom-overlay" id="gallery-zoom-overlay"></div>
 
 <script src="data/site-content.js"></script>
 <script src="data/mezuzahs.js"></script>
@@ -1550,9 +1629,12 @@ function renderGallery(items) {
       ? '<video src="' + firstMedia + '" autoplay muted loop playsinline></video>'
       : '<img src="' + firstMedia + '" alt="' + m.name + '">';
 
+    const zoomHint = isVid ? '' : '<span class="zoom-hint">&#128269; Hover to zoom</span>';
+
     return '<div class="gallery-card" data-idx="' + idx + '" style="animation-delay:' + (i * 0.07) + 's">' +
       mediaBadge +
       mediaEl +
+      zoomHint +
       '<div class="card-caption">' +
         '<h3>' + m.name + newBadge + '</h3>' +
         '<p>' + tag + '</p>' +
@@ -1821,16 +1903,20 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
   var panel = document.getElementById('zoom-panel');
   var ZOOM  = 3;
 
+  var hint = document.getElementById('modal-zoom-hint');
+
   wrap.addEventListener('mouseenter', function() {
     if (img.style.display === 'none') return;
     panel.style.display = 'block';
     panel.style.backgroundImage = 'url(' + img.src + ')';
     img.style.cursor = 'crosshair';
+    if (hint) hint.style.display = 'none';
   });
 
   wrap.addEventListener('mouseleave', function() {
     panel.style.display = 'none';
     img.style.cursor = '';
+    if (hint) hint.style.display = '';
   });
 
   wrap.addEventListener('mousemove', function(e) {
@@ -1848,6 +1934,75 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
     var bgY = (y / rect.height) * 100;
     panel.style.backgroundSize     = (ZOOM * 100) + '% ' + (ZOOM * 100) + '%';
     panel.style.backgroundPosition = bgX + '% ' + bgY + '%';
+  });
+})();
+
+/* ── Gallery card zoom overlay ──────────────────────────────────────────── */
+(function() {
+  var gallery = document.getElementById('gallery');
+  var overlay = document.getElementById('gallery-zoom-overlay');
+  var ZOOM = 3;
+  var activeCard = null;
+
+  gallery.addEventListener('mouseenter', function(e) {
+    var card = e.target.closest && e.target.closest('.gallery-card');
+    if (!card) return;
+    var img = card.querySelector('img');
+    if (!img) return;
+    activeCard = card;
+    overlay.style.display = 'block';
+    overlay.style.backgroundImage = 'url(' + img.src + ')';
+    img.style.cursor = 'crosshair';
+  }, true);
+
+  gallery.addEventListener('mouseleave', function(e) {
+    var card = e.target.closest && e.target.closest('.gallery-card');
+    if (!card) return;
+    var img = card.querySelector('img');
+    if (img) img.style.cursor = '';
+    overlay.style.display = 'none';
+    activeCard = null;
+  }, true);
+
+  gallery.addEventListener('mousemove', function(e) {
+    if (!activeCard || overlay.style.display === 'none') return;
+    var img = activeCard.querySelector('img');
+    if (!img) return;
+
+    var rect = img.getBoundingClientRect();
+    var x = e.clientX - rect.left;
+    var y = e.clientY - rect.top;
+
+    // Hide if cursor is outside the image area (e.g. over caption)
+    if (x < 0 || y < 0 || x > rect.width || y > rect.height) {
+      overlay.style.display = 'none';
+      return;
+    }
+
+    // Position overlay to the right of the card, or left if near right edge
+    var cardRect = activeCard.getBoundingClientRect();
+    var ow = overlay.offsetWidth;
+    var oh = overlay.offsetHeight;
+    var spaceRight = window.innerWidth - cardRect.right;
+    var left, top;
+
+    if (spaceRight >= ow + 16) {
+      left = cardRect.right + 12;
+    } else {
+      left = cardRect.left - ow - 12;
+    }
+    top = cardRect.top + (cardRect.height - oh) / 2;
+    // Clamp to viewport
+    top = Math.max(8, Math.min(top, window.innerHeight - oh - 8));
+    left = Math.max(8, left);
+
+    overlay.style.left = left + 'px';
+    overlay.style.top  = top + 'px';
+
+    var bgX = (x / rect.width)  * 100;
+    var bgY = (y / rect.height) * 100;
+    overlay.style.backgroundSize     = (ZOOM * 100) + '% ' + (ZOOM * 100) + '%';
+    overlay.style.backgroundPosition = bgX + '% ' + bgY + '%';
   });
 })();
 
