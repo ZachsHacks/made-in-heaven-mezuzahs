@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2536.jpeg"],
+    name:       "Large Amethysite Cryatal Stone on 12\" Porcelain",
+    tagline:    "Amethysite 12\"",
+    price:      140,
+    categories: ["Extra Large (12 inches)","Porcelain","Large Amethysite Stone"],
+    description: ``,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/FLOWER%20WITH%20GOLD%20LEAF.jpg"],
     name:       "FLOWER WITH GOLD LEAF",
     tagline:    "FLOWER WITH GOLD LEAF (RETRO)",
