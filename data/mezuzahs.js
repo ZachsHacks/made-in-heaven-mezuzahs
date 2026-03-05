@@ -38,15 +38,6 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/Feelings.jpg"],
-    name:       "Splash",
-    tagline:    "12\" Porcelain, Beautiful with Gold Shin",
-    price:      125,
-    categories: ["Extra Large (12 inches)","Porcelain"],
-    description: ``,
-  },
-
-  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2272.jpeg"],
     name:       "Garden Rose",
     tagline:    "Terracota Garden Rose",
