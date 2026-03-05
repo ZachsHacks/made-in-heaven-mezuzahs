@@ -30,9 +30,9 @@ const MEZUZAHS = [
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/SILVER%20LEAF%20SKY%20BLUE.jpg"],
-    name:       "SILVERED SKY",
+    name:       "12\" SILVERED SKY",
     tagline:    "12\". SKY BLUE WITH SILVER LEAF",
-    price:      125,
+    price:      145,
     categories: ["Extra Large (12 inches)","White Stone"],
     description: ``,
   },
