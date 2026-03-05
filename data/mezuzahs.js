@@ -30,11 +30,13 @@ const MEZUZAHS = [
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/SPLASH.jpeg"],
-    name:       "12\" SPLASH",
-    tagline:    "MULTITUDE OF COLORS. 12\"",
+    name:       "# Painted Joy Scroll",
+    tagline:    "Chaos Dreams in Rainbow Motion",
     price:      125,
     categories: ["Extra Large (12 inches)","White Stone","New Arrivals"],
-    description: ``,
+    description: `# 12" SPLASH
+
+This vibrant mezuzah celebrates the joy of creation with an exuberant burst of hot pinks, soft blues, sage greens, and warm earth tones dancing across hand-painted linen. The generous 12-inch length showcases Sorah's fearless brushwork—bold strokes and splashes of color flowing organically around a contemplative circular motif at its heart, inviting both eye and spirit to linger. A joyful guardian for your doorway, this piece brings artistic passion and sacred intention together in perfect harmony.`,
   },
 
   {
