@@ -16,7 +16,7 @@ const MEZUZAHS = [
     tagline:    "Amethysite 12\"",
     price:      140,
     categories: ["Extra Large (12 inches)","Porcelain","Large Amethysite Stone"],
-    description: ``,
+    description: `This stunning mezuzah case marries earthly elegance with spiritual intention, featuring a raw amethysite crystal specimen anchored to a gracefully hand-painted 12-inch porcelain base. Soft seafoam and sage tones dance across the porcelain surface, creating a luminous backdrop for the natural stone's rustic beauty—a meditation on the sacred meeting the sublime. Handcrafted with devotion by Sorah Weiss, this extra-large piece brings together the grounding energy of amethyst with thoughtful artistry, perfect for those who honor both beauty and blessing in their home.`,
   },
 
   {
