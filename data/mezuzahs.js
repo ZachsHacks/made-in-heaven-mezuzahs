@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/SPLASH.jpeg"],
+    name:       "12\" SPLASH",
+    tagline:    "MULTITUDE OF COLORS. 12\"",
+    price:      170,
+    categories: ["Extra Large (12 inches)","White Stone"],
+    description: ``,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/SILVER%20LEAF%20SKY%20BLUE.jpg"],
     name:       "SILVERED SKY",
     tagline:    "12\". SKY BLUE WITH SILVER LEAF",
