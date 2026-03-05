@@ -15,7 +15,7 @@ const MEZUZAHS = [
     name:       "FLOWER WITH GOLD LEAF",
     tagline:    "FLOWER WITH GOLD LEAF (RETRO)",
     price:      150,
-    categories: ["Large (8-10″)","White Stone"],
+    categories: ["Large (8-10″)","White Stone","With Gold Leaf"],
     description: ``,
   },
 
