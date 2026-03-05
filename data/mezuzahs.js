@@ -41,11 +41,13 @@ This vibrant mezuzah celebrates the joy of creation with an exuberant burst of h
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/SILVER%20LEAF%20SKY%20BLUE.jpg"],
-    name:       "12\" SILVERED SKY",
-    tagline:    "12\". SKY BLUE WITH SILVER LEAF",
+    name:       "Celestial Whisper",
+    tagline:    "Starlight Frozen in Sky Blue",
     price:      145,
     categories: ["Extra Large (12 inches)","White Stone"],
-    description: ``,
+    description: `# Celestial Whisper
+
+Ethereal sky blue glazing captures the quiet majesty of a starlit night, while delicate silver accents trace constellations across its gracefully elongated form. Hand-crafted with reverent attention to detail, this Extra Large mezuzah becomes a luminous sentinel at your doorway—a tangible reminder that heaven's blessings surround your home. Each subtle variation in the glaze tells its own story, making this a one-of-a-kind treasure that honors both artistic beauty and sacred tradition.`,
   },
 
   {
