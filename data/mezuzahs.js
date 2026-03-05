@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/1C24C966-B716-48E6-B026-2C45932433AC_1_102_a.jpeg"],
+    name:       "BLUE ON BLUE",
+    tagline:    "TORQUOISE BLUE MARBLE AND GOLD SHIN",
+    price:      35,
+    categories: ["Medium (5-7″)","Porcelain"],
+    description: ``,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2486.jpeg"],
     name:       "Easy slip in Raw Terracotta",
     tagline:    "Raw Terracotta",
