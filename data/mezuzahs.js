@@ -92,15 +92,6 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/8EDD0726-88B2-415A-97A0-45F5760365DB_1_102_a.jpeg"],
-    name:       "Prayer. soft as his flower",
-    tagline:    "Retro look, gold leaf, pastels",
-    price:      275,
-    categories: ["Large (8-10″)","Porcelain","With Gold Leaf"],
-    description: `Retro look with new design   Flower with gold leaf on White Stone.`,
-  },
-
-  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/A6358F8C-7204-4F88-9473-9A12713627F1_1_102_o.jpeg"],
     name:       "Israel with gold leaf",
     tagline:    "Israel on White Stone with Gold Leaf",
