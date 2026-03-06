@@ -106,10 +106,12 @@ This small 4" mezuzah case is hand-sculpted from terracotta clay, its warm peach
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2272.jpeg"],
     name:       "Garden Rose",
-    tagline:    "Terracota Garden Rose",
+    tagline:    "Blossoms of Clay, Blessings of Home",
     price:      285,
     categories: ["Large (8-10″)","Raw Terracotta"],
-    description: `Beautiful!`,
+    description: `# Garden Rose
+
+Handcrafted in warm terracotta clay, this mezuzah celebrates the timeless beauty of a blooming rose in full glory, with delicate petals and graceful leaves carved in exquisite detail. Each subtle texture and shadow tells the story of Sorah's patient hands shaping sacred art—a reminder that blessings grow naturally when we tend to our homes with intention and love. Let this Garden Rose greet all who enter, a living meditation on growth, protection, and the flowering of your family's spiritual journey.`,
   },
 
   {
