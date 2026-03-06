@@ -130,7 +130,7 @@ Ethereal sky blue glazing captures the quiet majesty of a starlit night, while d
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/A6358F8C-7204-4F88-9473-9A12713627F1_1_102_o.jpeg"],
     name:       "Israel with gold leaf",
     tagline:    "Israel on White Stone with Gold Leaf",
-    price:      250,
+    price:      185,
     categories: ["Medium (5-7″)","White Stone","With Gold Leaf"],
     description: `Israel in pastels with Gold Leaf writing on White Stone. fired in kiln.`,
   },
