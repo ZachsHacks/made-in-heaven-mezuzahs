@@ -219,11 +219,11 @@ const MEZUZAHS = [
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2394.jpeg"],
-    name:       "White and Gold",
-    tagline:    "Small textured w/ gold leaf",
+    name:       "Heavenly Gilt",
+    tagline:    "Divine Light Meets Sacred Texture with Gold Leaf",
     price:      65,
     categories: ["Small (4″)","With Gold Leaf","White Stone"],
-    description: `Simple and lovely small white stone ired in the kiln with the shin written with Gold Leaf.`,
+    description: `This exquisite hand-crafted piece features a serene white textured base with deliberate vertical striations that create depth and movement, crowned with shimmering gold leaf that catches the light like a whisper of divine presence. The contrast between the matte, organic white surface and the radiant golden accents speaks to the meeting of earth and heaven, while the small hole at the bottom honors the mezuzah's sacred purpose. Each brushstroke and gold application is a meditation of love, making this a truly one-of-a-kind companion for your spiritual home.`,
   },
 
   {
