@@ -193,7 +193,7 @@ const MEZUZAHS = [
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2391.jpeg"],
     name:       "Medium with Large Amethyste Crystal on white stone",
-    tagline:    "Nice size white stone w/  Amethyste",
+    tagline:    "Amethyst Dreams Meet Sacred Stone Here's the product description: This striking mezuzah case celebrates the natural beauty of raw materials and spiritual craftsmanship. A substantial piece of creamy white stone serves as the foundation, carved with graceful curves that fit comfortably in the hand. The centerpiece is a generous raw amethyst crystal, its deep purple surface still rough and unpolished, embedded proudly in the white stone's middle section. Hand-painted",
     price:      130,
     categories: ["Large Amethysite Stone","White Stone","New Arrivals","Medium (5-7″)"],
     description: `Large Freeform white stone fired in a kiln with a large Amethyste Stone.`,
