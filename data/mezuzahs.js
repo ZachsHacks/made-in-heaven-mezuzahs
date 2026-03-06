@@ -94,11 +94,13 @@ Ethereal sky blue glazing captures the quiet majesty of a starlit night, while d
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2486.jpeg"],
-    name:       "Easy slip in Raw Terracotta",
-    tagline:    "Raw Terracotta",
+    name:       "Earthen Whisper",
+    tagline:    "Ancient Clay Speaks in Silence",
     price:      10,
     categories: ["Small (4″)","Raw Terracotta"],
-    description: ``,
+    description: `# Earthen Whisper
+
+This small 4" mezuzah case is hand-sculpted from terracotta clay, its warm peachy-rose surface bearing the gentle fingerprints of creation. The artist has carved a delicate botanical motif into its face—a flowing plant form that seems to grow organically from the clay itself—while the rim is gathered and textured like folded fabric, giving it an almost living, breathing quality. Weathered and organic, "Earthen Whisper" invites the sacred into your doorway with the humble beauty of earth and the quiet wisdom of ancient tradition.`,
   },
 
   {
