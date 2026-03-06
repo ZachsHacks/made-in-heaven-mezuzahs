@@ -11,6 +11,17 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2555-utd9EvHJ7LsiBztoL8li8ghiU5Bcaf.jpeg"],
+    name:       "# The Alabaster Divine",
+    tagline:    "# The Alabaster Divine\n\nCrafted from luminous alabaster stone, this mezuzah case showcases the natural beauty of pale cream and ivory tones with subtle warm undertones. The surface features organic textures and gentle striations characteristic of alabaster, while delicate hand-carved details create depth and dimension. Golden metallic accents peek through carved recesses, adding touches of warmth and spiritual radiance. A cork-topped wooden stopper complements the piece,",
+    price:      175,
+    categories: ["Medium (5-7″)","White Stone","With Gold Leaf"],
+    description: `# The Alabaster Divine
+
+Hewn from luminous alabaster stone, this mezuzah case glows with the soft warmth of pale cream and ivory, its surface alive with organic striations and hand-carved details that catch the light like whispered prayers. Golden leaf accents shimmer through delicate recesses, infusing the piece with spiritual radiance, while a natural cork stopper grounds this heavenly creation in earthly grace. Each unique variation in the stone reminds us that holiness blooms in imperfection, making this a true keeper of blessings for your doorway.`,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2554-7zaPlHrigowLmUH2hyWXuXtcoUraWx.jpeg"],
     name:       "# HASHEM CREATED The Amethyst to heal.",
     tagline:    "# HASHEM CREATED The Amethyst to heal.*Visual Description:**This striking mezuzah case features a raw amethyst crystal cluster nestled into carved white wood. The purple amethyst displays natural crystalline facets that catch the light with subtle iridescence, while the creamy white wood is hand-carved with organic flowing lines and small circular details. The contrast between the geometric precision of the purple crystals and the organic, sculpted quality of",
