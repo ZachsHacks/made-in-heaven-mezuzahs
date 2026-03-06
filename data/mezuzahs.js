@@ -21,7 +21,7 @@ const MEZUZAHS = [
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2554-7zaPlHrigowLmUH2hyWXuXtcoUraWx.jpeg"],
-    name:       "The Amethyst Healer",
+    name:       "Hashem is the Amethyst Healer",
     tagline:    "Where Crystal Meets Sacred Wood",
     price:      185,
     categories: ["Large (8-10″)","New Arrivals","White Stone","Large Amethysite Stone"],
