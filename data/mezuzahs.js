@@ -282,7 +282,7 @@ const MEZUZAHS = [
 
   {
     images:     ["images/Dream-Column.avif","https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/20260205_2048_01kgr7z6gmes7stsxx87z4mw60.mp4"],
-    name:       "Dream Column",
+    name:       "Dream Column    RE-ORDERING / SOLD OUT!",
     tagline:    "12 inches tall porcelain painted (gold leaf) art piece..Elegant & Statuesque",
     price:      150,
     categories: ["Porcelain","With Gold Leaf","Large (8-10″)"],
