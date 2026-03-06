@@ -11,6 +11,17 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2554-7zaPlHrigowLmUH2hyWXuXtcoUraWx.jpeg"],
+    name:       "# HASHEM CREATED The Amethyst to heal.",
+    tagline:    "# HASHEM CREATED The Amethyst to heal.*Visual Description:**This striking mezuzah case features a raw amethyst crystal cluster nestled into carved white wood. The purple amethyst displays natural crystalline facets that catch the light with subtle iridescence, while the creamy white wood is hand-carved with organic flowing lines and small circular details. The contrast between the geometric precision of the purple crystals and the organic, sculpted quality of",
+    price:      185,
+    categories: ["Large (8-10″)","New Arrivals","White Stone","Large Amethysite Stone"],
+    description: `# HASHEM CREATED The Amethyst to Heal
+
+This stunning mezuzah case brings together the sacred and the natural—raw amethyst crystals, their deep purple facets gleaming with quiet spirituality, are nestled into hand-carved white wood that flows like water around them. Each organic curve and detail in the creamy timber is crafted with intention, creating a gentle home for your mezuzah while honoring the amethyst's ancient gift of healing and protection. A piece of earth and spirit, carved with love for your doorway.`,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2544-iAT0vnWJ53XNhKjetUnhBN6hDB5Rkq.jpeg"],
     name:       "The Cobalt Spirit",
     tagline:    "# The Cobalt Spirit\n\n**Where Heaven Meets the Threshold**",
