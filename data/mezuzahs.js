@@ -212,9 +212,9 @@ const MEZUZAHS = [
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2403%202.jpeg"],
     name:       "Magnesita Crystals on Porcelain ",
     tagline:    "Magnesita Crystals on shin",
-    price:      45,
+    price:      40,
     categories: ["Medium (5-7″)","New Arrivals","With (Turquoise-colored) Magnesita Crystals","Porcelain"],
-    description: `Thin delicate porcelain with  the shin written with turquoise-colored Magnesita Crystals.`,
+    description: `This striking mezuzah celebrates the natural beauty of raw materials with creamy white porcelain adorned by turquoise magnesita crystals that catch the light like tiny windows into something sacred. The organic texture of the hand-carved surface speaks to intentional craftsmanship, while the vivid mineral accents bring a whisper of earthiness and wonder to your doorway. Each piece is a quiet meditation on the connection between nature's gifts and spiritual protection, inviting blessings into your home with gentle, luminous grace.`,
   },
 
   {
