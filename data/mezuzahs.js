@@ -47,15 +47,6 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/FLOWER%20WITH%20GOLD%20LEAF.jpg"],
-    name:       "FLOWER WITH GOLD LEAF",
-    tagline:    "FLOWER WITH GOLD LEAF (RETRO)",
-    price:      150,
-    categories: ["Large (8-10″)","White Stone","With Gold Leaf"],
-    description: `This stunning large mezuzah case blooms with celestial beauty, featuring hand-sculpted flowers in dreamy shades of blue, purple, and pink that seem to dance across pristine white resin. Adorned with shimmering gold leaf accents that catch the light like dewdrops at dawn, each petal and leaf is a testament to Sorah's meticulous artistry and devotion to creating sacred pieces that elevate your home. A retro-inspired treasure that marries whimsy with reverence, inviting blessings and beauty to frame your doorway.`,
-  },
-
-  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/SPLASH.jpeg"],
     name:       "Painted Joy Scroll",
     tagline:    "Chaos Dreams in Rainbow Motion",
