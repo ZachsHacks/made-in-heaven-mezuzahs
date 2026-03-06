@@ -11,6 +11,17 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2544-iAT0vnWJ53XNhKjetUnhBN6hDB5Rkq.jpeg"],
+    name:       "The Cobalt Spirit",
+    tagline:    "# The Cobalt Spirit\n\n**Where Heaven Meets the Threshold**",
+    price:      30,
+    categories: ["Small (4″)","Porcelain","With Silver Leaf"],
+    description: `# The Cobalt Spirit
+
+This striking mezuzah glows with the deep, celestial blue of a twilight sky, hand-painted with an artist's reverent touch. The silver numbers shimmer like starlight against the vibrant case, while the carefully placed mounting holes speak to its purposeful journey to guard your home's threshold. Small yet luminous, *The Cobalt Spirit* invites heaven's blessing into every doorway it graces, a handcrafted reminder that the sacred dwells in the everyday.`,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2536.jpeg"],
     name:       "Large Amethysite Cryatal Stone on 12\" Porcelain",
     tagline:    "Amethysite 12\"",
