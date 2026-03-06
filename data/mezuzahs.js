@@ -84,7 +84,7 @@ const MEZUZAHS = [
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2486.jpeg"],
-    name:       "Earthen Whisper",
+    name:       "Earthen Whisper.   SOLD OUT!",
     tagline:    "Ancient Clay Speaks in Silence",
     price:      10,
     categories: ["Small (4″)","Raw Terracotta"],
