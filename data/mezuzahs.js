@@ -12,41 +12,35 @@ const MEZUZAHS = [
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2555-utd9EvHJ7LsiBztoL8li8ghiU5Bcaf.jpeg"],
-    name:       "# The Alabaster Divine",
-    tagline:    "# The Alabaster Divine\n\nCrafted from luminous alabaster stone, this mezuzah case showcases the natural beauty of pale cream and ivory tones with subtle warm undertones. The surface features organic textures and gentle striations characteristic of alabaster, while delicate hand-carved details create depth and dimension. Golden metallic accents peek through carved recesses, adding touches of warmth and spiritual radiance. A cork-topped wooden stopper complements the piece,",
+    name:       "The Alabaster Divine",
+    tagline:    "Luminous Stone, Sacred Grace",
     price:      175,
     categories: ["Medium (5-7″)","White Stone","With Gold Leaf"],
-    description: `# The Alabaster Divine
-
-Hewn from luminous alabaster stone, this mezuzah case glows with the soft warmth of pale cream and ivory, its surface alive with organic striations and hand-carved details that catch the light like whispered prayers. Golden leaf accents shimmer through delicate recesses, infusing the piece with spiritual radiance, while a natural cork stopper grounds this heavenly creation in earthly grace. Each unique variation in the stone reminds us that holiness blooms in imperfection, making this a true keeper of blessings for your doorway.`,
+    description: `Hewn from luminous alabaster stone, this mezuzah case glows with the soft warmth of pale cream and ivory, its surface alive with organic striations and hand-carved details that catch the light like whispered prayers. Golden leaf accents shimmer through delicate recesses, infusing the piece with spiritual radiance, while a natural cork stopper grounds this heavenly creation in earthly grace. Each unique variation in the stone reminds us that holiness blooms in imperfection, making this a true keeper of blessings for your doorway.`,
   },
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2554-7zaPlHrigowLmUH2hyWXuXtcoUraWx.jpeg"],
-    name:       "# HASHEM CREATED The Amethyst to heal.",
-    tagline:    "# HASHEM CREATED The Amethyst to heal.*Visual Description:**This striking mezuzah case features a raw amethyst crystal cluster nestled into carved white wood. The purple amethyst displays natural crystalline facets that catch the light with subtle iridescence, while the creamy white wood is hand-carved with organic flowing lines and small circular details. The contrast between the geometric precision of the purple crystals and the organic, sculpted quality of",
+    name:       "The Amethyst Healer",
+    tagline:    "Where Crystal Meets Sacred Wood",
     price:      185,
     categories: ["Large (8-10″)","New Arrivals","White Stone","Large Amethysite Stone"],
-    description: `# HASHEM CREATED The Amethyst to Heal
-
-This stunning mezuzah case brings together the sacred and the natural—raw amethyst crystals, their deep purple facets gleaming with quiet spirituality, are nestled into hand-carved white wood that flows like water around them. Each organic curve and detail in the creamy timber is crafted with intention, creating a gentle home for your mezuzah while honoring the amethyst's ancient gift of healing and protection. A piece of earth and spirit, carved with love for your doorway.`,
+    description: `This stunning mezuzah case brings together the sacred and the natural—raw amethyst crystals, their deep purple facets gleaming with quiet spirituality, are nestled into hand-carved white wood that flows like water around them. Each organic curve and detail in the creamy timber is crafted with intention, creating a gentle home for your mezuzah while honoring the amethyst's ancient gift of healing and protection. A piece of earth and spirit, carved with love for your doorway.`,
   },
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2544-iAT0vnWJ53XNhKjetUnhBN6hDB5Rkq.jpeg"],
     name:       "The Cobalt Spirit",
-    tagline:    "# The Cobalt Spirit\n\n**Where Heaven Meets the Threshold**",
+    tagline:    "Where Heaven Meets the Threshold",
     price:      30,
     categories: ["Small (4″)","Porcelain","With Silver Leaf"],
-    description: `# The Cobalt Spirit
-
-This striking mezuzah glows with the deep, celestial blue of a twilight sky, hand-painted with an artist's reverent touch. The silver numbers shimmer like starlight against the vibrant case, while the carefully placed mounting holes speak to its purposeful journey to guard your home's threshold. Small yet luminous, *The Cobalt Spirit* invites heaven's blessing into every doorway it graces, a handcrafted reminder that the sacred dwells in the everyday.`,
+    description: `This striking mezuzah glows with the deep, celestial blue of a twilight sky, hand-painted with an artist's reverent touch. The silver numbers shimmer like starlight against the vibrant case, while the carefully placed mounting holes speak to its purposeful journey to guard your home's threshold. Small yet luminous, The Cobalt Spirit invites heaven's blessing into every doorway it graces, a handcrafted reminder that the sacred dwells in the everyday.`,
   },
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2536.jpeg"],
     name:       "Lavender Dreams Rising",
-    tagline:    "# Lavender Dreams Rising\n\n**Where Amethyst Meets the Sky**",
+    tagline:    "Where Amethyst Meets the Sky",
     price:      140,
     categories: ["Extra Large (12 inches)","Porcelain","Medium-sized Amethysite Stone"],
     description: `This stunning mezuzah case marries earthly elegance with spiritual intention, featuring a raw amethysite crystal specimen anchored to a gracefully hand-painted 12-inch porcelain base. Soft seafoam and sage tones dance across the porcelain surface, creating a luminous backdrop for the natural stone's rustic beauty—a meditation on the sacred meeting the sublime. Handcrafted with devotion by Sorah Weiss, this extra-large piece brings together the grounding energy of amethyst with thoughtful artistry, perfect for those who honor both beauty and blessing in their home.`,
@@ -63,13 +57,11 @@ This striking mezuzah glows with the deep, celestial blue of a twilight sky, han
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/SPLASH.jpeg"],
-    name:       "# Painted Joy Scroll",
+    name:       "Painted Joy Scroll",
     tagline:    "Chaos Dreams in Rainbow Motion",
     price:      125,
     categories: ["Extra Large (12 inches)","White Stone","New Arrivals"],
-    description: `# 12" SPLASH
-
-This vibrant mezuzah celebrates the joy of creation with an exuberant burst of hot pinks, soft blues, sage greens, and warm earth tones dancing across hand-painted linen. The generous 12-inch length showcases Sorah's fearless brushwork—bold strokes and splashes of color flowing organically around a contemplative circular motif at its heart, inviting both eye and spirit to linger. A joyful guardian for your doorway, this piece brings artistic passion and sacred intention together in perfect harmony.`,
+    description: `This vibrant mezuzah celebrates the joy of creation with an exuberant burst of hot pinks, soft blues, sage greens, and warm earth tones dancing across hand-painted linen. The generous 12-inch length showcases Sorah's fearless brushwork—bold strokes and splashes of color flowing organically around a contemplative circular motif at its heart, inviting both eye and spirit to linger. A joyful guardian for your doorway, this piece brings artistic passion and sacred intention together in perfect harmony.`,
   },
 
   {
@@ -78,9 +70,7 @@ This vibrant mezuzah celebrates the joy of creation with an exuberant burst of h
     tagline:    "Starlight Frozen in Sky Blue",
     price:      145,
     categories: ["Extra Large (12 inches)","White Stone"],
-    description: `# Celestial Whisper
-
-Ethereal sky blue glazing captures the quiet majesty of a starlit night, while delicate silver accents trace constellations across its gracefully elongated form. Hand-crafted with reverent attention to detail, this Extra Large mezuzah becomes a luminous sentinel at your doorway—a tangible reminder that heaven's blessings surround your home. Each subtle variation in the glaze tells its own story, making this a one-of-a-kind treasure that honors both artistic beauty and sacred tradition.`,
+    description: `Ethereal sky blue glazing captures the quiet majesty of a starlit night, while delicate silver accents trace constellations across its gracefully elongated form. Hand-crafted with reverent attention to detail, this Extra Large mezuzah becomes a luminous sentinel at your doorway—a tangible reminder that heaven's blessings surround your home. Each subtle variation in the glaze tells its own story, making this a one-of-a-kind treasure that honors both artistic beauty and sacred tradition.`,
   },
 
   {
@@ -98,9 +88,7 @@ Ethereal sky blue glazing captures the quiet majesty of a starlit night, while d
     tagline:    "Ancient Clay Speaks in Silence",
     price:      10,
     categories: ["Small (4″)","Raw Terracotta"],
-    description: `# Earthen Whisper
-
-This small 4" mezuzah case is hand-sculpted from terracotta clay, its warm peachy-rose surface bearing the gentle fingerprints of creation. The artist has carved a delicate botanical motif into its face—a flowing plant form that seems to grow organically from the clay itself—while the rim is gathered and textured like folded fabric, giving it an almost living, breathing quality. Weathered and organic, "Earthen Whisper" invites the sacred into your doorway with the humble beauty of earth and the quiet wisdom of ancient tradition.`,
+    description: `This small 4" mezuzah case is hand-sculpted from terracotta clay, its warm peachy-rose surface bearing the gentle fingerprints of creation. The artist has carved a delicate botanical motif into its face—a flowing plant form that seems to grow organically from the clay itself—while the rim is gathered and textured like folded fabric, giving it an almost living, breathing quality. Weathered and organic, "Earthen Whisper" invites the sacred into your doorway with the humble beauty of earth and the quiet wisdom of ancient tradition.`,
   },
 
   {
@@ -109,9 +97,7 @@ This small 4" mezuzah case is hand-sculpted from terracotta clay, its warm peach
     tagline:    "Blossoms of Clay, Blessings of Home",
     price:      285,
     categories: ["Large (8-10″)","Raw Terracotta"],
-    description: `# Garden Rose
-
-Handcrafted in warm terracotta clay, this mezuzah celebrates the timeless beauty of a blooming rose in full glory, with delicate petals and graceful leaves carved in exquisite detail. Each subtle texture and shadow tells the story of Sorah's patient hands shaping sacred art—a reminder that blessings grow naturally when we tend to our homes with intention and love. Let this Garden Rose greet all who enter, a living meditation on growth, protection, and the flowering of your family's spiritual journey.`,
+    description: `Handcrafted in warm terracotta clay, this mezuzah celebrates the timeless beauty of a blooming rose in full glory, with delicate petals and graceful leaves carved in exquisite detail. Each subtle texture and shadow tells the story of Sorah's patient hands shaping sacred art—a reminder that blessings grow naturally when we tend to our homes with intention and love. Let this Garden Rose greet all who enter, a living meditation on growth, protection, and the flowering of your family's spiritual journey.`,
   },
 
   {
