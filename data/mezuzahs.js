@@ -205,7 +205,7 @@ const MEZUZAHS = [
     tagline:    "Pastel with Magnesita Crystals on porcelain",
     price:      65,
     categories: ["Porcelain","New Arrivals","With (Turquoise-colored) Magnesita Crystals","With Tiger Eye crystals","With Citrine crystals","Medium (5-7″)"],
-    description: `Porcelain fired with Pastels and shin written with Magnesita Crystals `,
+    description: `Soft layers of blush pink, serene sage green, and pale butter yellow flow across delicate porcelain like a gentle sunrise, crowned with shimmering turquoise magnesita crystals that catch the light with natural grace. Each handcrafted piece carries its own artistic personality, where Sorah's careful arrangement of materials creates a meditation in color—a spiritual companion that brings warmth and wonder to your home's entrance. This is more than a mezuzah case; it's a love letter in porcelain, a small work of art that honors tradition while celebrating the beauty of imperfection and human touch.`,
   },
 
   {
