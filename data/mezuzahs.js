@@ -228,7 +228,7 @@ const MEZUZAHS = [
 
   {
     images:     ["images/img_2395-1772150231239.jpeg","images/img_2399-1772150233059.jpeg"],
-    name:       "Amethysite Stone in Shell",
+    name:       "Amethysite Stone in Shell.   SOLD OUT!",
     tagline:    "Small Amethysite stone in Porcelein Shell with Gold dust and Shin",
     price:      95,
     categories: ["Medium (5-7″)","New Arrivals","Porcelain","With Gold Leaf"],
