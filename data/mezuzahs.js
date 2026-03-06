@@ -111,11 +111,11 @@ const MEZUZAHS = [
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/B6FB22C4-6F1B-4F31-90FA-9697B7B471B7_1_102_a.jpeg"],
-    name:       "Raw Terracotta fired in kiln",
-    tagline:    "Simply raw terracotta",
+    name:       "Where Ancient Meets Spirit in Raw Terracotta",
+    tagline:    "Where Ancient Clay Meets Spirit",
     price:      45,
     categories: ["Medium (5-7″)","Raw Terracotta"],
-    description: `Earthly and raw. Artistically designed. Terracotta fired in a kiln.`,
+    description: `This striking raw terracotta mezuzah case, fired in the kiln, channels the wisdom of ancient ceramics, its warm clay body bearing the subtle fingerprints of handcraft and the natural crackling that comes from time-honored firing techniques. The sculptural form flows organically, with an expressive carved figure emerging from the top and graceful curved apertures that invite light and shadow to dance across its surface. Each imperfection in the raw clay becomes a testament to its authenticity—a beautiful reminder that the most sacred objects are those made with intention, patience, and an artisan's devoted hands.`,
   },
 
   {
