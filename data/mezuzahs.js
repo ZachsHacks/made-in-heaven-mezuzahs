@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2520-Ym7WoIZUjoUT2DdPolpOzTrtbLhJsD.jpeg"],
+    name:       "GARDEN ROSE w/ GOLD LEAF",
+    tagline:    "BLOOMING AT YOUR DOOR",
+    price:      75,
+    categories: ["Large (8-10″)","With Gold Leaf","Porcelain"],
+    description: ``,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2555-utd9EvHJ7LsiBztoL8li8ghiU5Bcaf.jpeg"],
     name:       "The Alabaster Divine",
     tagline:    "Luminous Stone, Sacred Grace",
