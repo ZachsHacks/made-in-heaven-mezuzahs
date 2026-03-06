@@ -183,11 +183,11 @@ const MEZUZAHS = [
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2392.jpeg"],
-    name:       "Terra Gold",
+    name:       "Earthen Radiance",
     tagline:    "Terracotta with shin - Gold leaf",
     price:      65,
     categories: ["Raw Terracotta","Medium (5-7″)","With Gold Leaf"],
-    description: ``,
+    description: `Handcrafted from warm terracotta clay, this medium mezuzah case glows with earthy authenticity, its natural surface lovingly textured by artisan hands. The golden Hebrew letter shin crowns the piece like a celestial blessing, its luminous leaf catching light and drawing the eye upward toward the sacred. A beautiful reminder that spirituality can be grounded in clay and elevated by gold, this mezuzah invites both divine protection and quiet contemplation into your home.`,
   },
 
   {
