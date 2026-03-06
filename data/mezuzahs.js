@@ -241,7 +241,7 @@ const MEZUZAHS = [
     tagline:    " 12 inch, gold leaf, porcelain",
     price:      175,
     categories: ["Extra Large (12 inches)","New Arrivals","Porcelain","With Gold Leaf"],
-    description: ``,
+    description: `12"  Eye-catchiing porcelain mezuzah case.`,
   },
 
   {
