@@ -106,7 +106,7 @@ const MEZUZAHS = [
     tagline:    "12\"  Starlight Frozen in Sky Blue",
     price:      165,
     categories: ["Extra Large (12 inches)","White Stone","With Silver Leaf"],
-    description: `Ethereal sky blue glazing captures the quiet majesty of a starlit night, while delicate silver accents trace constellations across its elongated form. A luminous extra-large sentinel that honors both artistic beauty and sacred tradition.`,
+    description: `Ethereal sky blue glazing captures the quiet majesty of a starlit night, while delicate silver accents trace constellations across its elongated form. A luminous extra-large sentinel that honors both artistic beauty and sacred tradition. My personal favorite!`,
   },
 
   {
