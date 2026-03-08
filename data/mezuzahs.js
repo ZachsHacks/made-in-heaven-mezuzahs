@@ -92,15 +92,6 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2536.jpeg"],
-    name:       "Lavender Dreams",
-    tagline:    "Where Amethyst Meets the Sky",
-    price:      120,
-    categories: ["Extra Large (12 inches)","Porcelain","With Gold Leaf"],
-    description: `A raw amethyst crystal specimen is anchored to a gracefully hand-painted 12-inch porcelain base in soft seafoam and sage tones. The grounding energy of amethyst meets thoughtful artistry for a truly breathtaking doorway piece.`,
-  },
-
-  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/SPLASH.jpeg"],
     name:       "Painted Joy",
     tagline:    "Chaos Dreams in Rainbow Motion",
