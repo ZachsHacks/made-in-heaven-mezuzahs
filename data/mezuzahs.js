@@ -66,11 +66,11 @@ const MEZUZAHS = [
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2554-7zaPlHrigowLmUH2hyWXuXtcoUraWx.jpeg"],
-    name:       "Amethyst Healer",
-    tagline:    "Where Crystal Meets Sacred Wood",
+    name:       "Hashem's Amethyst Crystal",
+    tagline:    "Raw and powerful w/ extra-large Amethyst Crystal",
     price:      175,
-    categories: ["Large (8-10″)","New Arrivals","White Stone","Large Amethysite Stone"],
-    description: `Raw amethyst crystals with deep purple facets are nestled into hand-carved white wood that flows like water around them. A piece of earth and spirit, honoring the amethyst's ancient gift of healing and protection.`,
+    categories: ["Large (8-10″)","White Stone","Large Amethysite Stone"],
+    description: `Raw large amethyst crystal with deep purple facets nestled on hand-carved white stone, with an earthly design, honoring the amethyst's ancient gift of healing and protection. The amethyst is just another masterpiece from Hashem.  The least we can do is fulfill the mitzvah of a kosher parchment in it with the Hebrew prayer.`,
   },
 
   {
