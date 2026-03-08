@@ -58,10 +58,10 @@ const MEZUZAHS = [
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2555-utd9EvHJ7LsiBztoL8li8ghiU5Bcaf.jpeg"],
     name:       "The Alabaster Divine",
-    tagline:    "Luminous Stone, Sacred Grace",
+    tagline:    "Porcelain fired in kiln, Sacred Tablets w/ Gold Leaf",
     price:      115,
-    categories: ["Medium (5-7″)","White Stone","With Gold Leaf","New Arrivals"],
-    description: `Hewn from luminous alabaster, this mezuzah glows with soft cream and ivory, its surface alive with organic striations and hand-carved detail. Gold leaf shimmers through the twin tablets, infusing the piece with quiet spiritual radiance.`,
+    categories: ["Medium (5-7″)","With Gold Leaf","New Arrivals","Porcelain"],
+    description: `Glowing with soft cream and ivory, its surface alive with organic striations and hand-carved detail. Gold leaf shimmers through the twin tablets adorned with Gold Leaf, infusing the piece with quiet spiritual radiance.`,
   },
 
   {
