@@ -40,10 +40,10 @@ const MEZUZAHS = [
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2559-yjdRza4WdIlhvghetpSlMNIWKnzX73.jpeg"],
     name:       "Turquoise Footprints",
-    tagline:    "Magnesita Crystals make up the shin on white stone fired in a kiln, just waiting for the kosher parchment to fulfil the required mitzvah from the Shema.",
+    tagline:    "Magnesita Crystals make up the shin on white stone fired in kiln",
     price:      65,
     categories: ["White Stone","With (Turquoise-colored) Magnesita Crystals","Large (8-10″)"],
-    description: `Vibrant turquoise footprints press gently into a weathered white stone base, capturing the tender imprint of a child's journey. White stone fired in a kiln and waiting for a kosher mezuzah to fulfill the mitzvah from the Shema.`,
+    description: `Vibrant turquoise magnesita crystals shape the shin, as it presses gently into a weathered white stone base, capturing the tender imprint of a child's journey. Hopes and dreams in a white stone tower, waiting for a kosher mezuzah, to fulfill the mitzvah, from the Shema.`,
   },
 
   {
