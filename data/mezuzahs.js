@@ -41,8 +41,8 @@ const MEZUZAHS = [
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2559-yjdRza4WdIlhvghetpSlMNIWKnzX73.jpeg"],
     name:       "Magnasita Turquoise Footprints This handcrafted mezuzah case celebrates the precious moments of childhood with an enchanting design. A white wooden base features a carved opening at the top, while the centerpiece showcases a vibrant turquoise and teal footprint created with love and care. Below, a collection of colorful ribbon scraps in jewel tones—blues, greens, reds, and yellows—are artfully wrapped and secured with",
     tagline:    "Every Step, Every Memory, Cherished Forever",
-    price:      115,
-    categories: ["Large (8-10″)","White Stone","With (Turquoise-colored) Magnesita Crystals"],
+    price:      65,
+    categories: ["White Stone","With (Turquoise-colored) Magnesita Crystals","Large (8-10″)"],
     description: `This handcrafted mezuzah case celebrates the precious moments of childhood with an enchanting design that speaks to the heart. A weathered white stone base frames a luminous centerpiece where vibrant turquoise and teal footprints press gently upward, capturing the tender imprint of a child's journey, while below a treasure trove of jewel-toned ribbon scraps—sapphire blues, emerald greens, ruby reds, and golden yellows—are lovingly wrapped and layered, creating a burst of color and texture that honors every precious memory. Each piece is uniquely crafted by hand with reverence for both the spiritual significance of the mezuzah and the irreplaceable beauty of the moments we hold most dear.`,
   },
 
