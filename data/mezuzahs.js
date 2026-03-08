@@ -11,15 +11,6 @@
 const MEZUZAHS = [
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2565-Q1RxqE5GwrVfQUgGR2gHw0P68uOrTK.jpeg"],
-    name:       "Swarovski Crystal Prism This stunning mezuzah case captures light and transforms it into pure magic. Handcrafted from luminous crystal-clear resin, each piece showcases mesmerizing rainbow prisms that dance across its faceted surfaces. The artist has embedded rich earth tones — deep charcoal, warm sand, and hints of golden cream — creating depth and dimension within the transparent medium. The textured cream-colored backing provides a sophisticated neutral canvas that allows the",
-    tagline:    "Swarovski Crystal  on White Stone",
-    price:      300,
-    categories: ["Extra Large (12 inches)","New Arrivals","White Stone"],
-    description: `This extraordinary piece captures the very essence of divine light, as any Swarovski crystal does, embedded within luminous bursting into rainbow prisms that dance and shift with every angle. Deep charcoal and warm sand tones swirl beneath the crystal surface, creating an almost geological beauty, while the textured cream-colored backing grounds the piece in serene, earthy elegance. At twelve inches, this handcrafted mezuzah becomes a meditation on the interplay between shadow and light, a daily reminder that even the deepest darkness can refract into pure, radiant beauty.`,
-  },
-
-  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2559-yjdRza4WdIlhvghetpSlMNIWKnzX73.jpeg"],
     name:       "Magnasita Turquoise Footprints This handcrafted mezuzah case celebrates the precious moments of childhood with an enchanting design. A white wooden base features a carved opening at the top, while the centerpiece showcases a vibrant turquoise and teal footprint created with love and care. Below, a collection of colorful ribbon scraps in jewel tones—blues, greens, reds, and yellows—are artfully wrapped and secured with",
     tagline:    "Every Step, Every Memory, Cherished Forever",
