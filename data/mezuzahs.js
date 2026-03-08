@@ -23,7 +23,7 @@ const MEZUZAHS = [
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2574-XiPOqLV1yHljhULB1pjQYO6YCPveuD.jpeg"],
     name:       "Rainbow Blessing Mezuzah Celebrate the beauty of divine protection with this vibrant handcrafted mezuzah case. Each colorful band represents a spectrum of blessings, stacked thoughtfully to create a modern artistic interpretation of this sacred Jewish tradition. The case features hand-painted rectangular segments in jewel tones and pastels - deep teals, warm oranges, soft yellows, gentle blues, and peachy rose hues - arranged in a dynamic",
     tagline:    "ON SALE... GOLD AT THE RAINBOW",
-    price:      50,
+    price:      45,
     categories: ["Medium (5-7″)","Porcelain","With Gold Leaf"],
     description: `This handcrafted mezuzah celebrates the full spectrum of divine blessings with rectangular segments in jewel tones and soft pastels—deep teals, warm oranges, gentle yellows, and peachy rose hues—thoughtfully stacked to create a modern artistic interpretation. Shimmering gold leaf accents frame each colorful band, catching the light like angels. A radiant reminder that protection and beauty walk hand in hand.`,
   },
