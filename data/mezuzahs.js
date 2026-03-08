@@ -12,11 +12,11 @@ const MEZUZAHS = [
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2577-WaeirGW1gZ4gHua3d2mmbqqYZCiTCJ.jpeg"],
-    name:       "Celestial Gold",
-    tagline:    "Heavenly Blue Meets Gold",
-    price:      40,
+    name:       "Celestial Blue with Gold Leaf",
+    tagline:    "Blue and Gold Leaf with Tube for Kosher Parchment",
+    price:      45,
     categories: ["Small (4″)","Porcelain","With Gold Leaf"],
-    description: `Rich cobalt blue wraps around a hand-cast bronze crown adorned with delicate gold leaf accents that catch the light. A luminous reminder of the sacred meeting point between heaven and home.`,
+    description: `This handcrafted mezuzah pairs deep celestial blue with shimmering gold leaf accents, creating a luminous piece that catches the light beautifully and brings warmth to any doorway. The pre-fitted tube holds your kosher parchment, inviting blessings and divine protection into your home with artistic grace.`,
   },
 
   {
@@ -286,7 +286,7 @@ const MEZUZAHS = [
     tagline:    "Sacred Thanks in Gold",
     price:      125,
     categories: ["Medium (5-7″)","With Gold Leaf","New Arrivals","Porcelain"],
-    description: `White stone clay fired at high temperature, inscribed with the sacred words \"Modim Anachnu Lach\" — \"We Thank You\" — from the Shemoneh Esrei prayer, in shimmering gold leaf. A freeform art piece shaped entirely by hand, a daily reminder of gratitude to Hashem.`,
+    description: `White stone clay fired at high temperature, inscribed with the sacred words "Modim Anachnu Lach" — "We Thank You" — from the Shemoneh Esrei prayer, in shimmering gold leaf. A freeform art piece shaped entirely by hand, a daily reminder of gratitude to Hashem.`,
   },
 
   {
@@ -295,7 +295,7 @@ const MEZUZAHS = [
     tagline:    "Sacred Words on Ancient Clay",
     price:      175,
     categories: ["Medium (5-7″)"],
-    description: `Raw terracotta fired at high temperature, inscribed with \"Modim Anachnu Lach\" in silver leaf — sacred words of gratitude from the Shemoneh Esrei. Organic edges and textured lettering worn into the clay evoke the ancient stones of Israel.`,
+    description: `Raw terracotta fired at high temperature, inscribed with "Modim Anachnu Lach" in silver leaf — sacred words of gratitude from the Shemoneh Esrei. Organic edges and textured lettering worn into the clay evoke the ancient stones of Israel.`,
   },
 
   {
