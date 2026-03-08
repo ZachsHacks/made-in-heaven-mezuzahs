@@ -157,7 +157,7 @@ const MEZUZAHS = [
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/8539D0B1-A118-4A89-BD7E-1068E5C7562E_1_102_o.jpeg"],
     name:       "Amethyst Glow",
-    tagline:    "Purple Light on Sacred Stone",
+    tagline:    "Purple Light on Sacred Stone with Gold Leaf shin",
     price:      50,
     categories: ["Small (4″)","White Stone","With Gold Leaf"],
     description: `A delicate amethyst stone sits nestled in creamy white stone accented with shimmering gold leaf. Small but radiant, it brings spiritual warmth and natural beauty to any doorway.`,
