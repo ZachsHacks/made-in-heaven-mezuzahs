@@ -32,7 +32,7 @@ const MEZUZAHS = [
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2574-XiPOqLV1yHljhULB1pjQYO6YCPveuD.jpeg"],
     name:       "Rainbow Blessing",
     tagline:    "Colors of Divine Promise",
-    price:      45,
+    price:      35,
     categories: ["Medium (5-7″)","Porcelain","With Gold Leaf"],
     description: `Jewel-toned and pastel bands in teals, oranges, yellows, and rose hues are stacked into a vibrant modern interpretation of sacred ritual and tradition. Gold leaf accent frames the colorful layers,  catching light like a radiant promise. `,
   },
