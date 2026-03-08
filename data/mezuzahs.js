@@ -68,7 +68,7 @@ const MEZUZAHS = [
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2554-7zaPlHrigowLmUH2hyWXuXtcoUraWx.jpeg"],
     name:       "Hashem is the Amethyst Healer",
     tagline:    "Where Crystal Meets Sacred Wood",
-    price:      185,
+    price:      175,
     categories: ["Large (8-10″)","New Arrivals","White Stone","Large Amethysite Stone"],
     description: `This stunning mezuzah case brings together the sacred and the natural—raw amethyst crystals, their deep purple facets gleaming with quiet spirituality, are nestled into hand-carved white wood that flows like water around them. Each organic curve and detail in the creamy timber is crafted with intention, creating a gentle home for your mezuzah while honoring the amethyst's ancient gift of healing and protection. A piece of earth and spirit, carved with love for your doorway.`,
   },
