@@ -69,7 +69,7 @@ const MEZUZAHS = [
     name:       "Hashem's Amethyst Crystal",
     tagline:    "Raw and powerful w/ extra-large Amethyst Crystal",
     price:      175,
-    categories: ["Large (8-10″)","White Stone","Large Amethysite Stone"],
+    categories: ["Large (8-10″)","White Stone"],
     description: `Raw large amethyst crystal with deep purple facets nestled on hand-carved white stone, with an earthly design, honoring the amethyst's ancient gift of healing and protection. The amethyst is just another masterpiece from Hashem.  The least we can do is fulfill the mitzvah of a kosher parchment in it with the Hebrew prayer.`,
   },
 
@@ -87,7 +87,7 @@ const MEZUZAHS = [
     name:       "Lavender Dreams",
     tagline:    "Where Amethyst Meets the Sky",
     price:      120,
-    categories: ["Extra Large (12 inches)","Porcelain","Medium-sized Amethysite Stone","With Gold Leaf"],
+    categories: ["Extra Large (12 inches)","Porcelain","With Gold Leaf"],
     description: `A raw amethyst crystal specimen is anchored to a gracefully hand-painted 12-inch porcelain base in soft seafoam and sage tones. The grounding energy of amethyst meets thoughtful artistry for a truly breathtaking doorway piece.`,
   },
 
@@ -231,7 +231,7 @@ const MEZUZAHS = [
     name:       "Amethyst Crown",
     tagline:    "Raw Crystal on Sacred Stone",
     price:      130,
-    categories: ["Large Amethysite Stone","White Stone","New Arrivals","Medium (5-7″)"],
+    categories: ["White Stone","New Arrivals","Medium (5-7″)"],
     description: `A generous raw amethyst crystal sits proudly embedded in creamy white stone, its deep purple surface still rough and unpolished. A freeform piece that celebrates the natural beauty of raw materials and spiritual craftsmanship.`,
   },
 
