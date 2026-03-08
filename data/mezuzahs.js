@@ -41,9 +41,9 @@ const MEZUZAHS = [
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2520-Ym7WoIZUjoUT2DdPolpOzTrtbLhJsD.jpeg"],
     name:       "GARDEN ROSE w/ GOLD LEAF",
     tagline:    "BLOOMING AT YOUR DOOR",
-    price:      75,
-    categories: ["Large (8-10″)","With Gold Leaf","Porcelain"],
-    description: ``,
+    price:      65,
+    categories: ["With Gold Leaf","Porcelain","Large (8-10″)"],
+    description: `This one-of-a-kind retro piece celebrates nature's delicate beauty with hand-sculpted floral forms in soft ivory, complemented by jewel-toned blues, purples, and pinks that seem to bloom directly from the clay. Golden leaf accents dance along the surface, catching the light like morning dew on a garden rose, while the pristine white base grounds the composition with timeless elegance. Each handcrafted detail reflects devotion to creating a mezuzah that honors both the sanctity of your home's threshold and the blooming wonder of creation itself.`,
   },
 
   {
