@@ -31,10 +31,10 @@ const MEZUZAHS = [
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2567-AWcbAFfEM25XHwBxdI7eq6fH5JjwWI.jpeg"],
     name:       "Swarovski Crystal  and Elegance meet",
-    tagline:    "12 inch - Once in a Lifetime Swarovski Crystals graceful and elegant.",
+    tagline:    "12 inch - Swarovski Crystals graceful and elegant.",
     price:      345,
     categories: ["Extra Large (12 inches)","White Stone","New Arrivals"],
-    description: `Creamy ivory tower is made from white stone. This is simple and tasteful and one in a kind  with delicate Swarovski crystal petals catching light and creating rainbows.  A 12-inch showpiece that transforms any doorway into something truly extraordinary.`,
+    description: `Creamy ivory tower is made from white stone. This is simple and tasteful, once in a lifetime find has delicate Swarovski crystal petals catching light and creating rainbows.  A 12-inch showpiece that transforms any doorway into something truly extraordinary.`,
   },
 
   {
