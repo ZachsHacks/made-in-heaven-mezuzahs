@@ -194,9 +194,9 @@ const MEZUZAHS = [
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2434.jpeg"],
     name:       "Raw Terracotta w/ color",
     tagline:    "Small Designed Raw Terracotta",
-    price:      65,
+    price:      60,
     categories: ["Small (4″)","Raw Terracotta"],
-    description: ``,
+    description: `This handcrafted piece celebrates the beautiful marriage of earthy simplicity and vibrant artistic expression. The warm terracotta clay, left raw and tactile, cradles bold strokes of jewel-toned blues, soft blush pinks, and fresh lime greens that dance across its surface like a prayer made visible.A meditation, transforming this small sanctuary into a luminous reminder of the sacred mitzvah we hold close to our hearts.`,
   },
 
   {
