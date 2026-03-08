@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2528-LVDJ4We1RlZhb1u10VWGXugiiTXSNE.jpeg"],
+    name:       "Where Amethyst Meets the Sky",
+    tagline:    "Large Amethyst with Gold Leaf, Aqua, Seafoam Green, and Purple",
+    price:      150,
+    categories: ["Extra Large (12 inches)","Porcelain","With large Amethyst","With Gold Leaf"],
+    description: `This extra-large mezuzah celebrates the meeting of earth and sky, where a raw amethyst geode anchors hand-painted layers of seafoam green, aqua, and purple, accented with gleaming gold leaf that catches the light like divine blessings. A one-of-a-kind spiritual touchstone, lovingly crafted to remind you that protection and beauty dwell together at the threshold of your home.`,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2577-WaeirGW1gZ4gHua3d2mmbqqYZCiTCJ.jpeg"],
     name:       "Celestial Blue with Gold Leaf",
     tagline:    "Blue and Gold Leaf with Tube for Kosher Parchment",
