@@ -94,9 +94,9 @@ const MEZUZAHS = [
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/SPLASH.jpeg"],
     name:       "Painted Joy",
-    tagline:    "Chaos Dreams in Rainbow Motion",
-    price:      125,
-    categories: ["Extra Large (12 inches)","White Stone","New Arrivals"],
+    tagline:    "12\" Chaos Dreams in Rainbow Motion",
+    price:      140,
+    categories: ["Extra Large (12 inches)","New Arrivals","Porcelain"],
     description: `An exuberant burst of hot pinks, soft blues, sage greens, and earth tones dance across hand-painted linen in fearless brushwork. This generous 12-inch piece brings artistic passion and sacred intention together in perfect harmony.`,
   },
 
