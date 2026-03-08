@@ -48,11 +48,11 @@ const MEZUZAHS = [
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2520-Ym7WoIZUjoUT2DdPolpOzTrtbLhJsD.jpeg"],
-    name:       "Golden Garden Rose",
+    name:       "Retro-Pastel Garden Rose",
     tagline:    "Blooming at Your Door",
     price:      65,
     categories: ["With Gold Leaf","Porcelain","Large (8-10″)"],
-    description: `Hand-sculpted floral forms in soft ivory bloom alongside jewel-toned blues, purples, and pinks, with golden leaf accents dancing like morning dew. A retro-inspired piece that honors both nature's beauty and the sanctity of your threshold.`,
+    description: `Hand-sculpted floral in jewel-toned blues, purples, and pinks, with golden leaf accents dancing like morning dew. Artistic piece that honors both nature's beauty and the sanctity of the mitzvah from the Shema.`,
   },
 
   {
