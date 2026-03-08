@@ -40,10 +40,10 @@ const MEZUZAHS = [
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2559-yjdRza4WdIlhvghetpSlMNIWKnzX73.jpeg"],
     name:       "Turquoise Footprints",
-    tagline:    "Every Step, Cherished Forever",
+    tagline:    "Magnesita Crystals make up the shin and has a early feel.",
     price:      65,
     categories: ["White Stone","With (Turquoise-colored) Magnesita Crystals","Large (8-10″)"],
-    description: `Vibrant turquoise footprints press gently into a weathered white stone base, capturing the tender imprint of a child's journey. Jewel-toned ribbons are lovingly layered below, honoring every precious memory.`,
+    description: `Vibrant turquoise footprints press gently into a weathered white stone base, capturing the tender imprint of a child's journey. White stone fired in a kiln and waiting for a kosher mezuzah to fulfill the mitzvah from the Shema.`,
   },
 
   {
