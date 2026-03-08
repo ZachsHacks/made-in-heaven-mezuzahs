@@ -12,7 +12,7 @@ const MEZUZAHS = [
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2528-LVDJ4We1RlZhb1u10VWGXugiiTXSNE.jpeg"],
-    name:       "Where Amethyst Meets the Sky",
+    name:       "Where Amethyst Meets Heaven",
     tagline:    "12\". Large Amethyst with Gold Leaf, Aqua, Seafoam Green, and Purple",
     price:      150,
     categories: ["Extra Large (12 inches)","Porcelain","With large Amethyst","With Gold Leaf","New Arrivals"],
