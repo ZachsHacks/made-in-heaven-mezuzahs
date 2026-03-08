@@ -30,11 +30,11 @@ const MEZUZAHS = [
 
   {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2567-AWcbAFfEM25XHwBxdI7eq6fH5JjwWI.jpeg"],
-    name:       "Ivory Wings",
-    tagline:    "Crystal Petals in Bloom",
+    name:       "Swarovski Crystal  and Elegance meet",
+    tagline:    "12 inch - Once in a Lifetime Swarovski Crystals graceful and elegant.",
     price:      345,
     categories: ["Extra Large (12 inches)","White Stone","New Arrivals"],
-    description: `Creamy ivory stone is hand-carved with flowing wave patterns, crowned by delicate Swarovski crystal petals in soft blues and whites that bloom with otherworldly light. A 12-inch showpiece that transforms any doorway into something truly extraordinary.`,
+    description: `Creamy ivory tower is made from white stone. This is simple and tasteful and one in a kind  with delicate Swarovski crystal petals catching light and creating rainbows.  A 12-inch showpiece that transforms any doorway into something truly extraordinary.`,
   },
 
   {
