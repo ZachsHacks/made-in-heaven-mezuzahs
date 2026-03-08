@@ -25,7 +25,7 @@ const MEZUZAHS = [
     tagline:    "Colors of Divine Promise",
     price:      45,
     categories: ["Medium (5-7″)","Porcelain","With Gold Leaf"],
-    description: `Jewel-toned and pastel bands in teals, oranges, yellows, and rose hues are stacked into a vibrant modern interpretation of sacred tradition. Gold leaf accents frame each colorful layer, catching light like a radiant promise.`,
+    description: `Jewel-toned and pastel bands in teals, oranges, yellows, and rose hues are stacked into a vibrant modern interpretation of sacred ritual and tradition. Gold leaf accent frames the colorful layers,  catching light like a radiant promise. `,
   },
 
   {
