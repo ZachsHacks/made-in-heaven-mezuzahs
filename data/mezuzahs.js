@@ -214,7 +214,7 @@ const MEZUZAHS = [
     tagline:    "Raw Terracotta with Silver Leaf, dripping in Aqua",
     price:      65,
     categories: ["Medium (5-7″)","Raw Terracotta","With Silver Leaf"],
-    description: ``,
+    description: `Handcrafted from raw terracotta, this medium mezuzah case captures the essence of flowing water with its stunning aqua glaze that drips like a gentle waterfall across warm, earthy tones, accented with delicate silver leaf that catches the light. Each piece bears the artist's thoughtful touch, with visible brushstrokes and texture that celebrate the beauty of working by hand, making your mezuzah a true work of art. A sacred keeper of your home's spiritual foundation to do this important mitzvah; this one-of-a-kind case brings together natural materials and artistic vision to create something both deeply meaningful and visually breathtaking.`,
   },
 
   {
