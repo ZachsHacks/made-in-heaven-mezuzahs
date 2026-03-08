@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2577-WaeirGW1gZ4gHua3d2mmbqqYZCiTCJ.jpeg"],
+    name:       "Celestial Gold This stunning mezuzah case celebrates the beauty of contrasting elements. Rich cobalt blue wraps around a hand-cast bronze crown, adorned with delicate gold leaf accents that catch the light with every glance. The textured, organic surface of the gilded top flows seamlessly into the deep blue body, creating a piece that feels both regal and intimate. Each application of gold leaf is unique, making your case truly one of a kind. The",
+    tagline:    "Gold Leaf",
+    price:      40,
+    categories: ["Small (4″)","Porcelain","With Gold Leaf"],
+    description: `This handcrafted piece marries earthly elegance with celestial inspiration, featuring a luminous shin crown that crowns a rich cobalt blue body adorned with organic patterns of gleaming gold leaf. Each carefully applied fragment of gold catches the light in its own way, creating subtle shimmer and movement as you pass by your doorway—a daily reminder of the sacred meeting point between heaven and home. The textured, artisanal surface speaks to the care poured into every detail, making this small treasure a truly unique expression.`,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2574-XiPOqLV1yHljhULB1pjQYO6YCPveuD.jpeg"],
     name:       "Rainbow Blessing Mezuzah Celebrate the beauty of divine protection with this vibrant handcrafted mezuzah case. Each colorful band represents a spectrum of blessings, stacked thoughtfully to create a modern artistic interpretation of this sacred Jewish tradition. The case features hand-painted rectangular segments in jewel tones and pastels - deep teals, warm oranges, soft yellows, gentle blues, and peachy rose hues - arranged in a dynamic",
     tagline:    "ON SALE... GOLD AT THE RAINBOW",
