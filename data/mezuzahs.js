@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2527-vVaH3U2zBmbx92GYm1u0p8lPqO61f6.jpeg"],
+    name:       "Amethyst from Hashem",
+    tagline:    "Large amethyst",
+    price:      140,
+    categories: ["Extra Large (12 inches)","Porcelain","With Gold Leaf","With large Amethyst"],
+    description: `This extra-large mezuzah celebrates through a striking large raw amethyst stone set against hand-painted porcelaiin in soft blues, purples, and greens, accented with delicate gold leaf that catches the light like blessings. A gentle reminder that protection and spiritual abundance come only from Hashem.`,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2528-LVDJ4We1RlZhb1u10VWGXugiiTXSNE.jpeg"],
     name:       "Where Amethyst Meets Heaven",
     tagline:    "12\". Large Amethyst with Gold Leaf, Aqua, Seafoam Green, and Purple ",
