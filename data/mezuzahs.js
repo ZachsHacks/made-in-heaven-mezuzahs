@@ -77,9 +77,9 @@ const MEZUZAHS = [
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2544-iAT0vnWJ53XNhKjetUnhBN6hDB5Rkq.jpeg"],
     name:       "The Cobalt Spirit",
     tagline:    "Where Heaven Meets the Threshold",
-    price:      30,
+    price:      40,
     categories: ["Small (4″)","Porcelain","With Silver Leaf"],
-    description: `Deep celestial blue glows like a twilight sky, hand-painted with a reverent touch and accented by shimmering silver numbers. Small yet luminous, it invites heaven's blessing into every doorway it graces.`,
+    description: `Deep celestial blue glows like a twilight sky, hand-painted with a reverent touch and accented by a shimmering ,silver leaf shin. Small yet luminous, it invites heaven's blessing into every doorway it graces. `,
   },
 
   {
