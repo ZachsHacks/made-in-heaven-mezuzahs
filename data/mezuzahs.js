@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2528-I25T1RwAzEhWcfb2VIEKBGjEUvbtvO.jpeg"],
+    name:       "Large Amethyst Stone on Pastel Tower",
+    tagline:    "Large Amethyst Ston on Ble, Purple, Seafoam Green and Gold Leaf",
+    price:      126,
+    categories: ["Extra Large (12 inches)","Porcelain","With Gold Leaf","With large Amethyst"],
+    description: `This striking extra-large mezuzah features a large raw amethyst stone anchoring a hand-painted tower of soft blues, purples, and seafoam greens, accented with delicate gold leaf that catches the light like divine blessing. The naturally textured crystal invites contemplation while the soothing palette creates a sanctuary of calm at your doorway, reminding you that your home is a sacred space.`,
+  },
+
+  {
     images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2528-LVDJ4We1RlZhb1u10VWGXugiiTXSNE.jpeg"],
     name:       "Where Amethyst Meets the Sky",
     tagline:    "12\". Large Amethyst with Gold Leaf, Aqua, Seafoam Green, and Purple",
