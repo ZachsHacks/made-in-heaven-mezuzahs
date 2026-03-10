@@ -11,7 +11,7 @@
 const MEZUZAHS = [
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2527-vVaH3U2zBmbx92GYm1u0p8lPqO61f6.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/7086d73d-7723-41d5-b084-848e97c7efd3.jpeg"],
     name:       "Amethyst from Hashem",
     tagline:    "Large amethyst",
     price:      140,
@@ -20,7 +20,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2577-WaeirGW1gZ4gHua3d2mmbqqYZCiTCJ.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/5bd7438e-b640-40c9-b60f-27555c4117e7.jpeg"],
     name:       "Celestial Blue with Gold Leaf",
     tagline:    "Blue and Gold Leaf with Tube for Kosher Parchment",
     price:      45,
@@ -29,7 +29,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2574-XiPOqLV1yHljhULB1pjQYO6YCPveuD.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/9894402e-8718-48ed-8b90-6c3af090ca39.jpeg"],
     name:       "Rainbow Blessing",
     tagline:    "Colors of Divine Promise",
     price:      35,
@@ -38,7 +38,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2567-AWcbAFfEM25XHwBxdI7eq6fH5JjwWI.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/38539d3e-0244-4aa7-a7a9-ad95b5687269.jpeg"],
     name:       "Swarovski Crystal  and Elegance meet",
     tagline:    "12 inch - Swarovski Crystals graceful and elegant.",
     price:      345,
@@ -47,7 +47,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2559-yjdRza4WdIlhvghetpSlMNIWKnzX73.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/2593d560-2ce7-4779-bd88-8e6028ed716a.jpeg"],
     name:       "Turquoise Footprints",
     tagline:    "Magnesita Crystals make up the shin on white stone fired in kiln",
     price:      65,
@@ -56,7 +56,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2520-Ym7WoIZUjoUT2DdPolpOzTrtbLhJsD.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e25a1a59-59dc-4e58-bcc6-e35fe92800f9.jpeg"],
     name:       "Retro-Pastel Garden Rose",
     tagline:    "Blooming at Your Door",
     price:      65,
@@ -65,7 +65,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2555-utd9EvHJ7LsiBztoL8li8ghiU5Bcaf.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/ed6d5be8-015c-49f4-a909-25c428ee61e5.jpeg"],
     name:       "The Alabaster Divine",
     tagline:    "Porcelain fired in kiln, Sacred Tablets w/ Gold Leaf",
     price:      115,
@@ -74,7 +74,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2554-7zaPlHrigowLmUH2hyWXuXtcoUraWx.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/b68bc5c6-bdf2-46fc-a29f-1718fa4de59b.jpeg"],
     name:       "Hashem's Amethyst Crystal",
     tagline:    "Raw and powerful w/ extra-large Amethyst Crystal",
     price:      175,
@@ -83,7 +83,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2544-iAT0vnWJ53XNhKjetUnhBN6hDB5Rkq.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/46c89423-63d6-40e7-a1f8-8daa8e860b67.jpeg"],
     name:       "The Cobalt Spirit",
     tagline:    "Where Heaven Meets the Threshold",
     price:      40,
@@ -92,7 +92,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/SPLASH.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/783e282c-710f-4b81-a792-06f93a3eca32.jpeg"],
     name:       "Painted Joy",
     tagline:    "12\" Chaos Dreams in Rainbow Motion",
     price:      140,
@@ -101,7 +101,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/SILVER%20LEAF%20SKY%20BLUE.jpg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/c33b0aaf-cf37-47ae-adf9-f6caa37ce971.jpg"],
     name:       "Celestial Whisper",
     tagline:    "12\"  Starlight Frozen in Sky Blue",
     price:      165,
@@ -110,7 +110,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/1C24C966-B716-48E6-B026-2C45932433AC_1_102_a.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/b53584b3-d9ee-4204-8abd-258bfe83d0ca.jpeg"],
     name:       "Blue on Blue",
     tagline:    "Turquoise Marble, Golden Shin",
     price:      35,
@@ -119,7 +119,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2486.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/5db9a429-ae2b-4d8b-9916-04216ff7bcce.jpeg"],
     name:       "Earthen Whisper",
     tagline:    "Ancient Clay Speaks in Silence",
     price:      10,
@@ -128,7 +128,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2272.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/01cbbb51-bc36-4b8a-b3ee-fc2b1771a155.jpeg"],
     name:       "Garden Rose",
     tagline:    "Blossoms of Clay, Blessings of Home",
     price:      285,
@@ -137,7 +137,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/381F6270-FA79-4AD4-A07F-EE7657206640_4_5005_c.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/c8b3a615-db77-42da-a5dc-81dbb0fd45e7.jpeg"],
     name:       "Western Wall",
     tagline:    "Sacred Stones in Gold",
     price:      225,
@@ -146,7 +146,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/B6FB22C4-6F1B-4F31-90FA-9697B7B471B7_1_102_a.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/9492b996-a10c-45c4-b68d-cf0e433da09d.jpeg"],
     name:       "Ancient Spirit",
     tagline:    "Ancient Clay Meets Spirit",
     price:      45,
@@ -155,7 +155,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/8539D0B1-A118-4A89-BD7E-1068E5C7562E_1_102_o.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/c3d8d097-b41d-4393-9a08-ddd0626feade.jpeg"],
     name:       "Amethyst Glow",
     tagline:    "Purple Light on Sacred Stone with Gold Leaf shin",
     price:      50,
@@ -164,7 +164,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/A6358F8C-7204-4F88-9473-9A12713627F1_1_102_o.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/2dd1cd91-c93e-476a-9b43-a4b40de93941.jpeg"],
     name:       "Israel",
     tagline:    "Holy Land w/ Gold Leaf",
     price:      180,
@@ -173,7 +173,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/9C6E18F9-86D0-477A-89A6-AACA2846CD0E_1_102_o.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/14e49eb0-4f1f-4b64-aa8f-fed752900a3a.jpeg"],
     name:       "Blue Tower",
     tagline:    "Porcelain Grace in Gold",
     price:      65,
@@ -182,7 +182,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2428.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/4c28992c-2a9e-450b-a2e1-8c0b80df677f.jpeg"],
     name:       "Pastel Kiss",
     tagline:    "Soft Colors on Ivory Stone",
     price:      130,
@@ -191,7 +191,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2434.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/8676cf21-e006-4e20-9dc7-20b178b10d72.jpeg"],
     name:       "Painted Earth",
     tagline:    "Vibrant Strokes on Warm Clay",
     price:      60,
@@ -200,7 +200,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/695A60FD-D4B7-4304-90C0-564F42C0E550_1_105_c.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/974329f1-ed58-45ac-b6ef-a68091cc66c2.jpeg"],
     name:       "Jeweled Porcelain",
     tagline:    "Jewel Tones Meet Golden Light",
     price:      120,
@@ -209,7 +209,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/78432898-6599-4747-9C05-9196CF0DA44D_1_105_c-1.jpg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/6f95cc6c-bcd5-4d80-99d7-0b3f165f26d6.jpg"],
     name:       "Dripping Aqua",
     tagline:    "Silver Rain on Warm Clay",
     price:      65,
@@ -218,7 +218,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2392.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/3dd33acb-6d78-40af-a2a1-7da624dc43cf.jpeg"],
     name:       "Earthen Radiance",
     tagline:    "Golden Shin on Warm Clay",
     price:      65,
@@ -227,7 +227,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2391.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/2c1b6be0-580e-4b90-9699-a466db288c10.jpeg"],
     name:       "Amethyst Crown",
     tagline:    "Raw Crystal on Sacred Stone",
     price:      130,
@@ -236,7 +236,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2407.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/51063c7a-01aa-4ac7-beeb-38015d15eb0d.jpeg"],
     name:       "Pastel Crystals",
     tagline:    "Sunrise Colors, Crystal Heart",
     price:      65,
@@ -245,7 +245,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2403%202.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/9ee79d84-18a5-4d6b-9600-4f70cc05a7b1.jpeg"],
     name:       "Turquoise Whispers",
     tagline:    "Whispers of Sky on Stone",
     price:      40,
@@ -254,7 +254,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/IMG_2394.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/66915d42-c66a-4d66-a421-506a437a1979.jpeg"],
     name:       "Heavenly Gilt",
     tagline:    "Divine Light on Sacred Texture",
     price:      65,
@@ -308,7 +308,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["images/Dream-Column.avif","https://tvgx0maqcsilvttc.public.blob.vercel-storage.com/20260205_2048_01kgr7z6gmes7stsxx87z4mw60.mp4"],
+    images:     ["images/Dream-Column.avif","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/03a73ef5-b0d7-475d-9ec0-ae041327cec6.mp4"],
     name:       "Dream Column",
     tagline:    "Elegant and Statuesque",
     price:      150,
