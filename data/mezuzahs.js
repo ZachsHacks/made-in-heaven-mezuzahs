@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/8bc5cfa0-3cac-402e-a5ac-ac7dd4725e7f.png"],
+    name:       "Coastal Serenity Handcrafted mezuzah case featuring soft ocean blue tones blended with touches of seafoam green and lavender. The wooden body showcases delicate brushwork with intricate details painted across",
+    tagline:    "Waves of Calm, Painted With Love",
+    price:      100,
+    categories: ["Small (4″)","White Stone"],
+    description: `This petite 4-inch mezuzah glows with hand-painted ocean blues, seafoam greens, and lavender hues that dance across weathered wood, crowned with a natural stone accent that grounds its ethereal beauty. A gentle guardian for your doorway, it whispers blessings with every brushstroke, reminding you that home is where the soul finds peace.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/7086d73d-7723-41d5-b084-848e97c7efd3.jpeg"],
     name:       "Amethyst from Hashem",
     tagline:    "Large amethyst",
