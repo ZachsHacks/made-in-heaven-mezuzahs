@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/c8634aba-7249-4833-babb-453c95ebffa0.jpg"],
+    name:       "Modim Anachnu Lach",
+    tagline:    "Thank You, Hashem ",
+    price:      150,
+    categories: ["Medium (5-7″)","New Arrivals","Porcelain"],
+    description: ``,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e1633016-cca1-46fa-801a-63560e57e2bc.jpeg"],
     name:       "White Porcelain Gold",
     tagline:    "Remember Hashem ",
