@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e92f1200-439c-42b7-9ee8-78a9b2fc6266.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/b8b7a150-be35-458e-955e-5a4e7f85d630.jpg"],
+    name:       "Terra-cotta Rose",
+    tagline:    "Rose",
+    price:      400,
+    categories: ["Extra Large (12 inches)","New Arrivals","Raw Terracotta"],
+    description: `This handcrafted extra-large mezuzah celebrates the beauty of natural clay with delicate rose relief warm terra-cotta.  The textured surface capturing light and shadow in a way that speaks organic… like our living God. At twelve inches, it makes a profound statement on your doorway—a tangible reminder that love and protection flow through every threshold of your home.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e1633016-cca1-46fa-801a-63560e57e2bc.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e2d2089d-1fe0-4777-8379-012b4f138aac.jpeg"],
     name:       "White Porcelain Gold",
     tagline:    "Remember Hashem ",
