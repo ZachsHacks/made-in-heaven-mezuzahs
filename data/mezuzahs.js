@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/3c36de91-fae9-4c97-8f18-9bea8bd76f52.jpeg"],
+    name:       "Freestanding Shabbos table, Bitachon Art",
+    tagline:    "Shabbos table, Judaica",
+    price:      110,
+    categories: ["Extra Large (12 inches)","New Arrivals","White Stone","Other Judaicca products","Custom Ordered"],
+    description: `This handcrafted cream-colored piece features the word "Bitachon" reads in bold, dimensional letters that cast beautiful shadows, creating a tactile artwork celebrating trust in the Divine. At 12 inches, it's a generous freestanding expression of faith perfect for your Shabbos table, crafted with love by Sorah Weiss to inspire and uplift your home.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/d3e96bec-7f85-4069-9e7d-7d63ca08159d.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/ea318b2a-f160-4525-84d8-f722eb9e1a48.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/85d0a394-a5cf-44d5-b1a3-efd022bf2a25.jpeg"],
     name:       "Baby has Bitachon",
     tagline:    "Pink",
