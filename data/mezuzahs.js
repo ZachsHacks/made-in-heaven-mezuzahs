@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/0a383c04-7335-4423-8918-21d7e9bc0d3e.jpg"],
+    name:       "The Garden Rose",
+    tagline:    "Blooming at your door",
+    price:      400,
+    categories: ["Medium (5-7″)","New Arrivals","Porcelain","With Gold Leaf"],
+    description: `This handcrafted mezuzah features a stunning rose in soft pink and gold leaf, its petals unfurling with delicate detail above hand-painted green leaves on a cream-colored wooden base. A symbol of love and protection at your doorway, it invites God's blessing into your home while celebrating the beauty of nature and the artistry of handmade Jewish tradition.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/c8634aba-7249-4833-babb-453c95ebffa0.jpg"],
     name:       "Modim Anachnu Lach",
     tagline:    "Thank You, Hashem ",
