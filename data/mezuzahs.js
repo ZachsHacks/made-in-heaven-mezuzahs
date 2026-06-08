@@ -273,7 +273,7 @@ const MEZUZAHS = [
 
   {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/974329f1-ed58-45ac-b6ef-a68091cc66c2.jpeg"],
-    name:       "Jeweled Porcelain",
+    name:       "Jeweled Porcelain (not available)6",
     tagline:    "Jewel Tones Meet Golden Light",
     price:      120,
     categories: ["Medium (5-7″)","Porcelain","With Gold Leaf"],
