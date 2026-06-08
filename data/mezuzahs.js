@@ -15,7 +15,7 @@ const MEZUZAHS = [
     name:       "Baby has Bitachon",
     tagline:    "Pink",
     price:      30,
-    categories: ["Small (4″)","New Arrivals","Porcelain"],
+    categories: ["Small (4″)","New Arrivals","Porcelain","With Silver Leaf"],
     description: `This delicate small mezuzah in soft pink hand-painted ceramic carries blessings of trust and faith for your little one's room, with silvery accents catching the light like gentle reminders of divine protection. Each brushstroke and imperfection makes it truly one-of-a-kind, a handcrafted treasure made with love for a child's safe haven.`,
   },
 
