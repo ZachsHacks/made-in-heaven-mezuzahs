@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/675295b0-785a-435f-b6d8-83e19b8013ab.jpeg"],
+    name:       "Bitachon: Total Belief in Hashem",
+    tagline:    "Believe… it’s emes",
+    price:      225,
+    categories: ["Medium (5-7″)","New Arrivals","Porcelain","With Gold Leaf"],
+    description: `This handcrafted mezuzah case features pristine white textured clay crowned with radiant gold leaf accents that catch the light like a blessing, while "Bitachon" is gently carved along its side as a daily reminder of faith. Each brushstroke and gilded detail is a meditation on trust in Hashem, transforming your doorway into a sacred space that whispers  with every kiss.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/7086d73d-7723-41d5-b084-848e97c7efd3.jpeg"],
     name:       "Amethyst from Hashem",
     tagline:    "Large amethyst",
