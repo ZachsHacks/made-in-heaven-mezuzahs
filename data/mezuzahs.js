@@ -29,7 +29,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e1633016-cca1-46fa-801a-63560e57e2bc.jpeg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e1633016-cca1-46fa-801a-63560e57e2bc.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e2d2089d-1fe0-4777-8379-012b4f138aac.jpeg"],
     name:       "White Porcelain Gold",
     tagline:    "Remember Hashem ",
     price:      125,
