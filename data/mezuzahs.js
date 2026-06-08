@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/671c74f9-77cb-4590-91e9-db00ee5bb63b.jpg"],
+    name:       "Say I love you, Hashem ",
+    tagline:    "Say I love you ",
+    price:      500,
+    categories: ["Extra Large (12 inches)","New Arrivals","Porcelain","With Gold Leaf"],
+    description: `This handcrafted mezuzah case features a serene aerial view of turquoise waters and golden coastlines, adorned with shimmering gold leaf accents that catch the light like precious moments of connection. At 12 inches tall, this artistic piece invites you to express your deepest devotion each time you touch it, transforming a daily blessing into a whispered declaration of love to the Divine.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/c0142427-a20e-4805-b743-ee11f9361882.jpg"],
     name:       "Israel",
     tagline:    "ISRAEL",
