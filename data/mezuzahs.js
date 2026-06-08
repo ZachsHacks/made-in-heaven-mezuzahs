@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/89c0678b-16ee-4fb5-997a-e34fcf5900aa.jpg"],
+    name:       "Thin tall baby blue with silver leaf",
+    tagline:    "Then tall baby Blue with SILVER",
+    price:      400,
+    categories: ["Extra Large (12 inches)","Porcelain","With Silver Leaf"],
+    description: `This handcrafted mezuzah case glows with serene baby blue paint accented by delicate silver leaf details, creating an ethereal beauty that catches the light as it graces your doorway. At an extra-large twelve inches, this tall, slender piece invites divine presence into your home with quiet elegance and artistic grace.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/a06cba44-cef9-4bca-a84c-c3dd43d296c0.jpg"],
     name:       "Lovely",
     tagline:    "Lovely",
