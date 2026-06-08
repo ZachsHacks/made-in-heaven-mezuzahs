@@ -11,15 +11,6 @@
 const MEZUZAHS = [
 
   {
-    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/2aa874d6-5795-4cc8-93f8-cd5d57ee431b.jpeg"],
-    name:       "Bitichon",
-    tagline:    "Freestanding reminder, who’s in charge!",
-    price:      35,
-    categories: ["Medium (5-7″)","New Arrivals","Porcelain"],
-    description: `Judaica piece that reminds us to have “Bitachon” which means that everything is under God‘s control and that we have to have trust.`,
-  },
-
-  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/db2e0d89-d875-4ede-b16b-a8710ee8ed05.jpeg"],
     name:       "Trust In Hashem",
     tagline:    "Trust",
