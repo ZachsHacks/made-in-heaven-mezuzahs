@@ -16,7 +16,7 @@ const MEZUZAHS = [
     tagline:    "Shabbos table, Judaica",
     price:      110,
     categories: ["Extra Large (12 inches)","New Arrivals","White Stone","Other Judaicca products","Custom Ordered"],
-    description: `This handcrafted cream-colored piece features the word "Bitachon" reads in bold, dimensional letters that cast beautiful shadows, creating a tactile artwork celebrating trust in the Divine. At 12 inches, it's a generous freestanding expression of faith perfect for your Shabbos table, crafted with love by Sorah Weiss to inspire and uplift your home.`,
+    description: `This handcrafted cream-colored piece features the word "Bitachon" reads in bold, dimensional letters that cast beautiful shadows, creating a tactile artwork celebrating trust in the Divine. At 12 inches, it's a generous freestanding expression of faith perfect for your Shabbos table, crafted with love by Sorah Weiss to inspire and add to your Shabbos celebration.`,
   },
 
   {
