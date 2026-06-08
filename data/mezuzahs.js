@@ -11,15 +11,6 @@
 const MEZUZAHS = [
 
   {
-    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/72b61337-a411-4619-bddf-7468b64537ea.jpg"],
-    name:       "Tree Of Life",
-    tagline:    "Remember Hashem",
-    price:      200,
-    categories: ["Medium (5-7″)","New Arrivals","Porcelain"],
-    description: `This handcrafted mezuzah features a graceful tree with delicate pink and red blooms rising from a weathered trunk, set against a soft sky-blue background with a Golden shin  blessing above. Each brushstroke reminds us that growth and protection flow from our connection to Hashem, making this a meaningful piece to welcome His presence into your home.`,
-  },
-
-  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/c8634aba-7249-4833-babb-453c95ebffa0.jpg"],
     name:       "Modim Anachnu Lach",
     tagline:    "Thank You, Hashem ",
