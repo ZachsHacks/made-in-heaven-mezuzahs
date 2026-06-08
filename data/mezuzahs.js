@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/5d4f23f3-b6ff-4d49-8131-cbbba4d7f4a2.jpeg"],
+    name:       "Modim Anachnu Lach",
+    tagline:    "Freestanding Judaica",
+    price:      45,
+    categories: ["Medium (5-7″)","New Arrivals","Porcelain"],
+    description: `This carved raw porcelain Judaica piece reminds us, whose  BOSS.  It captures gratitude itself with its soft cream surface adorned with hand-carved  Hebrew. A freestanding work of art of to remind us to always Thank Hashem !`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e92f1200-439c-42b7-9ee8-78a9b2fc6266.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/b8b7a150-be35-458e-955e-5a4e7f85d630.jpg"],
     name:       "Terra-cotta Rose",
     tagline:    "Rose",
