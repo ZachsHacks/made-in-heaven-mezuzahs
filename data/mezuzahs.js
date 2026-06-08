@@ -16,7 +16,7 @@ const MEZUZAHS = [
     tagline:    "Thank You, Hashem ",
     price:      150,
     categories: ["Medium (5-7″)","New Arrivals","Porcelain"],
-    description: ``,
+    description: `This handcrafted mezuzah celebrates gratitude with a sky blue exterior framing a cream-colored center adorned with vibrant touches of teal, gold, and coral—each brushstroke a quiet prayer of thanks. Modim Anachnu Lach invites you to pause at your doorway and remember the blessings that surround you, transforming a spiritual object into a daily declaration of appreciation.`,
   },
 
   {
