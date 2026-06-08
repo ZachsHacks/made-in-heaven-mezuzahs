@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/a06cba44-cef9-4bca-a84c-c3dd43d296c0.jpg"],
+    name:       "Lovely",
+    tagline:    "Lovely",
+    price:      400,
+    categories: ["Extra Large (12 inches)","White Stone"],
+    description: `This hand-painted extra-large mezuzah celebrates the ocean's beauty with flowing blues and teals, golden waves, and a graceful whale silhouette that speaks to the wonder of creation. A truly lovely guardian for your doorway, inviting both natural serenity and spiritual protection into your home.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/1917e8b4-6773-4184-b306-94bd091af77f.jpg"],
     name:       "Terra-cotta beauty",
     tagline:    "Terra-cotta large beauty",
