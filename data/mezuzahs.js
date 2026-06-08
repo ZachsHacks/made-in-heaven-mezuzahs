@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/c0142427-a20e-4805-b743-ee11f9361882.jpg"],
+    name:       "Israel",
+    tagline:    "ISRAEL",
+    price:      300,
+    categories: ["Medium (5-7″)","Porcelain","With Gold Leaf"],
+    description: `This stunning piece celebrates your connection to the Holy Land with soft, watercolor washes of sage green, dusty blue, and blush pink, adorned with delicate gold leaf accents that catch the light like precious memories. Hand-painted with reverence and artistry, this medium mezuzah case carries the spirit of Israel into your home, a beautiful reminder of faith, heritage, and home.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/b7b29316-8e84-4f49-bc60-e32e5c566a3e.jpeg"],
     name:       "Freestanding every Mitzvah counts",
     tagline:    "Every Mitzvah counts",
