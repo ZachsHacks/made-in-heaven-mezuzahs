@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e1633016-cca1-46fa-801a-63560e57e2bc.jpeg"],
+    name:       "White Porcelain Gold",
+    tagline:    "Remember Hashem ",
+    price:      125,
+    categories: ["Porcelain","Medium (5-7″)","With Gold Leaf"],
+    description: `This handcrafted porcelain case glows with serene elegance, its pure white surface adorned with shimmering gold leaf that catches the light like a whisper brings a touch of understated luxury to you.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/675295b0-785a-435f-b6d8-83e19b8013ab.jpeg"],
     name:       "Bitachon: Total Belief in Hashem",
     tagline:    "Believe… it’s emes",
