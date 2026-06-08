@@ -14,7 +14,7 @@ const MEZUZAHS = [
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/d8d703db-ef3c-4850-ac92-af728a813bdc.jpeg"],
     name:       "Rose of Sharone",
     tagline:    "rose",
-    price:      125,
+    price:      130,
     categories: ["Medium (5-7″)","New Arrivals","Porcelain"],
     description: `A hand-painted porcelain mezuzah case blooming with a luminous rose in shades of pastel pinks and gold, adorned with delicate green leaves that dance along the natural flower-like art piece. This one-of-a-kind piece combines traditional craftsmanship with artistic beauty, inviting God's blessing into your home with every glance.`,
   },
