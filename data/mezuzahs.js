@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/1917e8b4-6773-4184-b306-94bd091af77f.jpg"],
+    name:       "Terra-cotta beauty",
+    tagline:    "Terra-cotta large beauty",
+    price:      450,
+    categories: ["Extra Large (12 inches)","Raw Terracotta"],
+    description: `This handcrafted extra-large mezuzah case glows with warm terra-cotta tones and features delicate carved details that catch the light, creating an earthy elegance perfect for any doorway. Each hand-carved element speaks to the sacred tradition of protection and blessing, making this piece not just beautiful décor but a meaningful spiritual touchstone for your home.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/671c74f9-77cb-4590-91e9-db00ee5bb63b.jpg"],
     name:       "Say I love you, Hashem ",
     tagline:    "Say I love you ",
