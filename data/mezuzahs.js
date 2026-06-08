@@ -372,10 +372,10 @@ const MEZUZAHS = [
 
   {
     images:     ["images/img_1016-1771950530238.jpeg"],
-    name:       "Bitachon",
-    tagline:    "Trust and Faith",
-    price:      125,
-    categories: ["Medium (5-7″)","With Gold Leaf","Porcelain"],
+    name:       "Bitachon Mezuzah",
+    tagline:    "People Trust and Faith in Hashem",
+    price:      225,
+    categories: ["Medium (5-7″)","With Gold Leaf"],
     description: `Bitachon — complete trust in the Divine — is the soul of this hand-sculpted piece. A daily reminder that your home is held in something greater than yourself.`,
   },
 
