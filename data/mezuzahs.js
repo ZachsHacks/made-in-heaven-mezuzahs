@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e4eed806-f861-4172-9d86-e4793c84ca06.jpg"],
+    name:       "Thank you, Hashem (in Hebrew)",
+    tagline:    "Med Hebrew reminder to thank Hashem.",
+    price:      35,
+    categories: ["Medium (5-7″)","New Arrivals","Porcelain"],
+    description: ``,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/5d4f23f3-b6ff-4d49-8131-cbbba4d7f4a2.jpeg"],
     name:       "Modim Anachnu Lach",
     tagline:    "Freestanding Judaica",
