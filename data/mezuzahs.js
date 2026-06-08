@@ -11,15 +11,6 @@
 const MEZUZAHS = [
 
   {
-    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/7ce0f867-a187-44d7-aecc-7f1b9cdc2f10.jpeg"],
-    name:       "The Tree of Life ",
-    tagline:    "Roots rise to heaven's gate",
-    price:      220,
-    categories: ["Medium (5-7″)","New Arrivals","Porcelain"],
-    description: `This hand-painted mezuzah celebrates life's sacred journey through the Garden of Eden with the gold .shin. Roots and branches of our sacred religion.reaching upward toward Hashem, across cream-white porcelain.  Hand-painted with Hashem’s Mitzivos in mind.`,
-  },
-
-  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/72b61337-a411-4619-bddf-7468b64537ea.jpg"],
     name:       "Tree Of Life",
     tagline:    "Remember Hashem",
