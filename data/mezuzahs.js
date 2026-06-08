@@ -329,7 +329,7 @@ const MEZUZAHS = [
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/2dd1cd91-c93e-476a-9b43-a4b40de93941.jpeg"],
     name:       "Israel",
     tagline:    "Holy Land w/ Gold Leaf",
-    price:      180,
+    price:      300,
     categories: ["Medium (5-7″)","With Gold Leaf","White Stone"],
     description: `Soft pastels depict the land of Israel on white stone, with gold leaf lettering adding sacred warmth and intention. Fired in the kiln, each detail connects your doorway to the Holy Land and Hashem's holy mitzvah of putting  mezuzahs on each doorpost.`,
   },
