@@ -264,7 +264,7 @@ const MEZUZAHS = [
 
   {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/8676cf21-e006-4e20-9dc7-20b178b10d72.jpeg"],
-    name:       "Painted Earth",
+    name:       "Painted Earth (unavailable)",
     tagline:    "Vibrant Strokes on Warm Clay",
     price:      18,
     categories: ["Small (4″)","Raw Terracotta"],
