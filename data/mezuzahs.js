@@ -11,11 +11,11 @@
 const MEZUZAHS = [
 
   {
-    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/828d780a-833c-42a4-bda6-4108c6054da7.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/04af61e4-6a6c-4780-a00b-8fd7f1890c54.jpg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/828d780a-833c-42a4-bda6-4108c6054da7.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/04af61e4-6a6c-4780-a00b-8fd7f1890c54.jpg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/223861fd-4be9-478d-aff7-8d55d2b99984.jpg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/4d313caa-6bd7-4855-9d2d-319ef9b3cef5.jpg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/9b4e5f11-b018-47a4-a226-36868da35bc4.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/f9fd245e-7a62-4e2a-bf64-918bfd8730d6.jpeg"],
     name:       "Coastal Blessing ",
     tagline:    "Baby Blue with SILVER",
     price:      35,
-    categories: ["Small (4″)","New Arrivals","Porcelain","With Silver Leaf"],
+    categories: ["New Arrivals","Porcelain","With Silver Leaf","Medium (5-7″)"],
     description: `This hand-painted baby blue features luminous silver accents that shimmer like sunlight on ocean waves, each brushstroke revealing the artist's devotion. A average-sized blessing for your doorway, inviting calm waters and divine protection into your home.`,
   },
 
