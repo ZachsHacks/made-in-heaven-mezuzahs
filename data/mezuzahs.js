@@ -57,7 +57,7 @@ const MEZUZAHS = [
 
   {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/b7b29316-8e84-4f49-bc60-e32e5c566a3e.jpeg"],
-    name:       "Freestanding every Mitzvah counts",
+    name:       "Freestanding Judaica Art:  Every Mitzvah Counts",
     tagline:    "Every Mitzvah counts",
     price:      40,
     categories: ["Medium (5-7″)","Porcelain","New Arrivals","Other Judaicca products"],
