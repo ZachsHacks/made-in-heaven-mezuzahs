@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/828d780a-833c-42a4-bda6-4108c6054da7.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/04af61e4-6a6c-4780-a00b-8fd7f1890c54.jpg"],
+    name:       "Coastal Blessing ",
+    tagline:    "Baby Blue with SILVER",
+    price:      35,
+    categories: ["Small (4″)","New Arrivals","Porcelain","With Silver Leaf"],
+    description: `This hand-painted baby blue features luminous silver accents that shimmer like sunlight on ocean waves, each brushstroke revealing the artist's devotion. A average-sized blessing for your doorway, inviting calm waters and divine protection into your home.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/d8d703db-ef3c-4850-ac92-af728a813bdc.jpeg"],
     name:       "Rose of Sharone",
     tagline:    "rose",
