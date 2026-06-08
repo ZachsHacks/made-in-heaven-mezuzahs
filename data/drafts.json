@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "images": [
+      "https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e5def46e-94a7-46ea-bca0-1e55e5738b6c.jpeg"
+    ],
+    "name": "",
+    "tagline": "",
+    "price": 0,
+    "categories": [],
+    "description": "",
+    "id": "mq5e6vyy",
+    "draft": true
+  }
+]
