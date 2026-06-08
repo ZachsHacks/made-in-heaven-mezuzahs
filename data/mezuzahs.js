@@ -293,8 +293,8 @@ const MEZUZAHS = [
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/01cbbb51-bc36-4b8a-b3ee-fc2b1771a155.jpeg"],
     name:       "Garden Rose",
     tagline:    "Blossoms of Clay, Blessings of Home",
-    price:      285,
-    categories: ["Large (8-10″)","Raw Terracotta"],
+    price:      400,
+    categories: ["Large (8-10″)","Raw Terracotta","Extra Large (12 inches)"],
     description: `A blooming rose in full glory, with delicate petals and graceful leaves carved in exquisite detail from warm terracotta clay. A reminder that blessings grow naturally when we tend to our homes with intention and love.`,
   },
 
