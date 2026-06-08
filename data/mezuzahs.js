@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/db2e0d89-d875-4ede-b16b-a8710ee8ed05.jpeg"],
+    name:       "Trust In Hashem",
+    tagline:    "Trust",
+    price:      18,
+    categories: ["Small (4″)","New Arrivals","Porcelain"],
+    description: `Freestanding reminder that Hashem‘s in charge`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e4eed806-f861-4172-9d86-e4793c84ca06.jpg"],
     name:       "Thank you, Hashem (in Hebrew)",
     tagline:    "Med Hebrew reminder to thank Hashem.",
