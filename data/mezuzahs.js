@@ -267,7 +267,7 @@ const MEZUZAHS = [
     name:       "Painted Earth (unavailable)",
     tagline:    "Vibrant Strokes on Warm Clay",
     price:      18,
-    categories: ["Small (4″)","Raw Terracotta"],
+    categories: ["Small (4″)","Raw Terracotta","New Arrivals"],
     description: `Bold strokes of jewel-toned blues, soft pinks, and fresh greens dance across raw terracotta clay like a prayer made visible. A small sanctuary that celebrates the marriage of earthy simplicity and artistic expression.`,
   },
 
