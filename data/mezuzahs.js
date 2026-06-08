@@ -29,7 +29,7 @@ const MEZUZAHS = [
   },
 
   {
-    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/0a383c04-7335-4423-8918-21d7e9bc0d3e.jpg"],
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/0a383c04-7335-4423-8918-21d7e9bc0d3e.jpg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/d438eddf-3778-4ae6-acbd-0da69520f901.jpeg"],
     name:       "The Garden Rose",
     tagline:    "Blooming at your door",
     price:      400,
