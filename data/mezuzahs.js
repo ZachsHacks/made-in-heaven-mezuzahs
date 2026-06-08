@@ -93,9 +93,9 @@ const MEZUZAHS = [
 
   {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/5bd7438e-b640-40c9-b60f-27555c4117e7.jpeg"],
-    name:       "Celestial Blue with Gold Leaf",
+    name:       "Celestial Blue with Gold Leaf ( ",
     tagline:    "Blue and Gold Leaf with Tube for Kosher Parchment",
-    price:      45,
+    price:      18,
     categories: ["Small (4″)","Porcelain","With Gold Leaf"],
     description: `This handcrafted mezuzah pairs deep celestial blue with shimmering gold leaf accents, creating a luminous piece that catches the light beautifully and brings warmth to any doorway. The pre-fitted tube holds your kosher parchment, inviting blessings and divine protection into your home with artistic grace.`,
   },
