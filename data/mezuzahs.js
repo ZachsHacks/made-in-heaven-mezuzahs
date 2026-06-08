@@ -275,7 +275,7 @@ const MEZUZAHS = [
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/b53584b3-d9ee-4204-8abd-258bfe83d0ca.jpeg"],
     name:       "Blue on Blue",
     tagline:    "Turquoise Marble, Golden Shin",
-    price:      35,
+    price:      18,
     categories: ["Medium (5-7″)","Porcelain"],
     description: `Swirls of turquoise and deep blue marble dance across smooth porcelain, crowned by a gleaming golden shin. A serene piece that brings calm and blessing to your doorway.`,
   },
