@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e5def46e-94a7-46ea-bca0-1e55e5738b6c.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/629158b9-b3ca-4de2-ac65-1b0cf793a2bb.jpeg"],
+    name:       "Sparkle Children’s Judaica",
+    tagline:    "Bitachon: never too early to learn",
+    price:      10,
+    categories: ["Small (4″)","New Arrivals","Porcelain","Other Judaicca products"],
+    description: `This petite turquoise children’s art peaceglows with hand-applied patina in shades of aquamarine and silver, its organic shape and textured surface catching the light like ocean-kissed stone. A gentle introduction to faith and protection, it whispers to young hearts that trust in something greater can begin in childhood's most tender moments.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/db2e0d89-d875-4ede-b16b-a8710ee8ed05.jpeg"],
     name:       "Trust In Hashem",
     tagline:    "Trust",
