@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/b7b29316-8e84-4f49-bc60-e32e5c566a3e.jpeg"],
+    name:       "Freestanding every Mitzvah counts",
+    tagline:    "Every Mitzvah counts",
+    price:      40,
+    categories: ["Medium (5-7″)","Porcelain","New Arrivals","Other Judaicca products"],
+    description: `This handcrafted ceramic piece features beautiful carved lettering on creamy white clay, with gentle organic curves that invite the words "Every Mitzvah Counts" to catch the light and inspire daily reflection. A freestanding treasure that celebrates each Torah mitzva. After all, there are 613.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/f14510d7-5da1-4322-b99e-cc4fdd2e51ed.jpeg"],
     name:       "Pretty blue with Gold Leaf",
     tagline:    "Pretty Blue",
