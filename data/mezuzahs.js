@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/f14510d7-5da1-4322-b99e-cc4fdd2e51ed.jpeg"],
+    name:       "Pretty blue with Gold Leaf",
+    tagline:    "Pretty Blue",
+    price:      45,
+    categories: ["Medium (5-7″)","New Arrivals","Porcelain","With Gold Leaf"],
+    description: `This handcrafted mezuzah glows with a serene pretty blue finish adorned with shimmering gold leaf that catches the light like a whisper of divine blessing. Each brushstroke and golden accent reminds us that protecting our homes and hearts is itself a beautiful, sacred act.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/3c36de91-fae9-4c97-8f18-9bea8bd76f52.jpeg"],
     name:       "Freestanding Shabbos table, Bitachon Art",
     tagline:    "Shabbos table, Judaica",
