@@ -1,12 +1,17 @@
 [
   {
     "images": [
-      "https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e92f1200-439c-42b7-9ee8-78a9b2fc6266.jpeg"
+      "https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e92f1200-439c-42b7-9ee8-78a9b2fc6266.jpeg",
+      "https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/b8b7a150-be35-458e-955e-5a4e7f85d630.jpg"
     ],
-    "name": "",
-    "tagline": "",
-    "price": 0,
-    "categories": [],
+    "name": "Terra-cotta Rose",
+    "tagline": "Rose",
+    "price": 400,
+    "categories": [
+      "Extra Large (12 inches)",
+      "New Arrivals",
+      "Raw Terracotta"
+    ],
     "description": "",
     "id": "mq5cnnn2",
     "draft": true
