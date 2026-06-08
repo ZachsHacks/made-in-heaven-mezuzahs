@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/d3e96bec-7f85-4069-9e7d-7d63ca08159d.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/ea318b2a-f160-4525-84d8-f722eb9e1a48.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/85d0a394-a5cf-44d5-b1a3-efd022bf2a25.jpeg"],
+    name:       "Baby has Bitachon",
+    tagline:    "Pink",
+    price:      30,
+    categories: ["Small (4″)","New Arrivals","Porcelain"],
+    description: `This delicate small mezuzah in soft pink hand-painted ceramic carries blessings of trust and faith for your little one's room, with silvery accents catching the light like gentle reminders of divine protection. Each brushstroke and imperfection makes it truly one-of-a-kind, a handcrafted treasure made with love for a child's safe haven.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/828d780a-833c-42a4-bda6-4108c6054da7.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/04af61e4-6a6c-4780-a00b-8fd7f1890c54.jpg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/223861fd-4be9-478d-aff7-8d55d2b99984.jpg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/4d313caa-6bd7-4855-9d2d-319ef9b3cef5.jpg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/9b4e5f11-b018-47a4-a226-36868da35bc4.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/f9fd245e-7a62-4e2a-bf64-918bfd8730d6.jpeg"],
     name:       "Coastal Blessing ",
     tagline:    "Baby Blue with SILVER",
