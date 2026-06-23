@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/a82fee8e-9b6b-46dd-8d25-0c576dc35289.jpeg"],
+    name:       "Remember to  have Bitachon",
+    tagline:    "Handcrafted Bitachon ",
+    price:      400,
+    categories: ["Medium (5-7″)","New Arrivals","Porcelain"],
+    description: `This handcrafted mezuzah features flowing white brushstrokes with a luminous gold leaf accent that catches the light beautifully, creating an elegant contrast against the rich background. Inscribed with the reminder to embrace bitachon (trust in the Divine), each unique piece serves as a daily touchstone for faith, inviting you to pause and remember that you are held by something greater than yourself.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/7ef339eb-0e57-41b5-88a5-d23e9f0e6c55.jpeg"],
     name:       "Hand- Designed Gold Shin",
     tagline:    "Divine Protection in Gold",
