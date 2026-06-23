@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/c8920474-31ed-48bd-a89c-7a801905472a.jpeg"],
+    name:       "Gol Leaf Tree",
+    tagline:    "Gold leaf Thank You Hashem",
+    price:      250,
+    categories: ["Medium (5-7″)","New Arrivals","Porcelain","With Gold Leaf"],
+    description: `This handcrafted white ceramic piece features a graceful gold leaf  radiates. A gentle reminder to thank Hashem for life's blessings big and small. With its soft natural finish and shimmering metallic accents, it brings warmth and gratitude to any doorway.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/89c0678b-16ee-4fb5-997a-e34fcf5900aa.jpg"],
     name:       "Thin tall baby blue with silver leaf",
     tagline:    "Then tall baby Blue with SILVER",
