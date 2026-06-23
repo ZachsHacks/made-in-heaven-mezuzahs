@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/74070ae2-5679-4584-b3c1-e02e0b3222d3.jpeg"],
+    name:       "Hand - designed small Mezuzah with a hint of aqua stones",
+    tagline:    "Aqua stones and SILVER  leaf",
+    price:      75,
+    categories: ["Small (4″)","New Arrivals","Raw Terracotta","With Silver Leaf","With (Turquoise-colored) Magnesita Crystals"],
+    description: ``,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/0349ce02-5386-43e7-8ef6-0bbd038a6745.jpeg"],
     name:       "Tree of Life ",
     tagline:    "Tree of Life",
