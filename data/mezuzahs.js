@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/0349ce02-5386-43e7-8ef6-0bbd038a6745.jpeg"],
+    name:       "Tree of Life ",
+    tagline:    "Tree of Life",
+    price:      125,
+    categories: ["Porcelain","New Arrivals","Medium (5-7″)"],
+    description: `Thin mezuzah cover with hand- painted tree of life.  Dress up your doorway.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/02f3423d-055b-4128-b62a-1197ed0857bd.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/e2e7e0e6-5c50-41af-96c5-8ac248342032.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/1befc124-4f9f-483f-ac85-75ad338bb667.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/4f716f25-905a-4de6-a4ba-6c9a42c63d66.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/df6e8460-b528-45bc-bfc3-900b4a54376d.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/638cff4b-bbd6-4902-9b07-49a22c0a8ae7.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/135b12a5-e989-47b5-a90b-97748567a94e.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/8da43f55-6cde-4c5f-9ea2-f80b1af5d907.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/3e8ce47a-e65e-4972-b09b-f6139c495569.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/1f8e67f1-537c-4e3c-8f33-17a9c4159dcd.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/1a4cd8f5-a5da-462a-9867-b13e04a79943.jpeg"],
     name:       "Baby Girl Pink",
     tagline:    "Pink with Silver Leaf",
