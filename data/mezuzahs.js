@@ -16,7 +16,7 @@ const MEZUZAHS = [
     tagline:    "Pink with Silver Leaf",
     price:      60,
     categories: ["Medium (5-7″)","Porcelain","New Arrivals","With Silver Leaf"],
-    description: ``,
+    description: `Hashem’s Protection … mezuzah for baby.`,
   },
 
   {
