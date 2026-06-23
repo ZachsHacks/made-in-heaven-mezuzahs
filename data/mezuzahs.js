@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/7ef339eb-0e57-41b5-88a5-d23e9f0e6c55.jpeg"],
+    name:       "Hand- Designed Gold Shin",
+    tagline:    "Divine Protection in Gold",
+    price:      150,
+    categories: ["Medium (5-7″)","Porcelain","New Arrivals","With Gold Leaf"],
+    description: `This handcrafted mezuzah features a gracefully curved white ceramic form adorned with a shimmering gold leaf Shin, creating a luminous focal point that catches the light with every glance. The soft, natural texture of the piece radiates quiet elegance while the sacred Hebrew letter serves as a powerful reminder of divine watchfulness over your home and loved ones.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/74070ae2-5679-4584-b3c1-e02e0b3222d3.jpeg"],
     name:       "Hand - designed small Mezuzah with a hint of aqua stones",
     tagline:    "Aqua stones and SILVER  leaf",
