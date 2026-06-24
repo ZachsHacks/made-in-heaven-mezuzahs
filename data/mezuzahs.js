@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/ebb94eb8-2391-47fe-903c-2e3617fd1fd3.jpeg"],
+    name:       "Israel",
+    tagline:    "Israel",
+    price:      400,
+    categories: ["Medium (5-7″)","With Gold Leaf","New Arrivals"],
+    description: `This handcrafted mezuzah cover captures the beloved contours of Israel in soft watercolor blues and greens, adorned with delicate gold leaf accents that shimmer like blessings. Each brushstroke honors the sacred connection between home and homeland, making it a meaningful guardian for your doorway.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/a82fee8e-9b6b-46dd-8d25-0c576dc35289.jpeg"],
     name:       "Remember to  have Bitachon",
     tagline:    "Handcrafted Bitachon ",
