@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/c3082748-51aa-4485-8a5b-6255dd815be9.jpeg"],
+    name:       "Pink and Silver",
+    tagline:    "Pink and Silver",
+    price:      30,
+    categories: ["Medium (5-7″)","New Arrivals","White Stone","With Silver Leaf"],
+    description: `This handcrafted piece is in warm pink tones accented with delicate silver leaf details that catch the light like a whispered blessing.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/77483700-efcd-4a85-98a1-6e5d05105ebf.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/ad0afa90-5a8f-4810-a0f8-e39d2e579926.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/a9e8a853-731c-4ab3-9fc3-bc0b4742e4fd.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/df921d70-a154-45cd-bdbf-429596c14fca.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/2f1e7f39-b389-4712-aec3-1fe9798204d0.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/b6caeac0-19a5-42cd-8a41-7847dd716b31.jpeg","https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/eab98aa7-7bb8-4ce8-a841-68994de6d20e.jpeg"],
     name:       "Spread The News…Hashem’s Our King!",
     tagline:    "Add your text!",
