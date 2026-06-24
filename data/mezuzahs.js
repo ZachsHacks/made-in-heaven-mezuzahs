@@ -11,6 +11,15 @@
 const MEZUZAHS = [
 
   {
+    images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/7750e055-9e69-47c7-9340-76b60fe62dfd.jpeg"],
+    name:       "I love you",
+    tagline:    "No holes to nail",
+    price:      18,
+    categories: ["Medium (5-7″)","With Silver Leaf"],
+    description: `This handcrafted piece features a weathered white wooden base with a striking cobalt blue horseshoe symbol, a timeless expression of love and protection that speaks straight to the heart. The rustic texture and artisanal finish make it a beautiful reminder that spiritual blessings don't require nails. KISS and enter.`,
+  },
+
+  {
     images:     ["https://rqtojjycklmtycvohijv.supabase.co/storage/v1/object/public/mezuzah-images/ebb94eb8-2391-47fe-903c-2e3617fd1fd3.jpeg"],
     name:       "Israel",
     tagline:    "Israel",
